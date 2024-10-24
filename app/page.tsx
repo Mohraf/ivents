@@ -1,7 +1,5 @@
-import Image from "next/image";
-import TestimonialCard from "@/components/Testimonials/TestimonialCard";
 import TestimonialSlider from "@/components/Testimonials/TestimonialSlider";
-import TrendingSlider from "@/components/TrendingSlider";
+import ServicesSlider from "@/components/Services/ServicesSlider";
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
 import Brands from "@/components/Brands/Brands";
@@ -13,7 +11,7 @@ export default function Home() {
 
       <div className="items-center mb-8">
         <Brands />
-        <TrendingSlider />
+        <ServicesSlider />
         <TestimonialSlider />
       </div>
 
