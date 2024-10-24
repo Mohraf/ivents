@@ -4,6 +4,7 @@ import TestimonialSlider from "@/components/Testimonials/TestimonialSlider";
 import TrendingSlider from "@/components/TrendingSlider";
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
+import Brands from "@/components/Brands/Brands";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Navbar />
 
       <div className="items-center mb-8">
+        <Brands />
         <TrendingSlider />
         <TestimonialSlider />
       </div>
