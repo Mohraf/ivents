@@ -11,31 +11,31 @@ const ServicesSlider = () => {
       id: 1,
       img: "/audio.jpg",
       description: "AUDIO & VISUAL",
-      link: "/",
+      link: "/audioAndVisual",
     },
     {
       id: 2,
       img: "/conference.jpg",
       description: "CONFERENCES & EXHIBITIONS",
-      link: "/",
+      link: "/conferencesAndExhibitions",
     },
     {
       id: 3,
       img: "/stage.jpg",
       description: "STAGE & LIGHTING",
-      link: "/",
+      link: "/stageAndLighting",
     },
     {
       id: 4,
       img: "/printing.jpg",
       description: "PRINTING & BRANDING",
-      link: "/",
+      link: "/printingAndBranding",
     },
     {
       id: 5,
       img: "/products.jpg",
       description: "PRODUCTS & LAUNCHES",
-      link: "/",
+      link: "/productLaunches",
     },
   ];
 
