@@ -3,6 +3,7 @@ import ServicesSlider from "@/components/Services/ServicesSlider";
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
 import Brands from "@/components/Brands/Brands";
+import Intro from "@/components/Intro/Intro";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <Navbar />
 
       <div className="items-center mb-8">
+        <Intro />
+        <ServicesSlider />
         <Brands />
         <ServicesSlider />
         <TestimonialSlider />
