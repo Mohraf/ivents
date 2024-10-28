@@ -56,7 +56,7 @@ const ServicesSlider = () => {
     <>
       <div className="trending mb-10">
         <h4 className="text-center justify-center mb-0">OUR SERVICES</h4>
-        <div className="container">
+        <div className="px-10 py-4">
           <div className="title-btns">
             <h3></h3>
             <div className="btns">
@@ -80,7 +80,7 @@ const ServicesSlider = () => {
                       height={450}
                     />
                   </div>
-                  <div className="item-description text-center break-words">
+                  <div className="item-description text-center break-words whitespace-normal">
                     <p>{item.description}</p>
                   </div>
                 </Link>

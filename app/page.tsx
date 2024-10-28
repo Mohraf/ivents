@@ -12,7 +12,6 @@ export default function Home() {
 
       <div className="items-center mb-8">
         <Intro />
-        <ServicesSlider />
         <Brands />
         <ServicesSlider />
         <TestimonialSlider />

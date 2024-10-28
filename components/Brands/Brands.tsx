@@ -11,8 +11,8 @@ const Brands = () => {
   ];
   return (
     <>
-      <h3 className="px-10 py-4">BRANDS THAT TRUST US</h3>
-      <div className="grid grid-cols-5 gap-4 p-10 mb-4">
+      <h3 className="md:px-10 px-4 py-4">BRANDS THAT TRUST US</h3>
+      <div className="grid grid-cols-5 gap-4 md:p-10 p-4 mb-4">
         {brands.map((brand, index) => (
           <div
             key={index}
@@ -29,10 +29,10 @@ const Brands = () => {
         ))}
       </div>
 
-      <h3 className="p-10">HOW WE DO IT</h3>
+      <h3 className="md:p-10 p-4">HOW WE DO IT</h3>
 
-      <div className="flex p-10 gap-10">
-        <div className="rounded w-1/3 bg-slate-200 text-black p-3">
+      <div className="md:flex-row md:p-10 p-4 gap-10 flex flex-col">
+        <div className="rounded md:w-1/3 bg-slate-200 text-black p-3">
             <h4>Consult / Conceptualize</h4>
             <p>
             Concept Development,
@@ -47,7 +47,7 @@ const Brands = () => {
             </Link>
         </div>
 
-        <div className="rounded w-1/3 bg-slate-200 text-black p-3">
+        <div className="rounded md:w-1/3 bg-slate-200 text-black p-3">
             <h4>Plan S.M.A.R.T</h4>
             <p className="break-words">
                 360 degrees Planning. Specific, Measurable,
@@ -61,7 +61,7 @@ const Brands = () => {
             </Link>
         </div>
 
-        <div className="rounded w-1/3 bg-slate-200 text-black p-3">
+        <div className="rounded md:w-1/3 bg-slate-200 text-black p-3">
             <h4>Setup and Management</h4>
             <p className="break-words">
                 Mobilization. Setup/execution and 

@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 bg-black bg-opacity-70 shadow-md z-10">
-      <div className="flex items-center justify-between px-4 py-3">
+      <div className="flex items-center justify-between px-10 py-3">
          {/* Logo */}
          <Link href="/" className="flex items-center">
           <Image 
@@ -82,7 +82,23 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden flex flex-col px-4 pb-2">
           <Link href="/" className="text-green-500 hover:text-green-400 py-2">Home</Link>
-          <Link href="/about" className="text-white hover:text-gray-300 py-2">About</Link>
+          <div className="relative">
+            <button
+              onClick={() => setAboutDropdownOpen(!isAboutDropdownOpen)}
+              className="flex items-center text-white hover:text-gray-300"
+            >
+              About
+            </button>
+            {isAboutDropdownOpen && (
+              <div className="mt-2 w-40 bg-black bg-opacity-70 border border-gray-500 rounded shadow-lg">
+                <Link href="/whoWeAre" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Who we are</Link>
+                <Link href="/mission" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Mission</Link>
+                <Link href="/vision" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Vision</Link>
+                <Link href="/values" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Values</Link>
+                <Link href="/whyIvents" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Why iVENTS</Link>
+              </div>
+            )}
+          </div>
           <Link href="/gallery" className="text-white hover:text-gray-300 py-2">Gallery</Link>
           <div className="relative">
             <button
