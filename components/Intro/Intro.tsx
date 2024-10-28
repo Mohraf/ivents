@@ -1,23 +1,27 @@
 import Link from 'next/link'
 import React from 'react'
+import Video from '../Media/Video'
 
 const Intro = () => {
   return (
     <>
-        <h3 className='text-center md:p-10 p-4'>
+        <h3 className='text-center md:p-10 p-4 md:text-4xl text-lg'>
             At iVENTS, we <span className='text-green-600'>envision</span> a future whereby every event we touch 
             becomes a benchmark of excellence, setting the standard for exceptional events
             management solutions.
         </h3>
 
-        <div className='text-center'>
-            Video
+        <div className='text-center justify-items-center md:px-10 p-4'>
+            <Video />
         </div>
+        
 
         <div className='mb-10'>
             <div className='flex row justify-start gap-10 md:px-10 px-4 py-4'>
                 <h3>iVENTS by <span className='text-amber-400'>GEiCO</span></h3>
-                <Link href="/" className='bg-green-600 md:px-3 px-2 rounded justify-center text-center items-center'>OUR COMPANY PROFILE</Link>
+                <Link href="/" className='bg-green-600 md:px-3 px-2 flex flex-col rounded justify-center justify-items-center text-center items-center text-sm'>
+                    OUR COMPANY PROFILE
+                </Link>
             </div>
 
             <p className='md:px-10 px-4 py-2'>

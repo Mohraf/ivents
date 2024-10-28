@@ -8,8 +8,6 @@ import Intro from "@/components/Intro/Intro";
 export default function Home() {
   return (
     <div className="">
-      <Navbar />
-
       <div className="items-center mb-8">
         <Intro />
         <Brands />

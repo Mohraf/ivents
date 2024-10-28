@@ -28,7 +28,7 @@
   cursor: pointer;
   transition: all 0.15s ease-in;
   border-radius: 5px;
-  max-width: 30%;
+  /* max-width: 30%; */
 }
 
 .row-item:hover {
@@ -119,3 +119,15 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+/* @media screen(max-width: 960px) {
+  .row-item {
+    max-width: 80%
+  }
+} */
+
+/* @media screen(max-width: 960px) {
+  .row-item {
+    max-width: 80%;
+  }
+} */

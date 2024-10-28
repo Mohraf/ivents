@@ -80,7 +80,7 @@ const ServicesSlider = () => {
                       height={450}
                     />
                   </div>
-                  <div className="item-description text-center break-words whitespace-normal">
+                  <div className="item-description text-center break-words whitespace-normal text-sm">
                     <p>{item.description}</p>
                   </div>
                 </Link>

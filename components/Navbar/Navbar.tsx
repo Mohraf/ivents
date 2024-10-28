@@ -12,22 +12,17 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 bg-black bg-opacity-70 shadow-md z-10">
-      <div className="flex items-center justify-between px-10 py-3">
+    <nav className="sticky top-0 bg-white bg-opacity-100 shadow-md z-10">
+      <div className="flex items-center justify-between md:px-10 px-4 py-3">
          {/* Logo */}
          <Link href="/" className="flex items-center">
           <Image 
-            src="/ivents-logo.png" // Replace with your logo path
+            src="/logo.png" // Replace with your logo path
             alt="Logo"
             width={120} // Adjust width as needed
             height={50} // Adjust height as needed
           />
-        </Link>
-
-        {/* Mobile Menu Icon */}
-        <div className="md:hidden" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-          {isMobileMenuOpen ? <HiX className="text-white h-6 w-6" /> : <HiMenu className="text-white h-6 w-6" />}
-        </div>
+        </Link>        
 
         {/* Links */}
         <div className="hidden md:flex space-x-4">
@@ -35,7 +30,7 @@ const Navbar = () => {
           <div className="relative">
             <button
               onClick={() => setAboutDropdownOpen(!isAboutDropdownOpen)}
-              className="flex items-center text-white hover:text-gray-300"
+              className="flex items-center text-black hover:text-gray-700"
             >
               About
             </button>
@@ -49,11 +44,11 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link href="/gallery" className="text-white hover:text-gray-300">Gallery</Link>
+          <Link href="/gallery" className="text-black hover:text-gray-700">Gallery</Link>
           <div className="relative">
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className="flex items-center text-white hover:text-gray-300"
+              className="flex items-center text-black hover:text-gray-700"
             >
               Services
               <MdArrowDropDown className="ml-1" />
@@ -68,13 +63,18 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link href="/contact" className="text-white hover:text-gray-300">Contact</Link>
+          <Link href="/contact" className="text-black hover:text-gray-700">Contact</Link>
         </div>
 
         {/* Right Section */}
         <div className="flex items-center space-x-4">
-          <FaSearch className="text-white cursor-pointer hover:text-gray-300" />
-          <button className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Talk to Us</button>
+          <FaSearch className="text-black cursor-pointer hover:text-gray-700" />
+          <button className="px-4 py-2 bg-green-500 text- rounded hover:bg-green-600">Talk to Us</button>
+        </div>
+
+        {/* Mobile Menu Icon */}
+        <div className="md:hidden" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+          {isMobileMenuOpen ? <HiX className="text-black h-6 w-6" /> : <HiMenu className="text-black h-6 w-6" />}
         </div>
       </div>
 
@@ -85,7 +85,7 @@ const Navbar = () => {
           <div className="relative">
             <button
               onClick={() => setAboutDropdownOpen(!isAboutDropdownOpen)}
-              className="flex items-center text-white hover:text-gray-300"
+              className="flex items-center text-black hover:text-gray-700"
             >
               About
             </button>
@@ -99,11 +99,11 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link href="/gallery" className="text-white hover:text-gray-300 py-2">Gallery</Link>
+          <Link href="/gallery" className="text-black hover:text-gray-700 py-2">Gallery</Link>
           <div className="relative">
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className="flex items-center text-white hover:text-gray-300 py-2"
+              className="flex items-center text-black hover:text-gray-700 py-2"
             >
               Services
               <MdArrowDropDown className="ml-1" />
@@ -118,7 +118,7 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link href="/contact" className="text-white hover:text-gray-300 py-2">Contact</Link>
+          <Link href="/contact" className="text-black hover:text-gray-700 py-2">Contact</Link>
         </div>
       )}
     </nav>
