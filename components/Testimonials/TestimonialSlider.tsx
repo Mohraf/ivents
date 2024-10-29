@@ -71,10 +71,10 @@ const TestimonialSlider = () => {
         <div className="title-btns mt-4">
           <h3></h3>
           <div className="btns">
-            <button onClick={slideLeft}>
+            <button aria-label="left" onClick={slideLeft}>
               <FaChevronLeft className="text-white" />
             </button>
-            <button onClick={slideRight}>
+            <button aria-label="right" onClick={slideRight}>
               <FaChevronRight className="text-white" />
             </button>
           </div>
