@@ -19,7 +19,7 @@ const Intro = () => {
         <div className='mb-10'>
             <div className='flex row justify-start gap-10 md:px-10 px-4 py-4'>
                 <h3>iVENTS by <span className='text-amber-400'>GEiCO</span></h3>
-                <Link href="/" className='bg-green-600 md:px-3 px-2 flex flex-col rounded justify-center justify-items-center text-center items-center text-sm'>
+                <Link href="/" className='bg-lime-600 md:px-3 px-2 flex flex-col rounded justify-center justify-items-center text-center items-center text-sm'>
                     OUR COMPANY PROFILE
                 </Link>
             </div>
