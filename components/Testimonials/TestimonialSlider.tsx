@@ -51,12 +51,12 @@ const TestimonialSlider = () => {
   };
 
   return (
-    <div className="md:px-10 px-4">
-      <h3 className="text-center justify-center font-bold text-2xl">
+    <div className="md:px-32 px-4">
+      <h3 className="text-center justify-center font-bold text-2xl mb-4 md:mb-10">
         CLIENT'S TESTIMONIALS
       </h3>
 
-      <div className="row-container" id="sliderCon">
+      <div className="row-container h-3/5" id="sliderCon">
         {testimonials.map((testimonial) => (
           <TestimonialCard
             key={testimonial.id}

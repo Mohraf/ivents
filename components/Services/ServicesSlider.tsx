@@ -54,7 +54,7 @@ const ServicesSlider = () => {
   };
   return (
     <>
-      <div className="trending mb-10">
+      <div className="trending my-10 md:px-32">
         <h4 className="text-center justify-center mb-0">OUR SERVICES</h4>
         <div className="px-10 py-4">
           <div className="title-btns">
