@@ -38,13 +38,13 @@ const Services = () => {
 
   return (
     <div className='bg-slate-200 min-h-96'>
-        <div style={{backgroundImage: "url('/sprinkles.jpg')"}} className='flex flex-col justify-center md:h-[80vh] h-48 bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat'>
+        <div style={{backgroundImage: "url('/sprinkles.jpg')"}} className='flex flex-col justify-center md:h-[72vh] h-48 bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat'>
             <h3 className='md:px-32 px-4 md:font-semibold md:text-3xl text-xl font-light md:text-start text-center'>Our Services</h3>
             <h4 className='md:px-32 px-4 md:font-normal md:text-2xl text-lg font-thin md:text-start text-center'>We offer a wide range of services</h4>
         </div>
-        <div className='md:px-32 px-4 py-20 text-black text-center'>
-            <h3>OUR EXPERTISE</h3>
-            <h4 className='mt-2 text-green-900 text-2xl'>We Offer A Wide Range Of Services</h4>
+        <div className='md:px-32 px-4 py-16 text-black text-center'>
+            <h3 className='md:font-extralight md:text-lg'>OUR EXPERTISE</h3>
+            <h4 className='mt-2 text-green-900 md:text-4xl md:font-thin text-2xl'>We Offer A Wide Range Of Services</h4>
             
             <div className="mt-8 block">
                 <div className="flex flex-row flex-wrap justify-between mx-auto">

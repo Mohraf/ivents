@@ -4,7 +4,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='min-h-96'>
-        <div className="md:px-32 px-4 flex flex-col justify-center gap-10 h-[96vh]">
+        <div className="md:px-32 px-4 flex flex-col bg-black bg-opacity-70 justify-center gap-10 h-[96vh]">
             <div className='my-4 md:text-start text-center'>
                 <h3 className='font-thin md:text-7xl text-3xl'>
                     We Deliver
@@ -40,6 +40,16 @@ const Hero = () => {
                     </Link>
                 </div>
             </div>
+        </div>
+        <div className='video-bg-section h-full w-full  absolute left-0 top-0 z-[-1]'>
+            <video 
+                className='w-full h-full object-cover absolute left-0 top-0 z-[-1] overflow-hidden' 
+                autoPlay
+                loop
+                width="725"
+                src="/ivents-our-story-video.mp4"
+            >
+            </video>            
         </div>
     </div>
   )
