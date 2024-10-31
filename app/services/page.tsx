@@ -52,12 +52,14 @@ const Services = () => {
                         <Link 
                             key={service.id}
                             href={service.link}
-                            className='rounded-lg p-4 text-white w-[48%] h-[20vh] bg-center bg-cover bg-no-repeat'
+                            className='flex flex-col justify-end bg-slate-400 mb-4 bg-opacity-70 rounded-lg p-4 text-white w-[48%] h-[20vh] bg-center bg-cover bg-no-repeat'
                             style={{
                                 backgroundImage: `url(${service.img})`
                             }}
                         >
-                            <h4>{service.description}</h4>
+                            <h4 className='text-sm text-light'>
+                                {service.description}
+                            </h4>
                         </Link>
                     ))}
                 </div>
