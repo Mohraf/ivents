@@ -46,7 +46,7 @@ const Services = () => {
             <h3 className='md:font-extralight md:text-lg'>OUR EXPERTISE</h3>
             <h4 className='mt-2 text-green-900 md:text-4xl md:font-thin text-2xl'>We Offer A Wide Range Of Services</h4>
             
-            <div className="mt-8 block">
+            {/* <div className="mt-8 block">
                 <div className="flex flex-row flex-wrap justify-between mx-auto">
                     {services.map((service) => (
                         <Link 
@@ -63,6 +63,63 @@ const Services = () => {
                         </Link>
                     ))}
                 </div>
+            </div> */}
+
+
+            <div className='lg:block mt-0'>
+              <div className='services-row relative bottom-[-8.5rem] xl:bottom-[-8.5rem] lg:bottom-[-3.5rem] md:bottom-[-2rem] flex flex-row justify-center mx-auto gap-4'>
+                <Link
+                  href="{service.link}"
+                  className='service-box relative rounded-[20px] h-[43vh] w-[31%] lg:w-[32%] bg-center bg-no-repeat bg-cover aos-init aos-animate'
+                  style={{
+                      backgroundImage: "url('/audio.jpg')"
+                  }}
+                >
+                  <h4 className='text-lg absolute service-upper-head  service-head top-[2rem] left-[2rem] text-white text-left'>Audio and Visual</h4>
+                </Link>
+
+                <Link
+                  href="{service.link}"
+                  className='service-box relative rounded-[20px] h-[43vh] w-[31%] lg:w-[32%] bg-center bg-no-repeat bg-cover aos-init aos-animate'
+                  style={{
+                      backgroundImage: "url('/stage.jpg')"
+                  }}
+                >
+                  <h4 className='text-lg absolute service-upper-head  service-head bottom-[7rem] left-[2rem] text-white text-left'>Stage and Lighting</h4>
+                </Link>
+
+              </div>
+              <div className='services-row mt-[1.7rem] flex flex-row justify-center mx-auto'>
+                <Link
+                  className='service-box relative rounded-[20px] h-[50vh] w-1/4 bg-center bg-no-repeat bg-cover aos-init aos-animate'
+                  href=""
+                  style={{
+                    backgroundImage: "url('/conference.jpg')"
+                  }}
+                >
+                  <h4 className='text-lg absolute bottom-[3rem] service-below-head service-head left-[2rem] text-black text-left'>Conferences And Exhibitions</h4>
+                </Link>
+
+                <Link
+                 className='service-box relative rounded-[20px] mt-[9%] bg-contain bg-no-repeat bg-center w-1/4 ml-6 aos-init aos-animate'
+                 href=''
+                 style={{
+                  backgroundImage: "url('/printing.jpg')"
+                 }}
+                >
+                  <h4 className='text-lg absolute text-white service-below-head  service-head-v2 bottom-[6rem] left-[2rem] text-left'>Printing and Branding</h4>
+                </Link>
+
+                <Link
+                  className='service-box relative rounded-[20px] min-h-[50vh] bg-cover bg-no-repeat bg-center w-1/4 ml-6 cursor-pointer aos-init aos-animate'
+                  href=""
+                  style={{
+                    backgroundImage: "url('/products.jpg')"
+                   }}
+                >
+                  <h4 className='text-lg absolute text-black service-below-head   bottom-[3rem] service-head left-[2rem] text-left'>Products And Launches</h4>
+                </Link>
+              </div>
             </div>
         </div>
     </div>
