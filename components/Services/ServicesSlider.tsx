@@ -8,16 +8,16 @@ import Image from "next/image";
 const ServicesSlider = () => {
   const filteredItems = [
     {
-      id: 1,
-      img: "/audio.jpg",
-      description: "AUDIO & VISUAL",
-      link: "/audioAndVisual",
-    },
-    {
       id: 2,
       img: "/conference.jpg",
       description: "CONFERENCES & EXHIBITIONS",
       link: "/conferencesAndExhibitions",
+    },
+    {
+      id: 1,
+      img: "/audio.jpg",
+      description: "AUDIO & VISUAL",
+      link: "/audioAndVisual",
     },
     {
       id: 3,
@@ -54,8 +54,8 @@ const ServicesSlider = () => {
   };
   return (
     <>
-      <div className="trending my-10 md:px-32">
-        <h4 className="text-center justify-center mb-0">OUR SERVICES</h4>
+      <div className="trending py-10 md:px-32 bg-slate-200">
+        <h4 className="text-center justify-center mb-0 text-black">OUR SERVICES</h4>
         <div className="px-10 py-4">
           <div className="title-btns">
             <h3></h3>

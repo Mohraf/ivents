@@ -24,7 +24,7 @@
 }
 
 .row-item {
-  outline: 2px solid rgba(0, 0, 0, 0.205);
+  /* outline: 2px solid rgba(0, 0, 0, 0.205); */
   cursor: pointer;
   transition: all 0.15s ease-in;
   border-radius: 5px;
@@ -32,7 +32,7 @@
 }
 
 .row-item:hover {
-  outline: 2px solid rgba(0, 0, 0, 0.6);
+  outline: 2px solid rgba(147, 197, 21, 0.6);
 }
 
 .trending {
@@ -47,7 +47,7 @@
 .item-description {
   font-size: 1rem;
   padding: 1rem;
-  color: rgb(162, 232, 64);
+  color: rgb(94, 154, 10);
 }
 
 .trending h3 {

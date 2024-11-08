@@ -52,7 +52,7 @@ const TestimonialSlider = () => {
 
   return (
     <div className="md:px-32 px-4">
-      <h3 className="text-center justify-center font-bold text-2xl mb-4 md:mb-10">
+      <h3 className="text-center justify-center head mb-4 md:mb-10 pt-10">
         CLIENT'S TESTIMONIALS
       </h3>
 

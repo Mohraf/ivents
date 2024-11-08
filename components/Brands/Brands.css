@@ -6,3 +6,11 @@ h3 {
 .link {
     color: rgb(83, 137, 6);
 }
+
+/* .plan div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+} */

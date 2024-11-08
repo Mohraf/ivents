@@ -31,50 +31,53 @@ const Brands = () => {
 
       <h3 className="md:p-10 p-4 text-black">HOW WE DO IT</h3>
 
-      <div className="md:flex-row md:p-10 p-4 gap-10 flex flex-col">
-        <div className="rounded md:w-1/3 bg-slate-200 text-black p-3">
-            <h4>Consult / Conceptualize</h4>
-            <p>
-            Concept Development,
-            Budget Management and
-            Venue Sourcing
-            </p>
-            <Link
-                href="/about"
-                className="link"
-            >
-                Learn more
-            </Link>
-        </div>
+      <div>      
+        <div className="md:flex-row md:p-10 p-4 gap-5 flex flex-col">
+          <div className="rounded bg-slate-200 text-black p-3 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh]">
+              <h4>Consult / Conceptualize</h4>
+              <p>
+              Concept Development,
+              Budget Management and
+              Venue Sourcing
+              </p>
+              <Link
+                  href="/about"
+                  className="link"
+              >
+                  Learn more
+              </Link>
+          </div>
 
-        <div className="rounded md:w-1/3 bg-slate-200 text-black p-3">
-            <h4>Plan S.M.A.R.T</h4>
-            <p className="break-words">
-                360 degrees Planning. Specific, Measurable,
-                Achievable, Realistic and within a given Timeframe
-            </p>
-            <Link
-                href="/about"
-                className="link"
-            >
-                Learn more
-            </Link>
-        </div>
+          <div className="rounded bg-slate-200 text-black p-3 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh]">
+              <h4>Plan S.M.A.R.T</h4>
+              <p>
+                  360 degrees Planning. Specific, Measurable,
+                  Achievable, Realistic and within a given Timeframe
+              </p>
+              <Link
+                  href="/about"
+                  className="link"
+              >
+                  Learn more
+              </Link>
+          </div>
 
-        <div className="rounded md:w-1/3 bg-slate-200 text-black p-3">
-            <h4>Setup and Management</h4>
-            <p className="break-words">
-                Mobilization. Setup/execution and 
-                coordination. Creating a memorable event
-            </p>
-            <Link
-                href="/about"
-                className="link"
-            >
-                Learn more
-            </Link>
+          <div className="rounded bg-slate-200 text-black p-3 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh]">
+              <h4>Setup and Management</h4>
+              <p>
+                  Mobilization. Setup/execution and 
+                  coordination. Creating a memorable event
+              </p>
+              <Link
+                  href="/about"
+                  className="link"
+              >
+                  Learn more
+              </Link>
+          </div>
         </div>
       </div>
+
     </div>
   );
 };

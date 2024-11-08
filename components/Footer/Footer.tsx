@@ -5,7 +5,7 @@ import "./Footer.css"
 const Footer = () => {
   return (
     <>
-      <div className="items-center">
+      <div className="footer items-center mt-4">
         <h4 className="text-center">
           We care about your brand and your mission
         </h4>

@@ -19,12 +19,6 @@
     padding: 1rem 0.6rem;
 }
 
-.row-item {
-    outline: 2px solid rgba(0, 0, 0, 0.205);
-    cursor: pointer;
-    transition: all 0.15s ease-in;
-    border-radius: 5px;
-  }
 
 .btns button {
     color: white;
@@ -45,4 +39,9 @@
 
 .btns button:hover {
     background-color: black;
+}
+
+.head {
+    font-size: 2rem;
+    font-weight: 400;
 }
