@@ -58,7 +58,7 @@ const ServicesSlider = () => {
         <h4 className="text-center justify-center mb-0 text-black">
           OUR SERVICES
         </h4>
-        <div className="py-4">
+        <div className="md:px-0 px-4 py-4">
           <div className="title-btns">
             <h3></h3>
             <div className="btns">
