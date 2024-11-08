@@ -56,7 +56,7 @@ const TestimonialSlider = () => {
         CLIENT'S TESTIMONIALS
       </h3>
 
-      <div className="row-container h-3/5" id="sliderCon">
+      <div className="row-container h-3/5 gap-10 flex" id="sliderCon">
         {testimonials.map((testimonial) => (
           <TestimonialCard
             key={testimonial.id}

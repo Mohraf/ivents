@@ -55,8 +55,10 @@ const ServicesSlider = () => {
   return (
     <>
       <div className="trending py-10 md:px-32 bg-slate-200">
-        <h4 className="text-center justify-center mb-0 text-black">OUR SERVICES</h4>
-        <div className="px-10 py-4">
+        <h4 className="text-center justify-center mb-0 text-black">
+          OUR SERVICES
+        </h4>
+        <div className="py-4">
           <div className="title-btns">
             <h3></h3>
             <div className="btns">
@@ -68,18 +70,16 @@ const ServicesSlider = () => {
               </button>
             </div>
           </div>
-          <div className="row-container" id="slider">
+          <div className="row-container flex justify-between gap-10" id="slider">
             {filteredItems.map((item) => (
-              <Link
-                key={item.id}
-                href={item.link}
-                className="bg-cover bg-center bg-no-repeat rounded-[1rem] h-[30vh] w-1/3 focus:ring focus:ring-lime-600 hover:ring hover:ring-lime-600"
-                style={{
-                  backgroundImage: `url(${item.img})`
-                }}
-              >
-                <div className="item-description text-center break-words whitespace-normal text-sm bg-slate-500 bg-opacity-50 rounded-[1rem]">
-                  <p>{item.description}</p>
+              <Link data-aos="fade-right" key={item.id} href={item.link}>
+                <div 
+                  className="bg-cover bg-center flex flex-col items-center justify-end h-[40vh] rounded-[2rem] focus:ring focus:ring-lime-600 hover:shadow-md hover:shadow-lime-600 "
+                  style={{
+                    backgroundImage: `url(${item.img})`
+                  }}
+                >
+                  <p className="text-center font-mono bg-slate-100 text-gray-500 bg-opacity-70 w-96">{item.description}</p>
                 </div>
               </Link>
             ))}

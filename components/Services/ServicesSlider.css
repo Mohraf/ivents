@@ -2,12 +2,6 @@
 
 
 /* global */
-.container {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 .row-item {
   cursor: pointer;
@@ -46,14 +40,11 @@
 }
 
 .row-container {
-  display: flex;
-  gap: 2.2rem;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
   scroll-behavior: smooth;
   position: relative;
-  padding: 1rem 0.6rem;
   min-height: 60vh;
 }
 
