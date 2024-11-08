@@ -32,8 +32,8 @@ const Brands = () => {
       <h3 className="md:p-10 p-4 text-black">HOW WE DO IT</h3>
 
       <div>      
-        <div className="md:flex-row md:p-10 p-4 gap-5 flex flex-col">
-          <div className="rounded bg-slate-200 text-black p-3 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh]">
+        <div className="md:flex-row md:p-10 p-4 gap-10 flex flex-col">
+          <div data-aos="fade-down" className="rounded-[2rem] bg-slate-200 text-black p-10 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh] gap-2">
               <h4>Consult / Conceptualize</h4>
               <p>
               Concept Development,
@@ -48,7 +48,7 @@ const Brands = () => {
               </Link>
           </div>
 
-          <div className="rounded bg-slate-200 text-black p-3 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh]">
+          <div data-aos="fade-up" className="rounded-[2rem] bg-slate-200 text-black p-10 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh] gap-2">
               <h4>Plan S.M.A.R.T</h4>
               <p>
                   360 degrees Planning. Specific, Measurable,
@@ -62,7 +62,7 @@ const Brands = () => {
               </Link>
           </div>
 
-          <div className="rounded bg-slate-200 text-black p-3 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh]">
+          <div data-aos="fade-down" className="rounded-[2rem] bg-slate-200 text-black p-10 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh] gap-2">
               <h4>Setup and Management</h4>
               <p>
                   Mobilization. Setup/execution and 

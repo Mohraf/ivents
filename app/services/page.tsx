@@ -103,7 +103,7 @@ const Services = () => {
                 style={{
                   backgroundImage: "url('/conference.jpg')",
                 }}
-                data-aos="fade-up"
+                data-aos="fade-right"
               >
                 <h4 className="text-lg absolute bottom-[3rem] service-below-head service-head left-[2rem] text-black text-left">
                   Conferences And Exhibitions
@@ -129,7 +129,7 @@ const Services = () => {
                 style={{
                   backgroundImage: "url('/products.jpg')",
                 }}
-                data-aos="fade-up"
+                data-aos="fade-left"
               >
                 <h4 className="text-lg absolute text-black service-below-head   bottom-[3rem] service-head left-[2rem] text-left">
                   Products And Launches
