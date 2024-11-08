@@ -70,21 +70,18 @@ const ServicesSlider = () => {
           </div>
           <div className="row-container" id="slider">
             {filteredItems.map((item) => (
-              <div key={item.id} className="row-item">
-                <Link href={item.link} className="link">
-                  <div className="item-header">
-                    <Image
-                      src={item.img}
-                      alt="product"
-                      width={550}
-                      height={450}
-                    />
-                  </div>
-                  <div className="item-description text-center break-words whitespace-normal text-sm">
-                    <p>{item.description}</p>
-                  </div>
-                </Link>
-              </div>
+              <Link
+                key={item.id}
+                href={item.link}
+                className="bg-cover bg-center bg-no-repeat rounded-[1rem] h-[30vh] w-1/3 focus:ring focus:ring-lime-600 hover:ring hover:ring-lime-600"
+                style={{
+                  backgroundImage: `url(${item.img})`
+                }}
+              >
+                <div className="item-description text-center break-words whitespace-normal text-sm bg-slate-500 bg-opacity-50 rounded-[1rem]">
+                  <p>{item.description}</p>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
