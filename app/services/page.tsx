@@ -44,7 +44,7 @@ const Services = () => {
     AOS.init({
       duration: 1000,  // Customize duration of animations
       easing: 'ease-in-out',
-      once: true,  // Trigger animation only once
+      once: false,  // Trigger animation only once
     });
   },[])
 
