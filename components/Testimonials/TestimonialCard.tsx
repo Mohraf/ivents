@@ -14,7 +14,7 @@ interface IProps {
 
 const TestimonialCard = ({image, take, person, company}: IProps) => {
   return (
-    <div className="h-full flex items-stretch">
+    <div className="h-full flex items-stretch text-white">
       <div className="h-[50vh] flex flex-col justify-center gap-2 bg-slate-900 p-4 rounded-[2rem]">
         <div className="space-y-2 flex flex-col">
           <div className="p-2">
