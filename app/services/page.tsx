@@ -55,10 +55,10 @@ const Services = () => {
           style={{ backgroundImage: "url('/sprinkles.jpg')" }}
           className="flex flex-col justify-center md:h-[72vh] h-48 bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
         >
-          <h3 className="md:px-32 px-4 md:font-semibold md:text-3xl text-xl font-light md:text-start text-center">
+          <h3 className="md:px-32 px-4 text-white md:font-semibold md:text-3xl text-xl font-light md:text-start text-center">
             Our Services
           </h3>
-          <h4 className="md:px-32 px-4 md:font-normal md:text-2xl text-lg font-thin md:text-start text-center">
+          <h4 className="md:px-32 px-4 text-white md:font-normal md:text-2xl text-lg font-thin md:text-start text-center">
             We offer a wide range of services
           </h4>
         </div>
