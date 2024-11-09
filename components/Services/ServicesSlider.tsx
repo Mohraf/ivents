@@ -8,16 +8,16 @@ import Image from "next/image";
 const ServicesSlider = () => {
   const filteredItems = [
     {
-      id: 2,
-      img: "/conference.jpg",
-      description: "CONFERENCES & EXHIBITIONS",
-      link: "/conferencesAndExhibitions",
-    },
-    {
       id: 1,
       img: "/audio.jpg",
       description: "AUDIO & VISUAL",
       link: "/audioAndVisual",
+    },
+    {
+      id: 2,
+      img: "/conference.jpg",
+      description: "CONFERENCES & EXHIBITIONS",
+      link: "/conferencesAndExhibitions",
     },
     {
       id: 3,
