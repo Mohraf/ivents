@@ -4,7 +4,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='min-h-96'>
-        <div className="md:px-32 px-4 flex flex-col text-white bg-black bg-opacity-70 justify-center gap-10 h-[96vh]">
+        <div className="md:px-32 px-4 flex flex-col text-white bg-black bg-opacity-70 justify-center gap-10 h-[92vh]">
             <div className='my-4 md:text-start text-center'>
                 <h3 className='font-thin md:text-7xl text-3xl'>
                     We Deliver

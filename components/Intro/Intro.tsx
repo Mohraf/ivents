@@ -5,7 +5,7 @@ import Video from '../Media/Video'
 const Intro = () => {
   return (
     <>
-        <h3 className='text-center md:px-32 md:mb-10 p-4 md:text-4xl text-lg'>
+        <h3 className='text-center md:px-32 md:pt-24 md:mb-10 p-4 pt-10 md:text-4xl text-lg'>
             At iVENTS, we <span className='text-green-600'>envision</span> a future whereby every event we touch 
             becomes a benchmark of excellence, setting the standard for exceptional events
             management solutions.
