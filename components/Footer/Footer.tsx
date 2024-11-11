@@ -1,15 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import "./Footer.css"
 
 const Footer = () => {
   return (
     <>
       <div className="footer items-center mt-4">
-        <h4 className="text-center">
+        <h4 className="text-center md:text-5xl text-xl font-semibold md:font-bold">
           We care about your brand and your mission
         </h4>
-        <h4 className="text-center mb-7">We also do events</h4>
+        <h4 className="text-center mb-7 md:text-3xl text-sm font-light md:font-thin">We also do events</h4>
 
         <div className="flex items-center justify-center w-full">
           <Image

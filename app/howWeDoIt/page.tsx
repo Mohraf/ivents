@@ -16,7 +16,7 @@ const HowWeDoIt = () => {
 
   return (
     <>
-      <div className="bg-slate-200 min-h-96 text-black">
+      <div className="bg-slate-200 min-h-96 text-black pb-10">
         <div
           style={{ backgroundImage: "url('/process.webp')" }}
           className="flex flex-col justify-center md:h-[68vh] h-48 bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
