@@ -44,10 +44,12 @@ const Hero = () => {
         <div className='video-bg-section h-full w-full  absolute left-0 top-0 z-[-1]'>
             <video 
                 className='w-full h-full object-cover absolute left-0 top-0 z-[-1] overflow-hidden' 
+                preload='auto'
                 autoPlay
                 loop
+                muted
                 width="725"
-                src="/ivents-our-story-video.webm"
+                src="/ivents-our-story-video-web.webm"
             >
             </video>            
         </div>
