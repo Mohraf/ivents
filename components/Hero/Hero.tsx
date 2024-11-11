@@ -47,7 +47,7 @@ const Hero = () => {
                 autoPlay
                 loop
                 width="725"
-                src="/ivents-our-story-video.mp4"
+                src="/ivents-our-story-video.webm"
             >
             </video>            
         </div>
