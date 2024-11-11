@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Footer from "@/components/Footer/Footer";
 
 const HowWeDoIt = () => {
   useEffect(() => {
@@ -17,19 +18,19 @@ const HowWeDoIt = () => {
     <div className="bg-slate-200 min-h-96 text-black">
       <div
         style={{ backgroundImage: "url('/process.webp')" }}
-        className="flex flex-col justify-center md:h-[72vh] h-48 bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
+        className="flex flex-col justify-center md:h-[68vh] h-48 bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
       >
         <div className="bg-white w-2/3 m-4 bg-opacity-50">
-        <h3 className="md:px-32 px-4 text-lime-600 md:font-semibold md:text-3xl text-xl font-light md:text-start text-center">
+        <h3 className="md:px-32 px-4 text-lime-600 md:font-semibold md:text-5xl text-xl font-light md:text-start text-center">
           iVents Event Process
         </h3>
-        <h4 className="md:px-32 px-4 text-black md:font-normal md:text-2xl text-lg font-thin md:text-start text-center">
+        <h4 className="md:px-32 px-4 text-black md:font-normal md:text-3xl text-lg font-thin md:text-start text-center">
           Step-by-step towards perfection
         </h4>
         </div>
       </div>
 
-      <div className="process-sec p-32">
+      <div className="process-sec py-4 px-32">
         <div className="method-one relative process-box hidden lg:flex items-start justify-between p-10">
           <div
             className="process-content w-[47%] p-10"
@@ -126,6 +127,8 @@ const HowWeDoIt = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 };

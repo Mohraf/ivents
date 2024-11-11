@@ -18,7 +18,7 @@ const Hero = () => {
             <div className='my-4 md:text-start text-center'>
                 <div className='md:flex md:flex-row flex-col gap-4'>
                 <h5 className='text-2xl'>
-                    I For Detail.
+                    i For Detail.
                 </h5>
                 <p className='font-semibold text-2xl'>
                     Your Event  |  Our Canvas
