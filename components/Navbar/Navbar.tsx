@@ -27,23 +27,7 @@ const Navbar = () => {
         {/* Links */}
         <div className="hidden md:flex space-x-4">
           <Link href="/" className="text-lime-600 hover:text-green-400">Home</Link>
-          <div className="relative">
-            <button
-              onClick={() => setAboutDropdownOpen(!isAboutDropdownOpen)}
-              className="flex items-center text-black hover:text-gray-700"
-            >
-              About
-            </button>
-            {isAboutDropdownOpen && (
-              <div className="absolute left-0 mt-2 w-40 bg-black bg-opacity-70 border border-gray-500 rounded shadow-lg">
-                <Link href="/whoWeAre" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Who we are</Link>
-                <Link href="/mission" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Mission</Link>
-                <Link href="/vision" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Vision</Link>
-                <Link href="/values" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Values</Link>
-                <Link href="/whyIvents" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Why iVENTS</Link>
-              </div>
-            )}
-          </div>
+          <Link href="/about" className="text-black hover:text-gray-700">About</Link>
           <Link href="/gallery" className="text-black hover:text-gray-700">Gallery</Link>
           <div className="relative">
             <button
@@ -80,25 +64,9 @@ const Navbar = () => {
 
       {/* Mobile Menu Links */}
       {isMobileMenuOpen && (
-        <div className="md:hidden flex flex-col px-4 pb-2">
+        <div className="md:hidden flex flex-col px-4 pb-2 items-end">
           <Link href="/" className="text-lime-600 hover:text-green-400 py-2">Home</Link>
-          <div className="relative">
-            <button
-              onClick={() => setAboutDropdownOpen(!isAboutDropdownOpen)}
-              className="flex items-center text-black hover:text-gray-700"
-            >
-              About
-            </button>
-            {isAboutDropdownOpen && (
-              <div className="mt-2 w-40 bg-black bg-opacity-70 border border-gray-500 rounded shadow-lg">
-                <Link href="/whoWeAre" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Who we are</Link>
-                <Link href="/mission" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Mission</Link>
-                <Link href="/vision" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Vision</Link>
-                <Link href="/values" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Values</Link>
-                <Link href="/whyIvents" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Why iVENTS</Link>
-              </div>
-            )}
-          </div>
+          <Link href="/about" className='text-black py-2 hover:text-gray-700'>About</Link>          
           <Link href="/gallery" className="text-black hover:text-gray-700 py-2">Gallery</Link>
           <div className="relative">
             <button
@@ -109,7 +77,7 @@ const Navbar = () => {
               <MdArrowDropDown className="ml-1" />
             </button>
             {isDropdownOpen && (
-              <div className="mt-2 w-40 bg-black bg-opacity-70 border border-gray-500 rounded shadow-lg">
+              <div className="mt-2 w-40 bg-white text-black bg-opacity-70 border border-gray-500 rounded shadow-lg">
                 <Link href="/audioAndVisual" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Audio & Visual</Link>
                 <Link href="/conferencesAndExhibitions" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Conferences & Exhibitions</Link>
                 <Link href="/stageAndLighting" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Stage & Lighting</Link>
