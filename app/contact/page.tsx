@@ -209,7 +209,7 @@ const Contact = () => {
                 <Image alt="call" src="/telegram.svg" width={50} height={50} />
                 <div className="text-white">
                   <h4>SEND US AN EMAIL</h4>
-                  <p>info@ivents.co.ke</p>
+                  <p>info@geicoevents.net</p>
                 </div>
               </div>
 
@@ -217,7 +217,12 @@ const Contact = () => {
                 <Image alt="call" src="/location.svg" width={50} height={50} />
                 <div className="text-white">
                   <h4>SWING BY</h4>
-                  <p></p>
+                  <p>
+                    Oloitoktok Road,
+                  </p>
+                  <p>
+                    Kileleshwa Nairobi, Kenya
+                  </p>
                 </div>
               </div>
             </div>
