@@ -88,7 +88,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex md:flex-row flex-col md:py-10 py-5 md:px-32 px-10 gap-10">
+      <div className="flex md:flex-row flex-col md:pt-10 md:pb-24 pt-5 pb-16 md:px-32 px-10 gap-10">
         <div className="md:w-1/2 w-full">
           <Image
             alt="mission"
