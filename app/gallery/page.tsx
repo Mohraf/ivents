@@ -167,14 +167,14 @@ const Gallery = () => {
                         View Image
                       </Link> */}
                     </div>
-                    <h3 className="font-medium text-xl leading-8">
+                    {/* <h3 className="font-medium text-xl leading-8">
                       <Link
                         href="https://animeflyx.vercel.app/"
                         className="block relative group-hover:text-lime-500 transition-colors duration-200"
                       >
                         <span dangerouslySetInnerHTML={{ __html: x.comment }} />
                       </Link>
-                    </h3>
+                    </h3> */}
                   </article>
               );
             })}
