@@ -109,7 +109,7 @@ const About = () => {
           <p>
             We will continue to push the bounderies of event management and
             execution, aiming to be the trendsetter for sustainable solutions in
-            the
+            the industry, shaping the future of conferences and celebrations.
           </p>
         </div>
       </div>
