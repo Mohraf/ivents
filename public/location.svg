@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="location_icon" transform="translate(-140 -5987)">
+    <circle id="round_bg" cx="22.5" cy="22.5" r="22.5" transform="translate(140 5987)" fill="#20623a"/>
+    <g id="location_icon-2" data-name="location_icon" transform="translate(151 5998)">
+      <path id="Path_112" data-name="Path 112" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_113" data-name="Path 113" d="M9,11a3,3,0,1,0,3-3,3,3,0,0,0-3,3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_114" data-name="Path 114" d="M17.657,16.657,13.414,20.9a2,2,0,0,1-2.827,0L6.343,16.657a8,8,0,1,1,11.314,0Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
