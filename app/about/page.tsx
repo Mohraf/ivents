@@ -19,12 +19,12 @@ const About = () => {
       <div className="bg-slate-200 min-h-96 text-black md:pb-5 pb-10">
         <div
           style={{ backgroundImage: "url('/green-bg.png')" }}
-          className="justify-between py-32 md:h-[56vh] h-[64vh] bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
+          className="py-16 md:h-[42vh] h-[64vh] bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
         >
           <h3 className="md:px-32 px-4 text-white md:font-thin md:text-5xl text-4xl font-light md:text-start text-center">
             Our Belief
           </h3>
-          <p className="md:px-32 px-4 text-white md:font-extralight md:text-xl text-base font-thin md:text-start text-center mt-10">
+          <p className="md:px-32 px-4 text-white md:font-extralight md:text-xl text-base font-thin md:text-start text-center mt-8">
             These values are not only the bedrock of our event management
             approach but also a testament to our dedication to delivery of
             service

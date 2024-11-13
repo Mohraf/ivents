@@ -50,7 +50,7 @@ const Contact = () => {
       <div className="bg-slate-200 min-h-96 text-black md:pb-5 pb-10">
         <div
           style={{ backgroundImage: "url('/green-bg.png')" }}
-          className="justify-between py-32 md:h-[56vh] h-[64vh] bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
+          className="py-16 md:h-[42vh] h-[64vh] bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
         >
           <h3 className="md:px-32 px-4 text-white md:font-thin md:text-5xl text-4xl font-light md:text-start text-center">
             Get <span className="md:font-semibold">In Touch</span>
@@ -64,7 +64,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="md:px-32 md:py-20 py-10 px-4 ">
+        <div className="md:px-24 md:py-20 py-10 px-4 ">
           <div className="flex md:flex-row flex-col rounded-lg bg-slate-100">
             <div className="lg:w-2/3 w-full flex flex-col">
               <form className="p-10 flex flex-col gap-5">
@@ -190,37 +190,37 @@ const Contact = () => {
                 Office Information
               </h2>
               <div className="flex flex-row gap-5">
-                <Image alt="call" src="/phone.webp" width={50} height={50} />
+                <Image alt="call" src="/phonecall.svg" width={50} className="block" height={50} />
                 <div className="text-white">
-                  <h4>GIVE US A CALL</h4>
-                  <p>+254 743 743 365</p>
+                  <h4 className="md:text-xl text-xl font-medium">GIVE US A CALL</h4>
+                  <p className="text-base font-thin">+254 743 743 365</p>
                 </div>
               </div>
 
               <div className="flex flex-row gap-5">
-                <Image alt="call" src="/whatsapp.webp" width={50} height={50} />
+                <Image alt="call" src="/whatsapp.svg" width={50} className="block" height={50} />
                 <div className="text-white">
-                  <h4>WHATSAPP US</h4>
-                  <p>+254 743 743 365</p>
+                  <h4 className="md:text-xl text-xl font-medium">WHATSAPP US</h4>
+                  <p className="text-base font-thin">+254 743 743 365</p>
                 </div>
               </div>
 
               <div className="flex flex-row gap-5">
-                <Image alt="call" src="/telegram.svg" width={50} height={50} />
+                <Image alt="call" src="/mailbox.svg" width={50} className="block" height={50} />
                 <div className="text-white">
-                  <h4>SEND US AN EMAIL</h4>
-                  <p>info@geicoevents.net</p>
+                  <h4 className="md:text-xl text-xl font-medium">SEND US AN EMAIL</h4>
+                  <p className="text-base font-thin">info@geicoevents.net</p>
                 </div>
               </div>
 
               <div className="flex flex-row gap-5 mb-10">
-                <Image alt="call" src="/location.svg" width={50} height={50} />
+                <Image alt="call" src="/location.svg" width={50} className="" height={50} />
                 <div className="text-white">
-                  <h4>SWING BY</h4>
-                  <p>
+                  <h4 className="md:text-xl text-xl font-medium">SWING BY</h4>
+                  <p className="text-base font-thin">
                     Oloitoktok Road,
                   </p>
-                  <p>
+                  <p className="text-base font-thin">
                     Kileleshwa Nairobi, Kenya
                   </p>
                 </div>
