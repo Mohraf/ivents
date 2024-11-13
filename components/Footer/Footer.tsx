@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="footer items-center bg-cover bg-center bg-no-repeat"
+        className="footer items-center bg-cover bg-center bg-no-repeat text-white"
         style={{
           backgroundImage: "url('/green-bg.png')",
         }}
