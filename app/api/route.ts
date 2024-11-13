@@ -29,7 +29,7 @@ export async function POST(req: Request) {
 
         const mailOptions = {
             from: process.env.EMAIL_USER,
-            to: 'amosngok@gmail.com',
+            to: 'stephen@geicoevents.net',
             subject: 'New iVents Contact Form Submission',
             text: `
                 Name: ${name}
