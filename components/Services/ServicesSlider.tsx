@@ -79,7 +79,7 @@ const ServicesSlider = () => {
                     backgroundImage: `url(${item.img})`
                   }}
                 >
-                  <p className="text-center font-mono bg-slate-100 text-gray-500 bg-opacity-70 w-96">{item.description}</p>
+                  <p className="text-center font-mono rounded-full bg-slate-100 text-gray-500 bg-opacity-70 w-80">{item.description}</p>
                 </div>
               </Link>
             ))}

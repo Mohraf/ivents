@@ -19,7 +19,7 @@ const HowWeDoIt = () => {
       <div className="bg-slate-200 min-h-96 text-black pb-10">
         <div
           style={{ backgroundImage: "url('/green-bg.png')" }}
-          className="flex flex-col justify-center md:h-[68vh] h-48 bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
+          className="flex flex-col justify-center md:h-[48vh] h-36 bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
         >
             <h3 className="md:px-32 px-4 text-white md:font-semibold md:text-5xl text-xl font-light md:text-start text-center">
               iVents Event Process

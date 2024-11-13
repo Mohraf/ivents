@@ -31,7 +31,7 @@ const Brands = () => {
 
       <h3 className="md:p-10 p-4 text-white">How We Do It</h3>
 
-      <div>      
+      <div className="md:pb-5 md:pt-2 py-10">      
         <div className="md:flex-row md:p-10 p-4 gap-10 flex flex-col">
           <div data-aos="fade-down" className="rounded-[2rem] bg-slate-200 text-black p-10 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh] gap-2">
               <h4>Consult / Conceptualize</h4>
