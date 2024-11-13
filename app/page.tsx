@@ -22,7 +22,7 @@ export default function Home() {
   
   return (
     <div className="">
-      <div className="items-center mb-8">
+      <div className="items-center">
         <Hero />
         <Intro />
         <Brands />

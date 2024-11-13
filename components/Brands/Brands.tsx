@@ -10,8 +10,8 @@ const Brands = () => {
     '/brand-11.jpg', '/brand-12.jpg', '/brand-13.jpg', '/brand-14.jpg', '/brand-15.jpg'
   ];
   return (
-    <div className="bg-white md:px-32 md:py-10">
-      <h3 className="md:px-10 px-4 py-4 text-black">BRANDS THAT TRUST US</h3>
+    <div className="bg-white md:px-32 md:py-10 bg-opacity-30">
+      <h3 className="md:px-10 px-4 py-4 text-black">OUR PARTNERS</h3>
       <div className="grid grid-cols-5 gap-4 md:p-10 p-4 mb-4">
         {brands.map((brand, index) => (
           <div
