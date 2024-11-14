@@ -89,20 +89,20 @@ const Gallery = () => {
         "/gallery12.jpg",
       comment: `you can add text with html tag <b>like this  </b>`,
     },
-    {
-      id: 13,
-      link: "add link here",
-      image:
-        "/gallery13.jpg",
-      comment: `you can add text with html tag <b>like this  </b>`,
-    },
-    {
-      id: 14,
-      link: "add link here",
-      image:
-        "/gallery14.jpg",
-      comment: `you can add text with html tag <b>like this  </b>`,
-    },
+    // {
+    //   id: 13,
+    //   link: "add link here",
+    //   image:
+    //     "/gallery13.jpg",
+    //   comment: `you can add text with html tag <b>like this  </b>`,
+    // },
+    // {
+    //   id: 14,
+    //   link: "add link here",
+    //   image:
+    //     "/gallery14.jpg",
+    //   comment: `you can add text with html tag <b>like this  </b>`,
+    // },
     {
       id: 15,
       link: "add link here",
