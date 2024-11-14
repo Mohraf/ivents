@@ -25,7 +25,7 @@ const TestimonialCard = ({ image, take, person, company, animate }: IProps) => {
   },[])
   
   return (
-    <div data-aos={animate} className="h-[56vh] md:w-1/3 w-full text-white flex flex-col justify-between bg-slate-900 p-4 rounded-[2rem]">
+    <div data-aos={animate} className="h-[56vh] md:w-1/3 w-full text-white flex flex-col justify-between bg-lime-900 p-4 rounded-[2rem]">
       <div className="p-2">
         <div className="flex justify-between">
           <div className="w-1/2 h-full rounded-full overflow-hidden">
@@ -36,8 +36,8 @@ const TestimonialCard = ({ image, take, person, company, animate }: IProps) => {
           </div>
         </div>
       </div>
-      <p className="bg-slate-900 px-4 py-2 font-[inter]">{take}</p>
-      <div className="bg-slate-900 p-2">{person}</div>
+      <p className="bg-lime-900 px-4 py-2 font-[inter]">{take}</p>
+      <div className="bg-lime-900 p-2">{person}</div>
     </div>
   );
 };

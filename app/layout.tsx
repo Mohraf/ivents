@@ -29,9 +29,6 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-center`}
-        style={{
-          backgroundImage: "url('/green-bg.png')"
-        }}
       >
         <Navbar />
         {children}
