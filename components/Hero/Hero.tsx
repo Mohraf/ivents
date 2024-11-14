@@ -26,7 +26,7 @@ const Hero = () => {
                 </div>
                 <div className='flex gap-10 my-4 md:flex-row flex-col'>
                     <Link
-                     href="/services"
+                     href="/contact"
                      className='p-4 bg-lime-400 rounded-lg bg-opacity-60 border'
                     >
                         Book Your Experience
