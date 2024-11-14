@@ -1,4 +1,3 @@
-import Footer from "@/components/Footer/Footer";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -182,8 +181,6 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 };

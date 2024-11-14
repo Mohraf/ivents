@@ -3,7 +3,6 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Footer from "@/components/Footer/Footer";
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -231,10 +230,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      {/* <div className="flex md:flex-row flex-col md:py-10 py-5 md:px-32 px-10 gap-10"></div> */}
-      <Footer />
+      </div>    
     </>
   );
 };

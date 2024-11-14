@@ -1,7 +1,6 @@
 "use client"
 import React, { useEffect } from "react";
 import Link from "next/link";
-import Footer from "@/components/Footer/Footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';  // Import AOS styles
 
@@ -138,8 +137,6 @@ const Services = () => {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 };

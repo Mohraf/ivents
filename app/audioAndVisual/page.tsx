@@ -1,20 +1,7 @@
-"use client";
-import Image from "next/image";
 import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Footer from "@/components/Footer/Footer";
 import Link from "next/link";
 
 const AudioAndVisual = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Customize duration of animations
-      easing: "ease-in-out",
-      once: false, // Trigger animation only once/always
-    });
-  }, []);
-
   return (
     <>
       <div className="bg-slate-200 min-h-96 text-black pb-10">
@@ -62,7 +49,6 @@ const AudioAndVisual = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
