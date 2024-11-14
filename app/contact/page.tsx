@@ -218,10 +218,13 @@ const Contact = () => {
                 <div className="text-white">
                   <h4 className="md:text-xl text-xl font-medium">SWING BY</h4>
                   <p className="text-base font-thin">
-                    Oloitoktok Road,
+                    Suite 516,
                   </p>
                   <p className="text-base font-thin">
-                    Kileleshwa Nairobi, Kenya
+                    Consolidated Bank Building
+                  </p>
+                  <p className="text-base font-thin">
+                    Koinange St. Nairobi, Kenya
                   </p>
                 </div>
               </div>
