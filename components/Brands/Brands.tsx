@@ -32,8 +32,8 @@ const Brands = () => {
       <h3 className="md:px-10 p-4 text-black">How We Do It</h3>
 
       <div className="md:pb-5 md:pt-2 py-10">      
-        <div className="md:flex-row md:p-10 p-4 gap-10 flex flex-col">
-          <div data-aos="fade-down" className="rounded-[2rem] bg-slate-200 text-black p-10 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh] gap-2">
+        <div className="md:flex-row md:p-10 p-4 gap-10 flex flex-col items-center">
+          <div data-aos="fade-down" className="items-center text-center rounded-[2rem] bg-slate-200 text-black p-10 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh] gap-4">
               <Image alt="concept" src="/concept.svg" height={100} width={100} />
               <h4>Consult / Conceptualize</h4>
               <p>
@@ -49,7 +49,7 @@ const Brands = () => {
               </Link>
           </div>
 
-          <div data-aos="fade-up" className="rounded-[2rem] bg-slate-200 text-black p-10 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh] gap-2">
+          <div data-aos="fade-up" className="items-center text-center rounded-[2rem] bg-slate-200 text-black p-10 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh] gap-4">
               <Image alt="concept" src="/plan.svg" height={100} width={100} />
               <h4>Plan S.M.A.R.T</h4>
               <p>
@@ -64,7 +64,7 @@ const Brands = () => {
               </Link>
           </div>
 
-          <div data-aos="fade-down" className="rounded-[2rem] bg-slate-200 text-black p-10 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh] gap-2">
+          <div data-aos="fade-down" className="items-center text-center rounded-[2rem] bg-slate-200 text-black p-10 flex flex-col justify-center h-full md:w-1/3 min-h-[40vh] gap-4">
               <Image alt="concept" src="/management.svg" height={100} width={100} />
               <h4>Setup and Management</h4>
               <p>
