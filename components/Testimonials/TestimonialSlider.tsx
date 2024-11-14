@@ -69,7 +69,7 @@ const TestimonialSlider = () => {
       </div>
       {mounted && (
         <div className="title-btns mt-1">
-          <h3></h3>
+          <h3 className="text-white">.</h3>
           <div className="btns">
             <button aria-label="left" onClick={slideLeft}>
               <FaChevronLeft className="text-white" />

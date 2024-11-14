@@ -1,15 +1,39 @@
 "use client"
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { FaSearch } from 'react-icons/fa';
 import { MdArrowDropDown } from 'react-icons/md'; // Dropdown icon
 import { HiMenu, HiX } from 'react-icons/hi'; // Menu and Close icons
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
-  const [isAboutDropdownOpen, setAboutDropdownOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
+  const pathname = usePathname();
+
+  const isActive = (path: string) => {
+    if (path === '/') {
+      return pathname === path;
+    }
+    return pathname?.startsWith(path);
+  }
 
   return (
     <nav className="sticky top-0 bg-white bg-opacity-100 shadow-md z-10">
@@ -26,13 +50,13 @@ const Navbar = () => {
 
         {/* Links */}
         <div className="hidden md:flex space-x-4">
-          <Link href="/" className="text-lime-600 hover:text-green-400">Home</Link>
-          <Link href="/about" className="text-black hover:text-gray-700">About</Link>
-          <Link href="/gallery" className="text-black hover:text-gray-700">Gallery</Link>
-          <div className="relative">
+          <Link href="/" className={`${isActive('/') ? 'text-lime-700' : 'text-black'} hover:text-gray-700`}>Home</Link>
+          <Link href="/about" className={`${isActive('/about') ? 'text-lime-700' : 'text-black'} hover:text-gray-700`}>About</Link>
+          <Link href="/gallery" className={`${isActive('/gallery') ? 'text-lime-700' : 'text-black'} hover:text-gray-700`}>Gallery</Link>
+          <div className="relative" ref={dropdownRef}>
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className="flex items-center text-black hover:text-gray-700"
+              className={`flex items-center ${isActive('/audio') || isActive('/conferences') || isActive('/stage') || isActive('/printing') || isActive('/product') ? 'text-lime-700' : 'text-black'} hover:text-gray-700`}
             >
               Services
               <MdArrowDropDown className="ml-1" />
@@ -47,13 +71,13 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link href="/contact" className="text-black hover:text-gray-700">Contact</Link>
+          <Link href="/contact" className={`${isActive('/contact') ? 'text-lime-700' : 'text-black'} hover:text-gray-700`}>Contact</Link>
         </div>
 
         {/* Right Section */}
         <div className="flex items-center space-x-4">
-          <FaSearch className="text-black cursor-pointer hover:text-gray-700" />
-          <button className="px-4 py-2 bg-lime-600 text- rounded hover:bg-green-600">Talk to Us</button>
+          {/* <FaSearch className="text-black cursor-pointer hover:text-gray-700" /> */}
+          <Link href="/contact" className="px-4 py-2 bg-lime-600 text- rounded hover:bg-green-600">Talk to Us</Link>
         </div>
 
         {/* Mobile Menu Icon */}
@@ -65,13 +89,13 @@ const Navbar = () => {
       {/* Mobile Menu Links */}
       {isMobileMenuOpen && (
         <div className="md:hidden flex flex-col px-4 pb-2 items-end">
-          <Link href="/" className="text-lime-600 hover:text-green-400 py-2">Home</Link>
-          <Link href="/about" className='text-black py-2 hover:text-gray-700'>About</Link>          
-          <Link href="/gallery" className="text-black hover:text-gray-700 py-2">Gallery</Link>
+          <Link href="/" className={`${isActive('/') ? 'text-lime-700' : 'text-black'} hover:text-gray-700 py-2`}>Home</Link>
+          <Link href="/about" className={`${isActive('/about') ? 'text-lime-700' : 'text-black'} hover:text-gray-700 py-2`}>About</Link>          
+          <Link href="/gallery" className={`${isActive('/gallery') ? 'text-lime-700' : 'text-black'} hover:text-gray-700 py-2`}>Gallery</Link>
           <div className="relative">
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className="flex items-center text-black hover:text-gray-700 py-2"
+              className={`flex items-center ${isActive('/audio') || isActive('/conferences') || isActive('/stage') || isActive('/printing') || isActive('/product') ? 'text-lime-700' : 'text-black'} hover:text-gray-700`}
             >
               Services
               <MdArrowDropDown className="ml-1" />
@@ -86,7 +110,7 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link href="/contact" className="text-black hover:text-gray-700 py-2">Contact</Link>
+          <Link href="/contact" className={`${isActive('/contact') ? 'text-lime-700' : 'text-black'} hover:text-gray-700 py-2`}>Contact</Link>
         </div>
       )}
     </nav>
