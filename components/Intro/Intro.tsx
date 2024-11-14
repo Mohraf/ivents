@@ -4,8 +4,8 @@ import Video from '../Media/Video'
 
 const Intro = () => {
   return (
-    <>
-        <h3 className='text-center md:px-32 md:pt-24 md:mb-10 p-4 pt-10 text-white md:text-4xl text-lg bg-opacity-70'>
+    <div className='bg-white text-black'>
+        <h3 className='text-center md:px-32 md:pt-24 md:mb-10 p-4 pt-10 md:text-4xl text-lg bg-opacity-70'>
             At iVENTS, we <span className='text-green-600'>envision</span> a future whereby every event we touch 
             becomes a benchmark of excellence, setting the standard for exceptional events
             management solutions.
@@ -16,7 +16,7 @@ const Intro = () => {
         </div>
         
 
-        <div className='mb-10 md:px-32 text-white'>
+        <div className='pb-10 md:px-32'>
             <div className='flex row justify-start md:gap-10 gap-4 md:px-10 px-4 py-4'>
                 <h3 className='md:text-2xl text-base'>iVENTS by <span className='text-amber-400'>GEiCO</span></h3>
                 <Link href="/about" className='bg-lime-600 md:px-3 px-2 py-0 flex flex-col rounded justify-center text-center items-center text-sm'>
@@ -32,7 +32,7 @@ const Intro = () => {
                 of conferences, exhibitions and coorporate events is unrivaled.
             </p>
         </div>
-    </>
+    </div>
   )
 }
 
