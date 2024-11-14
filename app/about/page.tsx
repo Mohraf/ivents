@@ -32,7 +32,8 @@ const About = () => {
         </div>
 
         <div className="md:px-32 md:py-20 py-10 px-4 flex md:flex-row flex-col gap-5">
-          <div className="md:w-1/3 p-10 flex flex-col rounded-lg w-full bg-slate-100">
+          <div className="md:w-1/3 p-10 flex flex-col rounded-lg w-full bg-slate-100 text-center items-center">
+            <Image alt="i" src="/eye.svg" width={100} height={100} />
             <h3 className="md:text-3xl text-2xl">i FOR DETAIL</h3>
             <p className="text-base md:mt-10 mt-5">
               iVents approaches each project with meticulous attention, and our
@@ -42,7 +43,8 @@ const About = () => {
               client's overarching objectives.
             </p>
           </div>
-          <div className="md:w-1/3 p-10 flex flex-col rounded-lg w-full bg-slate-100">
+          <div className="md:w-1/3 p-10 flex flex-col rounded-lg w-full bg-slate-100 text-center items-center">
+            <Image alt="i" src="/innovation.svg" width={100} height={100} />
             <h3 className="md:text-3xl text-2xl">INNOVATION</h3>
             <p className="text-base md:mt-10 mt-5">
               At iVents, we posses a deep understanding of both the local and
@@ -52,7 +54,8 @@ const About = () => {
               and overall success.
             </p>
           </div>
-          <div className="md:w-1/3 p-10 flex flex-col rounded-lg w-full bg-slate-100">
+          <div className="md:w-1/3 p-10 flex flex-col rounded-lg w-full bg-slate-100 text-center items-center">
+            <Image alt="i" src="/client.svg" width={100} height={100} />
             <h3 className="md:text-3xl text-2xl">CLINET-CENTRIC</h3>
             <p className="text-base md:mt-10 mt-5">
               Our foremost priority is our clients, with our focus revolving
