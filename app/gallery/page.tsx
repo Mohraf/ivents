@@ -137,8 +137,8 @@ const Gallery = () => {
       <div className="">
         <div className="p-6 container mx-auto">
           <div className="py-2">
-            <h1 className="text-center text-4xl text-white">Our Gallery</h1>
-            <p className="text-xl text-center text-white mt-5">Take a Look at Our Latest Events</p>
+            <h1 className="text-center text-4xl">Our Gallery</h1>
+            <p className="text-xl text-center mt-5">Take a Look at Our Latest Events</p>
           </div>
           <div className="md:grid md:gap-6 md:grid-cols-2 lg:grid-cols-3 mb-12">
             {data.map((x) => {
