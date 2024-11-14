@@ -48,6 +48,7 @@ const ServicesSlider = () => {
   },[])
 
   return (
+    <>
       <div className="bg-slate-200 min-h-96">
         <div className="md:px-32 px-4 py-16 text-black text-center">
           <h3 className="md:font-extralight md:text-lg">OUR EXPERTISE</h3>
@@ -126,6 +127,7 @@ const ServicesSlider = () => {
           </div>
         </div>
       </div>
+    </>
   );
 };
 export default ServicesSlider;

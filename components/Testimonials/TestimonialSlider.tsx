@@ -5,7 +5,6 @@ import TestimonialCard from "./TestimonialCard";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "./TestimonialSlider.css";
 
-
 const testimonials = [
   {
     id: 1,
@@ -55,25 +54,26 @@ const TestimonialSlider = () => {
   };
 
   return (
-    <div className="md:px-32 md:py-5 py-3 px-4 bg-white text-black">
-      <h3 className="text-center justify-center head mb-4 md:mb-10 pt-10">
-        What Our Clients Say About Us
-      </h3>
+    <>
+      <div className="md:px-32 md:py-5 py-3 px-4 bg-white text-black">
+        <h3 className="text-center justify-center head mb-4 md:mb-10 pt-10">
+          What Our Clients Say About Us
+        </h3>
 
-      <div className="md:flex-row flex-col h-2/5 gap-10 flex pb-10">
-        {testimonials.map((testimonial) => (
-          <TestimonialCard
-            key={testimonial.id}
-            image={testimonial.logo}
-            take={testimonial.take}
-            person={testimonial.person}
-            company={testimonial.company}
-            animate={testimonial.animate}
-          />
-        ))}
+        <div className="md:flex-row flex-col h-2/5 gap-10 flex pb-10">
+          {testimonials.map((testimonial) => (
+            <TestimonialCard
+              key={testimonial.id}
+              image={testimonial.logo}
+              take={testimonial.take}
+              person={testimonial.person}
+              company={testimonial.company}
+              animate={testimonial.animate}
+            />
+          ))}
+        </div>
       </div>
-      
-    </div>
+    </>
   );
 };
 
