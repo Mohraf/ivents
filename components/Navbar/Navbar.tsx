@@ -10,6 +10,7 @@ import { usePathname } from 'next/navigation';
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMobileDropdownOpen, setIsMobileDropdownOpen] = useState(false);
 
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -94,14 +95,14 @@ const Navbar = () => {
           <Link href="/gallery" className={`${isActive('/gallery') ? 'text-lime-700' : 'text-black'} hover:text-gray-700 py-2`}>Gallery</Link>
           <div className="relative">
             <button
-              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+              onClick={() => setIsMobileDropdownOpen(!isMobileDropdownOpen)}
               className={`flex items-center ${isActive('/audio') || isActive('/conferences') || isActive('/stage') || isActive('/printing') || isActive('/product') ? 'text-lime-700' : 'text-black'} hover:text-gray-700`}
             >
               Services
               <MdArrowDropDown className="ml-1" />
             </button>
-            {isDropdownOpen && (
-              <div className="mt-2 w-40 bg-white text-black bg-opacity-70 border border-gray-500 rounded shadow-lg">
+            {isMobileDropdownOpen && (
+              <div className="mt-2 w-40 bg-white text-black bg-opacity-70 border-[0.5px] border-gray-500 rounded shadow-lg">
                 <Link href="/audioAndVisual" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Audio & Visual</Link>
                 <Link href="/conferencesAndExhibitions" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Conferences & Exhibitions</Link>
                 <Link href="/stageAndLighting" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Stage & Lighting</Link>
