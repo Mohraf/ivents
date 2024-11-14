@@ -1,6 +1,5 @@
 "use client"
 import React, { useEffect } from "react";
-import "./services.css";
 import Link from "next/link";
 import Footer from "@/components/Footer/Footer";
 import AOS from 'aos';

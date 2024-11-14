@@ -56,7 +56,7 @@ const TestimonialSlider = () => {
         CLIENT'S TESTIMONIALS
       </h3>
 
-      <div className="row-container h-2/5 gap-10 flex" id="sliderCon">
+      <div className="md:flex-row flex-col h-2/5 gap-10 flex">
         {testimonials.map((testimonial) => (
           <TestimonialCard
             key={testimonial.id}
@@ -67,19 +67,7 @@ const TestimonialSlider = () => {
           />
         ))}
       </div>
-      {mounted && (
-        <div className="title-btns mt-1">
-          <h3 className="text-white">.</h3>
-          <div className="btns">
-            <button aria-label="left" onClick={slideLeft}>
-              <FaChevronLeft className="text-white" />
-            </button>
-            <button aria-label="right" onClick={slideRight}>
-              <FaChevronRight className="text-white" />
-            </button>
-          </div>
-        </div>
-      )}
+      
     </div>
   );
 };

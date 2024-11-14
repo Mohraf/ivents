@@ -1,12 +1,12 @@
 "use client"; // for nextjs 13.4 user
 import Link from "next/link";
-import React from "react";
-import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
+import React, { useEffect } from "react";
 import "./ServicesSlider.css";
-import Image from "next/image";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ServicesSlider = () => {
-  const filteredItems = [
+  const services = [
     {
       id: 1,
       img: "/audio.jpg",
@@ -39,54 +39,93 @@ const ServicesSlider = () => {
     },
   ];
 
-  const slideLeft = () => {
-    const slider = document.getElementById("slider");
-    if (slider) {
-      slider.scrollLeft = slider.scrollLeft - 235;
-    }
-  };
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,  // Customize duration of animations
+      easing: 'ease-in-out',
+      once: false,  // Trigger animation only once
+    });
+  },[])
 
-  const slideRight = () => {
-    const slider = document.getElementById("slider");
-    if (slider) {
-      slider.scrollLeft = slider.scrollLeft + 235;
-    }
-  };
   return (
-    <>
-      <div className="trending py-10 md:px-32 bg-slate-200">
-        <h4 className="text-center justify-center mb-0 text-black">
-          OUR SERVICES
-        </h4>
-        <div className="md:px-0 px-4 py-4">
-          <div className="title-btns">
-            <h3></h3>
-            <div className="btns">
-              <button title="scroll left" onClick={slideLeft}>
-                <AiOutlineArrowLeft />
-              </button>
-              <button title="scroll right" onClick={slideRight}>
-                <AiOutlineArrowRight />
-              </button>
-            </div>
-          </div>
-          <div className="row-container flex justify-between gap-10" id="slider">
-            {filteredItems.map((item) => (
-              <Link data-aos="fade-right" key={item.id} href={item.link}>
-                <div 
-                  className="bg-cover bg-center flex flex-col items-center justify-end h-[40vh] rounded-[2rem] focus:ring focus:ring-lime-600 hover:shadow-md hover:shadow-lime-600 "
-                  style={{
-                    backgroundImage: `url(${item.img})`
-                  }}
-                >
-                  <p className="text-center font-mono rounded-full bg-slate-100 text-gray-500 bg-opacity-70 w-80">{item.description}</p>
-                </div>
+      <div className="bg-slate-200 min-h-96">
+        <div className="md:px-32 px-4 py-16 text-black text-center">
+          <h3 className="md:font-extralight md:text-lg">OUR EXPERTISE</h3>
+          <h4 className="mt-2 text-green-900 md:text-4xl md:font-thin text-2xl">
+            We Offer A Wide Range Of Services
+          </h4>
+
+          <div className="md:block md:mt-0 mt-4 flex flex-col">
+            <div className="services-row relative bottom-[1rem] xl:bottom-[-8.5rem] lg:bottom-[-3.5rem] md:bottom-[-2rem] flex md:flex-row flex-col justify-center md:mx-auto gap-4">
+              <Link
+                href="/audioAndVisual"
+                className="service-box relative rounded-[20px] h-[43vh] md:w-[31%] lg:w-[32%] bg-center bg-no-repeat bg-cover"
+                style={{
+                  backgroundImage: "url('/audio.jpg')",
+                }}
+                data-aos="fade-down"
+              >
+                <h4 className="text-lg absolute service-upper-head  service-head top-[2rem] left-[2rem] text-white text-left">
+                  Audio and Visual
+                </h4>
               </Link>
-            ))}
+
+              <Link
+                href="/stageAndLighting"
+                className="service-box relative rounded-[20px] h-[43vh] md:w-[31%] lg:w-[32%] bg-center bg-no-repeat bg-cover"
+                style={{
+                  backgroundImage: "url('/stage.jpg')",
+                }}
+                data-aos="fade-down"
+              >
+                <h4 className="text-lg absolute service-upper-head  service-head bottom-[7rem] left-[2rem] text-white text-left">
+                  Stage and Lighting
+                </h4>
+              </Link>
+            </div>
+            <div className="services-row md:mt-[1.7rem] flex md:flex-row flex-col justify-center sm:mx-auto gap-4">
+              <Link
+                className="service-box relative rounded-[20px] min-h-[50vh] md:w-1/4 bg-center bg-no-repeat bg-cover"
+                href="/conferencesAndExhibitions"
+                style={{
+                  backgroundImage: "url('/conference.jpg')",
+                }}
+                data-aos="fade-right"
+              >
+                <h4 className="text-lg absolute bottom-[3rem] service-below-head service-head left-[2rem] text-black text-left">
+                  Conferences And Exhibitions
+                </h4>
+              </Link>
+
+              <Link
+                className="service-box relative rounded-[20px] md:mt-[9%] min-h-[43vh] bg-cover bg-no-repeat bg-center md:w-1/4 md:ml-6"
+                href="/printingAndBranding"
+                style={{
+                  backgroundImage: "url('/printing.jpg')",
+                }}
+                data-aos="fade-up"
+              >
+                <h4 className="text-lg absolute text-white service-below-head  service-head-v2 bottom-[6rem] left-[2rem] text-left">
+                  Printing and Branding
+                </h4>
+              </Link>
+
+              <Link
+                className="service-box relative rounded-[20px] min-h-[50vh] bg-cover bg-no-repeat bg-center md:w-1/4 md:ml-6 cursor-pointer"
+                href="/productLaunches"
+                style={{
+                  backgroundImage: "url('/products.jpg')",
+                }}
+                data-aos="fade-left"
+              >
+                <h4 className="text-lg absolute text-black service-below-head   bottom-[3rem] service-head left-[2rem] text-left">
+                  Products And Launches
+                </h4>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
-    </>
   );
 };
 export default ServicesSlider;
