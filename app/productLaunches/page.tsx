@@ -9,7 +9,7 @@ const ProductLaunches = () => {
           style={{ backgroundImage: "url('/products.jpg')" }}
           className="flex flex-col justify-center md:h-[48vh] h-36 bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
         >
-          <h3 className="md:px-32 px-4 text-white md:font-semibold md:text-5xl text-2xl font-light md:text-start text-center">
+          <h3 className="md:px-32 px-4 text-black md:font-semibold md:text-5xl text-2xl font-light md:text-center text-center">
             Products & Launches
           </h3>
         </div>
@@ -27,7 +27,7 @@ const ProductLaunches = () => {
           <div className="md:w-1/2 w-full p-10 flex flex-col justify-center items-center">
             <div>
               <h2>Our Products and Launches services</h2>
-              <div className="w-32 h-1 bg-lime-500"></div>
+              <div className="w-32 h-1 bg-lime-500 mt-5"></div>
             </div>
 
             <ul className="mt-10 gap-2 list-decimal">
