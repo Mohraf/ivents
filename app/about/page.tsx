@@ -70,9 +70,10 @@ const About = () => {
 
       <div className="flex md:flex-row flex-col md:py-10 py-5 md:px-32 px-10 gap-10">
         <div className="md:w-1/2 w-full flex flex-col justify-center">
-          <h2 className="overline">MISSION</h2>
+          <h2 className="md:text-5xl text-2xl">MISSION</h2>
+          <div className="h-1 w-10 mt-5 bg-lime-600"></div>
           <p className="mt-10">
-            Our mission is to transform our client's vision into a unique
+            To transform our client's vision into a unique
             experience. Our drive to become a dependable as well the preferred
             choice of an events management partner is echoed in our ability to
             curate and provide tailor-made solutions for all events.
@@ -102,7 +103,8 @@ const About = () => {
           />
         </div>
         <div className="md:w-1/2 w-full flex flex-col justify-center">
-          <h2 className="overline">VISION</h2>
+          <h2 className="md:text-5xl text-2xl">VISION</h2>
+          <div className="h-1 w-10 mt-5 bg-lime-600"></div>
           <p className="mt-10">
             To be the leading event management company, recognised for our
             unwavering commitment to professionalism, innovation and quality

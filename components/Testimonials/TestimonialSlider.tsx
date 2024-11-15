@@ -55,7 +55,7 @@ const TestimonialSlider = () => {
 
   return (
     <>
-      <div className="md:px-32 md:py-5 py-3 px-4 bg-white text-black">
+      <div className="md:px-32 md:py-5 py-3 px-4 bg-white text-black overflow-hidden">
         <h3 className="text-center justify-center head mb-4 md:mb-10 pt-10">
           What Our Clients Say About Us
         </h3>

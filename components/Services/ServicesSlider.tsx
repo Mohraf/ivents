@@ -49,7 +49,7 @@ const ServicesSlider = () => {
 
   return (
     <>
-      <div className="bg-slate-200 min-h-96">
+      <div className="bg-slate-200 min-h-96 overflow-hidden">
         <div className="md:px-32 px-4 py-16 text-black text-center">
           <h3 className="md:font-extralight md:text-lg">OUR EXPERTISE</h3>
           <h4 className="mt-2 text-green-900 md:text-4xl md:font-thin text-2xl">
