@@ -49,8 +49,8 @@ const ServicesSlider = () => {
 
   return (
     <>
-      <div className="bg-black min-h-96 overflow-hidden">
-        <div className="md:px-32 px-4 py-16 text-white text-center">
+      <div className="bg-white min-h-96 overflow-hidden">
+        <div className="md:px-32 px-4 py-16 text-black text-center">
           <h3 className="md:font-extralight md:text-lg">OUR EXPERTISE</h3>
           <h4 className="mt-2 green md:text-4xl md:font-thin text-2xl">
             We Offer A Wide Range Of Services

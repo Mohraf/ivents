@@ -4,7 +4,7 @@ import Video from '../Media/Video'
 
 const Intro = () => {
   return (
-    <div className='bg-black text-white'>
+    <div className='bg-white text-black'>
         <h3 className='text-center md:px-32 md:pt-24 md:mb-10 p-4 pt-10 md:text-4xl text-lg bg-opacity-70'>
             At iVENTS, we <span className='green'>envision</span> a future whereby every event we touch 
             becomes a benchmark of excellence, setting the standard for exceptional events

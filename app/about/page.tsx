@@ -15,7 +15,7 @@ const About = () => {
 
   return (
     <>
-      <div className="bg-black min-h-96 text-black md:pb-5 pb-10">
+      <div className="bg-white min-h-96 text-black md:pb-5 pb-10">
         <div
           // style={{ backgroundImage: "url('/green-bg.png')" }}
           className="py-16 md:h-[42vh] h-[36vh] bg-white bg-opacity-100 bg-center bg-cover bg-no-repeat"
@@ -30,7 +30,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="md:px-32 md:py-20 py-10 px-4 flex md:flex-row flex-col gap-5">
+        <div className="md:px-32 md:py-10 py-10 px-4 flex md:flex-row flex-col gap-5">
           <div className="md:w-1/3 p-10 flex flex-col rounded-lg w-full bg-slate-100 text-center items-center">
             <Image alt="i" src="/iDetail.svg" width={100} height={100} />
             <h3 className="md:text-3xl text-2xl mt-2">i FOR DETAIL</h3>
@@ -68,7 +68,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex bg-black md:flex-row flex-col md:py-10 py-5 md:px-32 px-10 gap-10">
+      <div className="flex bg-white text-black md:flex-row flex-col md:py-10 py-5 md:px-32 px-10 gap-10">
         <div className="md:w-1/2 w-full flex flex-col justify-center">
           <h2 className="md:text-5xl text-2xl">MISSION</h2>
           <div className="h-1 w-10 mt-5 bg-lime-600"></div>
@@ -91,7 +91,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex bg-black md:flex-row flex-col md:pt-10 md:pb-24 pt-5 pb-16 md:px-32 px-10 gap-10">
+      <div className="flex bg-white text-black md:flex-row flex-col md:pt-10 md:pb-24 pt-5 pb-16 md:px-32 px-10 gap-10">
         <div className="md:w-1/2 w-full">
           <Image
             alt="mission"

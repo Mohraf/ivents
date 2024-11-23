@@ -38,27 +38,27 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="sticky top-0 bg-black text-white bg-opacity-100 shadow-md z-10">
+    <nav className="sticky top-0 bg-white text-black bg-opacity-100 shadow-md z-10">
       <div className="flex items-center justify-between md:px-10 px-4 py-3">
          {/* Logo */}
          <Link href="/" className="flex items-center">
           <Image 
-            src="/logo.png" // Replace with your logo path
+            src="/iventslogo.png" // Replace with your logo path
             alt="Logo"
-            width={120} // Adjust width as needed
-            height={50} // Adjust height as needed
+            width={50} // Adjust width as needed
+            height={20} // Adjust height as needed
           />
         </Link>        
 
         {/* Links */}
         <div className="hidden md:flex space-x-4">
-          <Link href="/" className={`${isActive('/') ? 'green' : 'text-white'} hover:text-gray-700`}>Home</Link>
-          <Link href="/about" className={`${isActive('/about') ? 'green' : 'text-white'} hover:text-gray-700`}>About</Link>
-          <Link href="/gallery" className={`${isActive('/gallery') ? 'green' : 'text-white'} hover:text-gray-700`}>Gallery</Link>
+          <Link href="/" className={`${isActive('/') ? 'green' : 'text-black'} hover:text-gray-700`}>Home</Link>
+          <Link href="/about" className={`${isActive('/about') ? 'green' : 'text-black'} hover:text-gray-700`}>About</Link>
+          <Link href="/gallery" className={`${isActive('/gallery') ? 'green' : 'text-black'} hover:text-gray-700`}>Gallery</Link>
           <div className="relative" ref={dropdownRef}>
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className={`flex items-center ${isActive('/audio') || isActive('/conferences') || isActive('/stage') || isActive('/printing') || isActive('/product') ? 'text-lime-700' : 'text-white'} hover:text-gray-700`}
+              className={`flex items-center ${isActive('/audio') || isActive('/conferences') || isActive('/stage') || isActive('/printing') || isActive('/product') ? 'text-lime-700' : 'text-black'} hover:text-gray-700`}
             >
               Services
               <MdArrowDropDown className="ml-1" />
@@ -73,25 +73,25 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link href="/contact" className={`${isActive('/contact') ? 'green' : 'text-white'} hover:text-gray-700`}>Contact</Link>
+          <Link href="/contact" className={`${isActive('/contact') ? 'green' : 'text-black'} hover:text-gray-700`}>Contact</Link>
         </div>
 
         {/* Right Section */}
         <div className="flex items-center space-x-4">
           {/* <FaSearch className="text-black cursor-pointer hover:text-gray-700" /> */}
-          <Link href="/contact" className="px-4 py-2 bggreen text- rounded hover:bg-gray-400 text-white">Talk to Us</Link>
+          <Link href="/contact" className="px-4 py-2 bggreen text- rounded hover:bg-gray-400 text-black">Talk to Us</Link>
         </div>
 
         {/* Mobile Menu Icon */}
         <div className="md:hidden" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-          {isMobileMenuOpen ? <HiX className="text-white h-6 w-6" /> : <HiMenu className="text-white h-6 w-6" />}
+          {isMobileMenuOpen ? <HiX className="text-white h-6 w-6" /> : <HiMenu className="text-black h-6 w-6" />}
         </div>
       </div>
 
       {/* Mobile Menu Links */}
       {isMobileMenuOpen && (
         <div className="md:hidden flex flex-col px-4 pb-2 items-end">
-          <Link href="/" className={`${isActive('/') ? 'green' : 'text-white'} hover:text-gray-700 py-2`}>Home</Link>
+          <Link href="/" className={`${isActive('/') ? 'green' : 'text-whblackite'} hover:text-gray-700 py-2`}>Home</Link>
           <Link href="/about" className={`${isActive('/about') ? 'green' : 'text-white'} hover:text-gray-700 py-2`}>About</Link>          
           <Link href="/gallery" className={`${isActive('/gallery') ? 'green' : 'text-white'} hover:text-gray-700 py-2`}>Gallery</Link>
           <div className="relative">
@@ -112,7 +112,7 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link href="/contact" className={`${isActive('/contact') ? 'green' : 'text-white'} hover:text-gray-700 py-2`}>Contact</Link>
+          <Link href="/contact" className={`${isActive('/contact') ? 'green' : 'text-black'} hover:text-gray-700 py-2`}>Contact</Link>
         </div>
       )}
     </nav>

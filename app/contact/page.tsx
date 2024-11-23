@@ -47,7 +47,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className=" min-h-96 text-black md:pb-5 pb-10">
+      <div className="bg-white min-h-96 text-black md:pb-5 pb-10">
         <div
           // style={{ backgroundImage: "url('/green-bg.png')" }}
           className="py-16 md:h-[42vh] h-[36vh] bg-white bg-opacity-100 bg-center bg-cover bg-no-repeat"

@@ -17,13 +17,13 @@ const HowWeDoIt = () => {
     <>
       <div className="bg-slate-200 min-h-96 text-black pb-10">
         <div
-          style={{ backgroundImage: "url('/green-bg.png')" }}
-          className="flex flex-col justify-center md:h-[48vh] h-36 bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
+          // style={{ backgroundImage: "url('/green-bg.png')" }}
+          className="flex flex-col justify-center md:h-[48vh] h-36 bg-white bg-opacity-70 bg-center bg-cover bg-no-repeat"
         >
-            <h3 className="md:px-32 px-4 text-white md:font-semibold md:text-5xl text-xl font-light md:text-start text-center">
+            <h3 className="md:px-32 px-4 text-black md:font-semibold md:text-5xl text-xl font-light md:text-start text-center">
               iVents Event Process
             </h3>
-            <h4 className="md:px-32 px-4 text-white md:font-normal md:text-3xl text-lg font-thin md:text-start text-center">
+            <h4 className="md:px-32 px-4 text-black md:font-normal md:text-3xl text-lg font-thin md:text-start text-center">
               Step-by-step towards perfection
             </h4>
         </div>

@@ -25,8 +25,8 @@ const Brands = () => {
     "/moodys.png"
   ];
   return (
-    <div className="bg-black md:px-32 md:py-5 bg-opacity-100">
-      <h3 className="md:px-10 px-4 py-4 text-white">
+    <div className="bg-white md:px-32 md:py-5 bg-opacity-100">
+      <h3 className="md:px-10 px-4 py-4 text-black">
         Backed by strong global partners
       </h3>
       <div className="grid grid-cols-5 gap-4 md:p-10 p-4 mb-4">
@@ -46,7 +46,7 @@ const Brands = () => {
         ))}
       </div>
 
-      <h3 className="md:px-10 p-4 text-white">How We Do It</h3>
+      <h3 className="md:px-10 p-4 text-black">How We Do It</h3>
 
       <div className="md:pb-5 md:pt-2 py-10">
         <div className="md:flex-row md:p-10 p-4 gap-10 flex flex-col items-center">
