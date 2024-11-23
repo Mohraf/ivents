@@ -79,7 +79,7 @@ const Navbar = () => {
         {/* Right Section */}
         <div className="flex items-center space-x-4">
           {/* <FaSearch className="text-black cursor-pointer hover:text-gray-700" /> */}
-          <Link href="/contact" className="px-4 py-2 bg-lime-700 text- rounded hover:bg-green-600">Talk to Us</Link>
+          <Link href="/contact" className="px-4 py-2 bggreen text- rounded hover:bg-gray-400 text-white">Talk to Us</Link>
         </div>
 
         {/* Mobile Menu Icon */}

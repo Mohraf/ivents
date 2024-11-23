@@ -10,8 +10,8 @@ const Brands = () => {
     '/brand-11.jpg', '/brand-12.jpg', '/brand-13.jpg', '/brand-14.jpg', '/brand-15.jpg'
   ];
   return (
-    <div className="bg-white md:px-32 md:py-5 bg-opacity-100">
-      <h3 className="md:px-10 px-4 py-4 text-black">Backed by strong global partners</h3>
+    <div className="bg-black md:px-32 md:py-5 bg-opacity-100">
+      <h3 className="md:px-10 px-4 py-4 text-white">Backed by strong global partners</h3>
       <div className="grid grid-cols-5 gap-4 md:p-10 p-4 mb-4">
         {brands.map((brand, index) => (
           <div
@@ -29,7 +29,7 @@ const Brands = () => {
         ))}
       </div>
 
-      <h3 className="md:px-10 p-4 text-black">How We Do It</h3>
+      <h3 className="md:px-10 p-4 text-white">How We Do It</h3>
 
       <div className="md:pb-5 md:pt-2 py-10">      
         <div className="md:flex-row md:p-10 p-4 gap-10 flex flex-col items-center">
@@ -43,7 +43,7 @@ const Brands = () => {
               </p>
               <Link
                   href="/about"
-                  className="link"
+                  className="link green"
               >
                   Learn more
               </Link>
@@ -58,7 +58,7 @@ const Brands = () => {
               </p>
               <Link
                   href="/about"
-                  className="link"
+                  className="link green"
               >
                   Learn more
               </Link>
@@ -73,7 +73,7 @@ const Brands = () => {
               </p>
               <Link
                   href="/about"
-                  className="link"
+                  className="link green"
               >
                   Learn more
               </Link>

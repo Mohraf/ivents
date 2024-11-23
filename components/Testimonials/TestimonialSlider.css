@@ -8,6 +8,9 @@
     justify-content: center;
 }
 
+.bggreen {
+    background-color: var(--green);
+}
 
 .btns button {
     color: white;

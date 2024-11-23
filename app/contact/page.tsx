@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -46,7 +47,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="bg-slate-200 min-h-96 text-black md:pb-5 pb-10">
+      <div className=" min-h-96 text-black md:pb-5 pb-10">
         <div
           style={{ backgroundImage: "url('/green-bg.png')" }}
           className="py-16 md:h-[42vh] h-[36vh] bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
@@ -64,11 +65,11 @@ const Contact = () => {
         </div>
 
         <div className="md:px-24 md:py-20 py-10 px-4 ">
-          <div className="flex md:flex-row flex-col rounded-lg bg-slate-100">
+          <div className="flex md:flex-row flex-col rounded-lg bg-black">
             <div className="lg:w-2/3 w-full flex flex-col">
               <form className="p-10 flex flex-col gap-5">
                 <div className="flex flex-col">
-                  <label htmlFor="name" className="mb-2">
+                  <label htmlFor="name" className=" text-white mb-2">
                     Full Name {invalidFields.includes('name') && <span className="text-red-500">* Name Required *</span>}
                   </label>
                   <input
@@ -82,7 +83,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex flex-col">
-                  <label htmlFor="email" className="mb-2">
+                  <label htmlFor="email" className="mb-2 text-white">
                     Email Address {invalidFields.includes('email') && <span className="text-red-500">* Email Required *</span>}
                   </label>
                   <input
@@ -96,7 +97,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex flex-col">
-                  <label htmlFor="phone" className="mb-2">
+                  <label htmlFor="phone" className="mb-2 text-white">
                     Phone Number {invalidFields.includes('phone') && <span className="text-red-500">* Phone Required *</span>}
                   </label>
                   <input
@@ -110,7 +111,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex flex-col">
-                  <label htmlFor="message" className="mb-2">
+                  <label htmlFor="message" className="mb-2 text-white">
                     Message {invalidFields.includes('message') && <span className="text-red-500">* Message Required *</span>}
                   </label>
                   <textarea
@@ -125,7 +126,7 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  className="bg-lime-600 text-white py-3 px-6 rounded-md hover:bg-lime-700 transition duration-300"
+                  className="bg-white text-black py-3 px-6 rounded-md hover:bg-black hover:text-white hover:ring-white hover:ring-1 transition duration-300"
                   onClick={async (e) => {
                     e.preventDefault();
                     setIsSubmitting(true);
@@ -184,12 +185,12 @@ const Contact = () => {
               </form>
             </div>
 
-            <div className="lg:w-1/3 w-full bg-lime-600 flex flex-col py-4 px-10 gap-5">
+            <div className="lg:w-1/3 w-full bg-black flex flex-col py-4 px-10 gap-5">
               <h2 className="text-white md:text-2xl md:font-thin my-5">
                 Office Information
               </h2>
               <div className="flex flex-row gap-5">
-                <Image alt="call" src="/phonecall.svg" width={50} className="block" height={50} />
+                <Image alt="call" src="/new-phone.svg" width={50} className="block bg-white rounded-full p-2" height={50} />
                 <div className="text-white">
                   <h4 className="md:text-xl text-xl font-medium">GIVE US A CALL</h4>
                   <p className="text-base font-thin">+254 798 259 215</p>
@@ -197,7 +198,10 @@ const Contact = () => {
               </div>
 
               <div className="flex flex-row gap-5">
-                <Image alt="call" src="/whatsapp.svg" width={50} className="block" height={50} />
+                <div className="bg-white hover:bg-white text-green rounded-full p-4 shadow-lg transition-all duration-300 z-50 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2">
+
+                <FaWhatsapp className="text-2xl" />
+                </div>
                 <div className="text-white">
                   <h4 className="md:text-xl text-xl font-medium">WHATSAPP US</h4>
                   <p className="text-base font-thin">+254 798 259 215</p>
@@ -205,7 +209,7 @@ const Contact = () => {
               </div>
 
               <div className="flex flex-row gap-5">
-                <Image alt="call" src="/mailbox.svg" width={50} className="block" height={50} />
+                <Image alt="call" src="/new-mail.svg" width={50} className="block bg-white rounded-full" height={50} />
                 <div className="text-white">
                   <h4 className="md:text-xl text-xl font-medium">SEND US AN EMAIL</h4>
                   <p className="text-base font-thin">info@geicoevents.net</p>
@@ -213,7 +217,7 @@ const Contact = () => {
               </div>
 
               <div className="flex flex-row gap-5 mb-10">
-                <Image alt="call" src="/location.svg" width={50} className="" height={50} />
+                <Image alt="call" src="/new-location.svg" width={50} className="bg-white rounded-full" height={50} />
                 <div className="text-white">
                   <h4 className="md:text-xl text-xl font-medium">SWING BY</h4>
                   <p className="text-base font-thin">

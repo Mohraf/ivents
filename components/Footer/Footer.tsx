@@ -23,9 +23,9 @@ const Footer = () => {
           <div className="flex items-center justify-center w-full">
             <Image
               aria-hidden
-              src="/GeicoEventServicesFlyer.jpg"
+              src="/flyer.jpg"
               alt="iVENTS by GEiCO"
-              width={1024}
+              width={1280}
               height={100}
             />
           </div>

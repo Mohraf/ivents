@@ -15,7 +15,7 @@ const About = () => {
 
   return (
     <>
-      <div className="bg-slate-200 min-h-96 text-black md:pb-5 pb-10">
+      <div className="bg-black min-h-96 text-black md:pb-5 pb-10">
         <div
           style={{ backgroundImage: "url('/green-bg.png')" }}
           className="py-16 md:h-[42vh] h-[36vh] bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
@@ -68,7 +68,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex md:flex-row flex-col md:py-10 py-5 md:px-32 px-10 gap-10">
+      <div className="flex bg-black md:flex-row flex-col md:py-10 py-5 md:px-32 px-10 gap-10">
         <div className="md:w-1/2 w-full flex flex-col justify-center">
           <h2 className="md:text-5xl text-2xl">MISSION</h2>
           <div className="h-1 w-10 mt-5 bg-lime-600"></div>
@@ -91,7 +91,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex md:flex-row flex-col md:pt-10 md:pb-24 pt-5 pb-16 md:px-32 px-10 gap-10">
+      <div className="flex bg-black md:flex-row flex-col md:pt-10 md:pb-24 pt-5 pb-16 md:px-32 px-10 gap-10">
         <div className="md:w-1/2 w-full">
           <Image
             alt="mission"

@@ -1,3 +1,7 @@
 .green {
     color: var(--green);
 }
+
+.bggreen {
+    color: var(--green);
+}
