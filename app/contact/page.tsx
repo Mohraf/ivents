@@ -219,7 +219,7 @@ const Contact = () => {
               <div className="flex flex-row gap-5 mb-10">
                 <Image alt="call" src="/new-location.svg" width={50} className="bg-white rounded-full" height={50} />
                 <div className="text-white">
-                  <h4 className="md:text-xl text-xl font-medium">SWING BY</h4>
+                  <h4 className="md:text-xl text-xl font-medium">LOCATION</h4>
                   <p className="text-base font-thin">
                     Suite 516,
                   </p>
