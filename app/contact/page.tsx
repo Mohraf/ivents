@@ -192,7 +192,7 @@ const Contact = () => {
                 <Image alt="call" src="/phonecall.svg" width={50} className="block" height={50} />
                 <div className="text-white">
                   <h4 className="md:text-xl text-xl font-medium">GIVE US A CALL</h4>
-                  <p className="text-base font-thin">+254 743 743 365</p>
+                  <p className="text-base font-thin">+254 798 259 215</p>
                 </div>
               </div>
 
@@ -200,7 +200,7 @@ const Contact = () => {
                 <Image alt="call" src="/whatsapp.svg" width={50} className="block" height={50} />
                 <div className="text-white">
                   <h4 className="md:text-xl text-xl font-medium">WHATSAPP US</h4>
-                  <p className="text-base font-thin">+254 743 743 365</p>
+                  <p className="text-base font-thin">+254 798 259 215</p>
                 </div>
               </div>
 
