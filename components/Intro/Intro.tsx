@@ -15,7 +15,6 @@ const Intro = () => {
             <Video />
         </div>
         
-
         <div className='pb-10 md:px-32'>
             <div className='flex row justify-start md:gap-10 gap-4 md:px-10 px-4 py-4'>
                 <h3 className='md:text-2xl text-base'>iVENTS by <span className='text-lime-600'>GEiCO</span></h3>

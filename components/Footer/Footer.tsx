@@ -7,7 +7,7 @@ const Footer = () => {
       <footer
         className="footer items-center bg-cover bg-center bg-no-repeat text-white"
         style={{
-          backgroundImage: "url('/green-bg.png')",
+          // backgroundImage: "url('/green-bg.png')",
         }}
       >
         <div className="flex gap-6 flex-wrap items-center justify-center">
@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="flex items-center justify-center w-full">
             <Image
               aria-hidden
-              src="/footer.png"
+              src="/GeicoEventServicesFlyer.jpg"
               alt="iVENTS by GEiCO"
               width={1024}
               height={100}
