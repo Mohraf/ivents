@@ -17,13 +17,13 @@ const About = () => {
     <>
       <div className="bg-black min-h-96 text-black md:pb-5 pb-10">
         <div
-          style={{ backgroundImage: "url('/green-bg.png')" }}
-          className="py-16 md:h-[42vh] h-[36vh] bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
+          // style={{ backgroundImage: "url('/green-bg.png')" }}
+          className="py-16 md:h-[42vh] h-[36vh] bg-white bg-opacity-100 bg-center bg-cover bg-no-repeat"
         >
-          <h3 className="md:px-32 px-4 text-white md:font-thin md:text-5xl text-4xl font-light md:text-start text-center">
+          <h3 className="md:px-32 px-4 text-black md:font-thin md:text-5xl text-4xl font-light md:text-start text-center">
             Our Belief
           </h3>
-          <p className="md:px-32 px-4 text-white md:font-extralight md:text-xl text-base font-thin md:text-start text-center mt-8">
+          <p className="md:px-32 px-4 text-black md:font-extralight md:text-xl text-base font-thin md:text-start text-center mt-8">
             These values are not only the bedrock of our event management
             approach but also a testament to our dedication to delivery of
             service
@@ -32,10 +32,10 @@ const About = () => {
 
         <div className="md:px-32 md:py-20 py-10 px-4 flex md:flex-row flex-col gap-5">
           <div className="md:w-1/3 p-10 flex flex-col rounded-lg w-full bg-slate-100 text-center items-center">
-            <Image alt="i" src="/eye.svg" width={100} height={100} />
-            <h3 className="md:text-3xl text-2xl">i FOR DETAIL</h3>
+            <Image alt="i" src="/iDetail.svg" width={100} height={100} />
+            <h3 className="md:text-3xl text-2xl mt-2">i FOR DETAIL</h3>
             <p className="text-base md:mt-10 mt-5">
-              iVents approaches each project with meticulous attention, and our
+              iVENTS by GEiCO approaches each project with meticulous attention, and our
               unique "i for detail" demonstrates our commitment to excellence.
               This is complemented by our capacity to see the bigger picture,
               harmonizing the excecution of individual event components with our
@@ -43,10 +43,10 @@ const About = () => {
             </p>
           </div>
           <div className="md:w-1/3 p-10 flex flex-col rounded-lg w-full bg-slate-100 text-center items-center">
-            <Image alt="i" src="/innovation.svg" width={100} height={100} />
-            <h3 className="md:text-3xl text-2xl">INNOVATION</h3>
+            <Image alt="i" src="/brainstorm.svg" width={100} height={100} />
+            <h3 className="md:text-3xl text-2xl mt-2">INNOVATION</h3>
             <p className="text-base md:mt-10 mt-5">
-              At iVents, we posses a deep understanding of both the local and
+              At iVENTS by GEiCO, we posses a deep understanding of both the local and
               global market trends, with our strength being our unparalleled
               knowledge that this constantly evolving market demands innovation
               and adaptability, essential elements in attaining the events goals
@@ -54,12 +54,12 @@ const About = () => {
             </p>
           </div>
           <div className="md:w-1/3 p-10 flex flex-col rounded-lg w-full bg-slate-100 text-center items-center">
-            <Image alt="i" src="/client.svg" width={100} height={100} />
-            <h3 className="md:text-3xl text-2xl">CLINET-CENTRIC</h3>
+            <Image alt="i" src="/clients.svg" width={100} height={100} />
+            <h3 className="md:text-3xl text-2xl mt-2">CLIENT-CENTRIC</h3>
             <p className="text-base md:mt-10 mt-5">
               Our foremost priority is our clients, with our focus revolving
               around understanding, meeting and exceeding their needs and
-              expectations. iVENTS will collaborate with subcontractors if the
+              expectations. iVENTS by GEiCO will collaborate with subcontractors if the
               event dictates &#40;but under our direct supervision&#41;,
               allowing us to complete projects in a timely manner, and ensuring
               the same high standards are maintained.

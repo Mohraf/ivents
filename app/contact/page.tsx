@@ -49,16 +49,16 @@ const Contact = () => {
     <>
       <div className=" min-h-96 text-black md:pb-5 pb-10">
         <div
-          style={{ backgroundImage: "url('/green-bg.png')" }}
-          className="py-16 md:h-[42vh] h-[36vh] bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
+          // style={{ backgroundImage: "url('/green-bg.png')" }}
+          className="py-16 md:h-[42vh] h-[36vh] bg-white bg-opacity-100 bg-center bg-cover bg-no-repeat"
         >
-          <h3 className="md:px-32 px-4 text-white md:font-thin md:text-5xl text-4xl font-light md:text-start text-center">
+          <h3 className="md:px-32 px-4 text-black md:font-thin md:text-5xl text-4xl font-light md:text-start text-center">
             Get <span className="md:font-semibold">In Touch</span>
           </h3>
-          <p className="md:px-32 px-4 text-white md:font-extralight md:text-xl text-base font-thin md:text-start text-center mt-10">
+          <p className="md:px-32 px-4 text-black md:font-extralight md:text-xl text-base font-thin md:text-start text-center mt-10">
             Our team will be happy to assist you!
           </p>
-          <p className="md:px-32 px-4 text-white md:font-extralight md:text-xl text-base font-thin md:text-start text-center mt-1">
+          <p className="md:px-32 px-4 text-black md:font-extralight md:text-xl text-base font-thin md:text-start text-center mt-1">
             Please provide us with the relevant details below and we’ll get back
             to you as soon as we can to discuss your event.
           </p>
