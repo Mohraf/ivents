@@ -7,7 +7,7 @@ import { HiMenu, HiX } from "react-icons/hi"; // Menu and Close icons
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import "./Navbar.css";
-import { FaMailchimp, FaPhone } from "react-icons/fa6";
+import { FaPhone } from "react-icons/fa6";
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
