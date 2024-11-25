@@ -10,8 +10,8 @@ const StageAndLighting = () => {
     <>
       <div className="bg-slate-200 min-h-96 text-black pb-10">
         <div
-          style={{ backgroundImage: "url('/stage.jpg')" }}
-          className="flex flex-col justify-center md:h-[48vh] h-36 bg-slate-500 bg-opacity-70 bg-top bg-cover bg-no-repeat"
+          style={{ backgroundImage: "url('/stagenlight.jpg')" }}
+          className="flex flex-col justify-center md:h-[48vh] h-36 bg-slate-500 bg-opacity-70 bg-center bg-cover bg-no-repeat"
         >
           <h3 className="md:px-32 px-4 text-white md:font-semibold md:text-5xl text-2xl font-light md:text-start text-center">
             Stage & Lighting

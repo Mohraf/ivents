@@ -8,7 +8,7 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      img: "/audio.jpg",
+      img: "/visual.jpg",
       description: "AUDIO & VISUAL",
       link: "/audioAndVisual",
     },
@@ -20,7 +20,7 @@ const Services = () => {
     },
     {
       id: 3,
-      img: "/stage.jpg",
+      img: "/stagenlight.jpg",
       description: "STAGE & LIGHTING",
       link: "/stageAndLighting",
     },
