@@ -79,31 +79,31 @@ const Navbar = () => {
         {/* Right Section */}
         <div className="flex items-center space-x-4">
           {/* <FaSearch className="text-black cursor-pointer hover:text-gray-700" /> */}
-          <Link href="/contact" className="px-4 py-2 bggreen text- rounded hover:bg-gray-400 text-black">Talk to Us</Link>
+          <Link href="/contact" className="px-4 py-2 bggreen text- rounded hover:bg-gray-400 text-white">Talk to Us</Link>
         </div>
 
         {/* Mobile Menu Icon */}
         <div className="md:hidden" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-          {isMobileMenuOpen ? <HiX className="text-white h-6 w-6" /> : <HiMenu className="text-black h-6 w-6" />}
+          {isMobileMenuOpen ? <HiX className="text-black h-6 w-6" /> : <HiMenu className="text-black h-6 w-6" />}
         </div>
       </div>
 
       {/* Mobile Menu Links */}
       {isMobileMenuOpen && (
         <div className="md:hidden flex flex-col px-4 pb-2 items-end">
-          <Link href="/" className={`${isActive('/') ? 'green' : 'text-whblackite'} hover:text-gray-700 py-2`}>Home</Link>
-          <Link href="/about" className={`${isActive('/about') ? 'green' : 'text-white'} hover:text-gray-700 py-2`}>About</Link>          
-          <Link href="/gallery" className={`${isActive('/gallery') ? 'green' : 'text-white'} hover:text-gray-700 py-2`}>Gallery</Link>
+          <Link href="/" className={`${isActive('/') ? 'green' : 'text-black'} hover:text-gray-700 py-2`}>Home</Link>
+          <Link href="/about" className={`${isActive('/about') ? 'green' : 'text-black'} hover:text-gray-700 py-2`}>About</Link>          
+          <Link href="/gallery" className={`${isActive('/gallery') ? 'green' : 'text-black'} hover:text-gray-700 py-2`}>Gallery</Link>
           <div className="relative">
             <button
               onClick={() => setIsMobileDropdownOpen(!isMobileDropdownOpen)}
-              className={`flex items-center ${isActive('/audio') || isActive('/conferences') || isActive('/stage') || isActive('/printing') || isActive('/product') ? 'text-lime-700' : 'text-white'} hover:text-gray-700`}
+              className={`flex items-center ${isActive('/audio') || isActive('/conferences') || isActive('/stage') || isActive('/printing') || isActive('/product') ? 'text-lime-700' : 'text-black'} hover:text-gray-700`}
             >
               Services
               <MdArrowDropDown className="ml-1" />
             </button>
             {isMobileDropdownOpen && (
-              <div className="mt-2 w-40 bg-black text-white bg-opacity-70 border-[0.5px] border-gray-500 rounded shadow-lg">
+              <div className="mt-2 w-40 bg-white text-black bg-opacity-70 border-[0.5px] border-gray-500 rounded shadow-lg">
                 <Link href="/audioAndVisual" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Audio & Visual</Link>
                 <Link href="/conferencesAndExhibitions" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Conferences & Exhibitions</Link>
                 <Link href="/stageAndLighting" className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50">Stage & Lighting</Link>
