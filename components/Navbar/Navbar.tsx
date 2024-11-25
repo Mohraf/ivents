@@ -36,6 +36,20 @@ const Navbar = () => {
     }
     return pathname?.startsWith(path);
   }
+  
+  const [timeoutId, setTimeoutId] = useState<NodeJS.Timeout | null>(null);
+
+  const handleMouseEnter = () => {
+    if (timeoutId) clearTimeout(timeoutId);
+    setIsDropdownOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    const timeout = setTimeout(() => {
+      setIsDropdownOpen(false);
+    }, 300);
+    setTimeoutId(timeout);
+  }
 
   return (
     <nav className="sticky top-0 bg-white text-black bg-opacity-100 shadow-md z-10">
@@ -55,9 +69,9 @@ const Navbar = () => {
           <Link href="/" className={`${isActive('/') ? 'green' : 'text-black'} hover:text-gray-700`}>Home</Link>
           <Link href="/about" className={`${isActive('/about') ? 'green' : 'text-black'} hover:text-gray-700`}>About</Link>
           <Link href="/gallery" className={`${isActive('/gallery') ? 'green' : 'text-black'} hover:text-gray-700`}>Gallery</Link>
-          <div className="relative" ref={dropdownRef}>
+          <div className="relative" ref={dropdownRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <button
-              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+              // onClick={() => setIsDropdownOpen(!isDropdownOpen)}
               className={`flex items-center ${isActive('/audio') || isActive('/conferences') || isActive('/stage') || isActive('/printing') || isActive('/product') ? 'text-lime-700' : 'text-black'} hover:text-gray-700`}
             >
               Services
