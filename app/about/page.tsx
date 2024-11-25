@@ -38,8 +38,8 @@ const About = () => {
           </p>
         </div>
 
-        <div className="md:px-32 md:py-10 py-10 px-4 flex md:flex-row flex-col gap-5">
-          <div className="md:w-1/3 p-10 flex flex-col rounded-lg w-full bg-slate-100 text-center items-center">
+        <div className="md:px-32 md:py-10 py-10 px-4 flex md:flex-row flex-col gap-10">
+          <div className="md:w-1/3 p-10 flex flex-col rounded-xl w-full bg-slate-100 text-center items-center">
             <Image alt="i" src="/iDetail.svg" width={100} height={100} />
             <h3 className="md:text-3xl text-2xl mt-2">i FOR DETAIL</h3>
             <p className="text-base md:mt-10 mt-5">
@@ -50,7 +50,7 @@ const About = () => {
               with our client's overarching objectives.
             </p>
           </div>
-          <div className="md:w-1/3 p-10 flex flex-col rounded-lg w-full bg-slate-100 text-center items-center">
+          <div className="md:w-1/3 p-10 flex flex-col rounded-xl w-full bg-slate-100 text-center items-center">
             <Image alt="i" src="/brainstorm.svg" width={100} height={100} />
             <h3 className="md:text-3xl text-2xl mt-2">INNOVATION</h3>
             <p className="text-base md:mt-10 mt-5">
@@ -61,7 +61,7 @@ const About = () => {
               attaining the events goals and overall success.
             </p>
           </div>
-          <div className="md:w-1/3 p-10 flex flex-col rounded-lg w-full bg-slate-100 text-center items-center">
+          <div className="md:w-1/3 p-10 flex flex-col rounded-xl w-full bg-slate-100 text-center items-center">
             <Image alt="i" src="/clients.svg" width={100} height={100} />
             <h3 className="md:text-3xl text-2xl mt-2">CLIENT-CENTRIC</h3>
             <p className="text-base md:mt-10 mt-5">
