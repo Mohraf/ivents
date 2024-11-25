@@ -3,8 +3,8 @@ import React from 'react'
 const Experiences = () => {
     return (
       <>
-        <div className="text-center py-12">
-          <h2 className="text-4xl font-bold mb-2">iVENTFUL EXPERIENCES</h2>
+        <div className="text-center py-12 bg-slate-200">
+          <h2 className="text-4xl font-bold mb-2 text-black">iVENTFUL EXPERIENCES</h2>
           <h3 className="text-xl green mb-8">by the numbers</h3>
           
           <div className="grid grid-cols-1 md:grid-cols-5 gap-6 max-w-7xl mx-auto px-4">
