@@ -57,7 +57,7 @@ const ServicesSlider = () => {
           </h4>
 
           <div className="md:block md:mt-0 mt-4 flex flex-col">
-            <div className="services-row relative bottom-[1rem] xl:bottom-[-8.5rem] lg:bottom-[-3.5rem] md:bottom-[-2rem] flex md:flex-row flex-col justify-center md:mx-auto gap-4">
+            <div className="services-row relative bottom-[1rem] xl:bottom-[-2.5rem] lg:bottom-[-2.5rem] md:bottom-[-2rem] flex md:flex-row flex-col justify-center md:mx-auto gap-4">
               <Link
                 href="/audioAndVisual"
                 className="service-box relative rounded-[20px] h-[43vh] md:w-[31%] lg:w-[32%] bg-center bg-no-repeat bg-cover"
