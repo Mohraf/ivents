@@ -86,7 +86,7 @@ const ServicesSlider = () => {
             </div>
             <div className="services-row md:mt-[1.7rem] flex md:flex-row flex-col justify-center gap-4">
               <Link
-                className="service-box relative rounded-[20px] min-h-[50vh] md:w-1/4 lg:w-[32%] bg-center bg-no-repeat bg-cover"
+                className="service-box relative rounded-[20px] min-h-[50vh] md:w-1/4 bg-center bg-no-repeat bg-cover"
                 href="/conferencesAndExhibitions"
                 style={{
                   backgroundImage: "url('/conference.jpg')",
