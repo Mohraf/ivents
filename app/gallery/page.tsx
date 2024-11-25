@@ -158,23 +158,7 @@ const Gallery = () => {
                         src={x.image}
                         alt=""
                       />
-                      {/* <Link
-                        className="flex justify-center items-center bg-lime-200 bg-opacity-30  absolute top-0 left-0 w-full h-full text-white rounded-2xl opacity-0 transition-all duration-300 transform group-hover:scale-105 text-xl group-hover:opacity-100"
-                        href={x.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        View Image
-                      </Link> */}
                     </div>
-                    {/* <h3 className="font-medium text-xl leading-8">
-                      <Link
-                        href="https://animeflyx.vercel.app/"
-                        className="block relative group-hover:text-lime-500 transition-colors duration-200"
-                      >
-                        <span dangerouslySetInnerHTML={{ __html: x.comment }} />
-                      </Link>
-                    </h3> */}
                   </article>
               );
             })}
