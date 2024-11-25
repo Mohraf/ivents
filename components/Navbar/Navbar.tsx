@@ -57,10 +57,10 @@ const Navbar = () => {
          {/* Logo */}
          <Link href="/" className="flex items-center">
           <Image 
-            src="/iventslogo.png" // Replace with your logo path
+            src="/ivents-logo.png" // Replace with your logo path
             alt="Logo"
-            width={50} // Adjust width as needed
-            height={20} // Adjust height as needed
+            width={100} // Adjust width as needed
+            height={50} // Adjust height as needed
           />
         </Link>        
 
