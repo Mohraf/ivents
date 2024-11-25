@@ -3,26 +3,104 @@ import Image from "next/image";
 import "./Brands.css";
 import Link from "next/link";
 
+type Brand = {
+  pic: string;
+  width: number;
+  height: number;
+}
+
 const Brands = () => {
-  const brands: string[] = [
-    "/brand-1.jpg",
-    "/brand-2.jpg",
-    "/brand-3.jpg",
-    "/brand-4.jpg",
-    "/brand-5.jpg",
-    "/brand-6.jpg",
-    "/brand-7.jpg",
-    "/brand-8.jpg",
-    "/brand-9.jpg",
-    "/brand-10.jpg",
-    "/brand-11.jpg",
-    "/brand-12.jpg",
-    "/brand-13.jpg",
-    "/brand-14.jpg",
-    "/brand-15.jpg",
-    "/gnbrand.png",
-    "/fsdafrica.png",
-    "/moodys.png"
+  const brands: Brand[] = [
+    {
+      pic: "/gnbrand.png",
+      width: 100,
+      height: 10
+    },
+    {
+      pic: "/fsdafrica.png",
+      width: 200,
+      height: 150
+    },
+    {
+      pic: "/brand-1.jpg",
+      width: 150,
+      height: 150
+    },
+    {
+      pic: "/brand-2.jpg",
+      width: 150,
+      height: 150
+    },
+    {
+      pic: "/brand-3.jpg",
+      width: 150,
+      height: 150
+    },
+    {
+      pic: "/brand-4.jpg",
+      width: 150,
+      height: 150
+    },
+    {
+      pic: "/brand-5.jpg",
+      width: 150,
+      height: 150
+    },
+    {
+      pic: "/brand-6.jpg",
+      width: 150,
+      height: 150
+    },
+    {
+      pic: "/brand-7.jpg",
+      width: 150,
+      height: 150
+    },
+    {
+      pic: "/brand-8.jpg",
+      width: 150,
+      height: 150
+    },
+    {
+      pic: "/brand-9.jpg",
+      width: 150,
+      height: 150
+    },
+    {
+      pic: "/brand-10.jpg",
+      width: 150,
+      height: 150
+    },
+    {
+      pic: "/brand-11.jpg",
+      width: 150,
+      height: 150
+    },
+    {
+      pic: "/brand-12.jpg",
+      width: 150,
+      height: 150
+    },
+    {
+      pic: "/brand-13.jpg",
+      width: 150,
+      height: 150
+    },
+    {
+      pic: "/brand-14.jpg",
+      width: 150,
+      height: 150
+    },
+    {
+      pic: "/brand-15.jpg",
+      width: 150,
+      height: 150
+    },
+    {
+      pic: "/moodys.png",
+      width: 150,
+      height: 150
+    }
   ];
   return (
     <div className="bg-white md:px-32 md:py-5 bg-opacity-100">
@@ -36,10 +114,10 @@ const Brands = () => {
             className="flex justify-center items-center p-2 border rounded bg-white"
           >
             <Image
-              src={brand}
+              src={brand.pic}
               alt={`Brand ${index + 1}`}
-              width={100} // Adjust width based on your image size
-              height={50} // Adjust height based on your image size
+              width={brand.width} // Adjust width based on your image size
+              height={brand.height} // Adjust height based on your image size
               className="object-contain text-black"
             />
           </div>
