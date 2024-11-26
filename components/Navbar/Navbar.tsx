@@ -193,7 +193,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Links */}
       {isMobileMenuOpen && (
-        <div className="md:hidden flex flex-col px-4 pb-2 items-end">
+        <div className="md:hidden flex flex-col px-4 pb-2 items-start">
           <Link
             href="/"
             className={`${
