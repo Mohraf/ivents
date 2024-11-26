@@ -107,7 +107,7 @@ const Brands = () => {
       <h3 className="md:px-10 px-4 py-4 text-black">
         Backed by strong global partners
       </h3>
-      <div className="grid grid-cols-5 gap-4 md:p-10 p-4 mb-4">
+      <div className="grid grid-cols-3 md:grid-cols-5 gap-4 md:p-10 p-4 mb-4">
         {brands.map((brand, index) => (
           <div
             key={index}

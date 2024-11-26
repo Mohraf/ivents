@@ -729,7 +729,7 @@ const Gallery = () => {
     {
       id: 10,
       title: "CIBEX Expo 2024",
-      thumbnail: "/cibex/cover.jpg",
+      thumbnail: "/cibex/cover.webp",
       images: [
         {
           id: 1,
@@ -845,7 +845,7 @@ const Gallery = () => {
     {
       id: 12,
       title: "BFSI Summit",
-      thumbnail: "/bfsi/cover.jpg",
+      thumbnail: "/bfsi/cover.webp",
       images: [
         {
           id: 1,
