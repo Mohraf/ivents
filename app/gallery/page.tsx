@@ -20,52 +20,52 @@ const Gallery = () => {
           comment: "Description for image 2",
         },
         {
-          id: 2,
+          id: 3,
           image: "/huawei1/huawei1-3.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 2,
+          id: 4,
           image: "/huawei1/huawei1-4.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 2,
+          id: 5,
           image: "/huawei1/huawei1-5.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 2,
+          id: 6,
           image: "/huawei1/huawei1-6.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 2,
+          id: 7,
           image: "/huawei1/huawei1-7.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 2,
+          id: 8,
           image: "/huawei1/huawei1-8.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 2,
+          id: 9,
           image: "/huawei1/huawei1-9.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 2,
+          id: 10,
           image: "/huawei1/huawei1-10.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 2,
+          id: 11,
           image: "/huawei1/huawei1-11.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 2,
+          id: 12,
           image: "/huawei1/huawei1-12.jpg",
           comment: "Description for image 2",
         }
@@ -250,6 +250,94 @@ const Gallery = () => {
         // Add more images to this collection
       ],
     },
+    {
+      id: 3,
+      title: "Huawei IP and Optix 2024",
+      thumbnail: "/huawei-ip/huaip1.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/huawei-ip/huaip1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/huawei-ip/huaip2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/huawei-ip/huaip3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/huawei-ip/huaip4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/huawei-ip/huaip5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/huawei-ip/huaip6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/huawei-ip/huaip7.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/huawei-ip/huaip8.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 9,
+          image: "/huawei-ip/huaip9.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 10,
+          image: "/huawei-ip/huaip10.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 11,
+          image: "/huawei-ip/huaip11.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 12,
+          image: "/huawei-ip/huaip12.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 13,
+          image: "/huawei-ip/huaip13.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 14,
+          image: "/huawei-ip/huaip14.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 15,
+          image: "/huawei-ip/huaip15.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 16,
+          image: "/huawei-ip/huaip16.jpg",
+          comment: "Description for image 2",
+        }
+        // Add more images to this collection
+      ],
+    },
     // Add more collections as needed
   ];
 
@@ -284,7 +372,7 @@ const Gallery = () => {
                       {collection.title}
                     </h2>
                     <p className="text-sm text-gray-500 mt-2">
-                      View image collection
+                      View event image collection
                     </p>
                   </div>
                 </article>
