@@ -9,7 +9,7 @@ const ServicesSlider = () => {
   const services = [
     {
       id: 1,
-      img: "/visual.jpg",
+      img: "/audionvisual.jpg",
       description: "AUDIO & VISUAL",
       link: "/audioAndVisual",
     },
@@ -62,7 +62,7 @@ const ServicesSlider = () => {
                 href="/audioAndVisual"
                 className="service-box relative rounded-[20px] h-[43vh] md:w-[31%] lg:w-[32%] bg-center bg-no-repeat bg-cover"
                 style={{
-                  backgroundImage: "url('/visual.jpg')",
+                  backgroundImage: "url('/audionvisual.jpg')",
                 }}
                 data-aos="fade-down"
               >

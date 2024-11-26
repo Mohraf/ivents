@@ -1118,6 +1118,64 @@ const CollectionPage = () => {
         // Add more images to this collection
       ],
     },
+    {
+      id: 10,
+      title: "CIBEX Expo 2024",
+      thumbnail: "/cibex/cibex1.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/cibex/cibex1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/cibex/cibex2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/cibex/cibex3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/cibex/cibex4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/cibex/cibex5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/cibex/cibex6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/cibex/cibex7.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/cibex/cibex8.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 9,
+          image: "/cibex/cibex9.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 10,
+          image: "/cibex/cibex10.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
     // ... other collections
   ];
 
