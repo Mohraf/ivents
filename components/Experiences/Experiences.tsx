@@ -7,13 +7,8 @@ const Experiences = () => {
           <h2 className="text-4xl font-bold mb-2 text-black">iVENTFUL EXPERIENCES</h2>
           <h3 className="text-xl green mb-8">by the numbers</h3>
           
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-6 max-w-7xl mx-auto px-4">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h4 className="text-2xl font-bold mb-2 green">18+</h4>
-              <p className="text-gray-600">Years on the market</p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-md">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-7xl mx-auto px-4">
+           <div className="bg-white p-6 rounded-lg shadow-md">
               <h4 className="text-2xl font-bold mb-2 green">18</h4>
               <p className="text-gray-600">Years of experience</p>
             </div>
