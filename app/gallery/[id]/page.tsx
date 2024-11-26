@@ -1060,6 +1060,64 @@ const CollectionPage = () => {
         // Add more images to this collection
       ],
     },
+    {
+      id: 9,
+      title: "LEAP Launch 2024",
+      thumbnail: "/leap/leap1.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/leap/leap1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/leap/leap2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/leap/leap3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/leap/leap4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/leap/leap5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/leap/leap6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/leap/leap7.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/leap/leap8.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 9,
+          image: "/leap/leap9.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 10,
+          image: "/leap/leap10.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
     // ... other collections
   ];
 
