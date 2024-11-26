@@ -9,13 +9,13 @@ const Experiences = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-5 gap-6 max-w-7xl mx-auto px-4">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h4 className="text-2xl font-bold mb-2 green">30+</h4>
+              <h4 className="text-2xl font-bold mb-2 green">18+</h4>
               <p className="text-gray-600">Years on the market</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h4 className="text-2xl font-bold mb-2 green">18</h4>
-              <p className="text-gray-600">Years of experience average/consultant</p>
+              <p className="text-gray-600">Years of experience</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -29,7 +29,7 @@ const Experiences = () => {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h4 className="text-2xl font-bold mb-2 green">500+</h4>
+              <h4 className="text-2xl font-bold mb-2 green">100+</h4>
               <p className="text-gray-600">Events/year</p>
             </div>
           </div>
