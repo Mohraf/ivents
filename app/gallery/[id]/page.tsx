@@ -14,7 +14,7 @@ const CollectionPage = () => {
     {
       id: 1,
       title: "Huawei Media Entertainment Summit Cloud Event",
-      thumbnail: "/huawei1/huawei1-1.jpg",
+      thumbnail: "/huawei1/cover.jpg",
       images: [
         {
           id: 1,
@@ -82,7 +82,7 @@ const CollectionPage = () => {
     {
       id: 2,
       title: "Huawei ICT Competition 2024",
-      thumbnail: "/huawei-ict-24/huaict24-1.jpg",
+      thumbnail: "/huawei-ict-24/cover.jpg",
       images: [
         {
           id: 1,
@@ -260,7 +260,7 @@ const CollectionPage = () => {
     {
       id: 3,
       title: "Huawei IP and Optix 2024",
-      thumbnail: "/huawei-ip/huaip1.jpg",
+      thumbnail: "/huawei-ip/cover.jpg",
       images: [
         {
           id: 1,
@@ -348,11 +348,11 @@ const CollectionPage = () => {
     {
       id: 4,
       title: "Huawei IT Day 2024",
-      thumbnail: "/huawei-it/huait1.jpg",
+      thumbnail: "/huawei-it/cover.jpg",
       images: [
         {
           id: 1,
-          image: "/huawei-it/huait1.jpg",
+          image: "/huawei-it/cover.jpg",
           comment: "Description for image 1",
         },
         {
@@ -461,7 +461,7 @@ const CollectionPage = () => {
     {
       id: 5,
       title: "GN Hearing",
-      thumbnail: "/gn-hearing/gn1.jpg",
+      thumbnail: "/gn-hearing/cover.jpg",
       images: [
         {
           id: 1,
@@ -513,398 +513,13 @@ const CollectionPage = () => {
           image: "/gn-hearing/gn10.jpg",
           comment: "Description for image 2",
         },
-        {
-          id: 11,
-          image: "/gn-hearing/gn11.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 12,
-          image: "/gn-hearing/gn12.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 13,
-          image: "/gn-hearing/gn13.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 14,
-          image: "/gn-hearing/gn14.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 15,
-          image: "/gn-hearing/gn15.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 16,
-          image: "/gn-hearing/gn16.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 17,
-          image: "/gn-hearing/gn17.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 18,
-          image: "/gn-hearing/gn18.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 19,
-          image: "/gn-hearing/gn19.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 20,
-          image: "/gn-hearing/gn20.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 21,
-          image: "/gn-hearing/gn21.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 22,
-          image: "/gn-hearing/gn22.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 23,
-          image: "/gn-hearing/gn23.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 24,
-          image: "/gn-hearing/gn24.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 25,
-          image: "/gn-hearing/gn25.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 26,
-          image: "/gn-hearing/gn26.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 27,
-          image: "/gn-hearing/gn27.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 28,
-          image: "/gn-hearing/gn28.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 29,
-          image: "/gn-hearing/gn29.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 30,
-          image: "/gn-hearing/gn30.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 31,
-          image: "/gn-hearing/gn31.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 32,
-          image: "/gn-hearing/gn32.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 33,
-          image: "/gn-hearing/gn33.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 34,
-          image: "/gn-hearing/gn34.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 35,
-          image: "/gn-hearing/gn35.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 36,
-          image: "/gn-hearing/gn36.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 37,
-          image: "/gn-hearing/gn37.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 38,
-          image: "/gn-hearing/gn38.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 39,
-          image: "/gn-hearing/gn39.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 40,
-          image: "/gn-hearing/gn40.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 41,
-          image: "/gn-hearing/gn41.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 42,
-          image: "/gn-hearing/gn42.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 43,
-          image: "/gn-hearing/gn43.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 44,
-          image: "/gn-hearing/gn44.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 45,
-          image: "/gn-hearing/gn45.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 46,
-          image: "/gn-hearing/gn46.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 47,
-          image: "/gn-hearing/gn47.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 48,
-          image: "/gn-hearing/gn48.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 49,
-          image: "/gn-hearing/gn49.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 50,
-          image: "/gn-hearing/gn50.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 51,
-          image: "/gn-hearing/gn51.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 52,
-          image: "/gn-hearing/gn52.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 53,
-          image: "/gn-hearing/gn53.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 54,
-          image: "/gn-hearing/gn54.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 55,
-          image: "/gn-hearing/gn55.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 56,
-          image: "/gn-hearing/gn56.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 57,
-          image: "/gn-hearing/gn57.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 58,
-          image: "/gn-hearing/gn58.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 59,
-          image: "/gn-hearing/gn59.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 60,
-          image: "/gn-hearing/gn60.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 61,
-          image: "/gn-hearing/gn61.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 62,
-          image: "/gn-hearing/gn62.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 63,
-          image: "/gn-hearing/gn63.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 64,
-          image: "/gn-hearing/gn64.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 65,
-          image: "/gn-hearing/gn65.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 66,
-          image: "/gn-hearing/gn66.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 67,
-          image: "/gn-hearing/gn67.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 68,
-          image: "/gn-hearing/gn68.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 69,
-          image: "/gn-hearing/gn69.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 70,
-          image: "/gn-hearing/gn70.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 71,
-          image: "/gn-hearing/gn71.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 72,
-          image: "/gn-hearing/gn72.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 73,
-          image: "/gn-hearing/gn73.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 74,
-          image: "/gn-hearing/gn74.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 75,
-          image: "/gn-hearing/gn75.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 76,
-          image: "/gn-hearing/gn76.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 77,
-          image: "/gn-hearing/gn77.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 78,
-          image: "/gn-hearing/gn78.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 79,
-          image: "/gn-hearing/gn79.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 80,
-          image: "/gn-hearing/gn80.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 81,
-          image: "/gn-hearing/gn81.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 82,
-          image: "/gn-hearing/gn82.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 83,
-          image: "/gn-hearing/gn83.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 84,
-          image: "/gn-hearing/gn84.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 85,
-          image: "/gn-hearing/gn85.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 86,
-          image: "/gn-hearing/gn86.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 87,
-          image: "/gn-hearing/gn87.jpg",
-          comment: "Description for image 2",
-        },
         // Add more images to this collection
       ],
     },
     {
       id: 6,
       title: "Pan Africa BESS Summit",
-      thumbnail: "/bess/bess1.jpg",
+      thumbnail: "/bess/cover.jpg",
       images: [
         {
           id: 1,
@@ -957,7 +572,7 @@ const CollectionPage = () => {
     {
       id: 7,
       title: "China Media Group New Year",
-      thumbnail: "/cmg/cmg1.jpg",
+      thumbnail: "/cmg/cover.jpg",
       images: [
         {
           id: 1,
@@ -1010,7 +625,7 @@ const CollectionPage = () => {
     {
       id: 8,
       title: "IT Day",
-      thumbnail: "/itday/itday1.jpg",
+      thumbnail: "/itday/cover.jpg",
       images: [
         {
           id: 1,
@@ -1063,7 +678,7 @@ const CollectionPage = () => {
     {
       id: 9,
       title: "LEAP Launch 2024",
-      thumbnail: "/leap/leap1.jpg",
+      thumbnail: "/leap/cover.jpg",
       images: [
         {
           id: 1,
@@ -1121,7 +736,7 @@ const CollectionPage = () => {
     {
       id: 10,
       title: "CIBEX Expo 2024",
-      thumbnail: "/cibex/cibex1.jpg",
+      thumbnail: "/cibex/cover.jpg",
       images: [
         {
           id: 1,
