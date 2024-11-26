@@ -80,23 +80,183 @@ const CollectionPage = () => {
       ],
     },
     {
-        id: 2,
-        title: "Collection 2",
-        thumbnail: "/gallery3.jpg",
-        images: [
-          {
-            id: 3,
-            image: "/gallery3.jpg",
-            comment: "Description for image 3",
-          },
-          {
-            id: 4,
-            image: "/gallery4.jpg",
-            comment: "Description for image 4",
-          },
-          // Add more images to this collection
-        ],
-      },
+      id: 2,
+      title: "Huawei ICT Competition 2024",
+      thumbnail: "/huawei-ict-24/huaict24-1.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/huawei-ict-24/huaict24-1.jpg",
+          comment: "Description for image 3",
+        },
+        {
+          id: 2,
+          image: "/huawei-ict-24/huaict24-2.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 3,
+          image: "/huawei-ict-24/huaict24-3.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 4,
+          image: "/huawei-ict-24/huaict24-4.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 5,
+          image: "/huawei-ict-24/huaict24-5.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 6,
+          image: "/huawei-ict-24/huaict24-6.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 7,
+          image: "/huawei-ict-24/huaict24-7.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 8,
+          image: "/huawei-ict-24/huaict24-8.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 9,
+          image: "/huawei-ict-24/huaict24-9.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 10,
+          image: "/huawei-ict-24/huaict24-10.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 11,
+          image: "/huawei-ict-24/huaict24-11.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 12,
+          image: "/huawei-ict-24/huaict24-12.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 13,
+          image: "/huawei-ict-24/huaict24-13.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 14,
+          image: "/huawei-ict-24/huaict24-14.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 15,
+          image: "/huawei-ict-24/huaict24-15.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 16,
+          image: "/huawei-ict-24/huaict24-16.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 17,
+          image: "/huawei-ict-24/huaict24-17.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 18,
+          image: "/huawei-ict-24/huaict24-18.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 19,
+          image: "/huawei-ict-24/huaict24-19.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 20,
+          image: "/huawei-ict-24/huaict24-20.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 21,
+          image: "/huawei-ict-24/huaict24-21.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 22,
+          image: "/huawei-ict-24/huaict24-22.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 23,
+          image: "/huawei-ict-24/huaict24-23.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 24,
+          image: "/huawei-ict-24/huaict24-24.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 25,
+          image: "/huawei-ict-24/huaict24-25.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 26,
+          image: "/huawei-ict-24/huaict24-26.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 27,
+          image: "/huawei-ict-24/huaict24-27.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 28,
+          image: "/huawei-ict-24/huaict24-28.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 29,
+          image: "/huawei-ict-24/huaict24-29.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 30,
+          image: "/huawei-ict-24/huaict24-30.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 31,
+          image: "/huawei-ict-24/huaict24-31.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 32,
+          image: "/huawei-ict-24/huaict24-32.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 33,
+          image: "/huawei-ict-24/huaict24-33.jpg",
+          comment: "Description for image 4",
+        },
+        {
+          id: 34,
+          image: "/huawei-ict-24/huaict24-34.jpg",
+          comment: "Description for image 4",
+        },
+        // Add more images to this collection
+      ],
+    },
     // ... other collections
   ];
 
@@ -124,7 +284,7 @@ const CollectionPage = () => {
           height={800}
           className="w-full h-auto"
         />
-        <p className="text-white mt-2 text-center">{image.comment}</p>
+        {/* <p className="text-white mt-2 text-center">{image.comment}</p> */}
       </div>
     </div>
   );
