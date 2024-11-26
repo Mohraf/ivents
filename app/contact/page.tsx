@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -70,7 +70,10 @@ const Contact = () => {
               <form className="p-10 flex flex-col gap-5">
                 <div className="flex flex-col">
                   <label htmlFor="name" className=" text-white mb-2">
-                    Full Name {invalidFields.includes('name') && <span className="text-red-500">* Name Required *</span>}
+                    Full Name{" "}
+                    {invalidFields.includes("name") && (
+                      <span className="text-red-500">* Name Required *</span>
+                    )}
                   </label>
                   <input
                     type="text"
@@ -84,7 +87,10 @@ const Contact = () => {
 
                 <div className="flex flex-col">
                   <label htmlFor="email" className="mb-2 text-white">
-                    Email Address {invalidFields.includes('email') && <span className="text-red-500">* Email Required *</span>}
+                    Email Address{" "}
+                    {invalidFields.includes("email") && (
+                      <span className="text-red-500">* Email Required *</span>
+                    )}
                   </label>
                   <input
                     type="email"
@@ -98,7 +104,10 @@ const Contact = () => {
 
                 <div className="flex flex-col">
                   <label htmlFor="phone" className="mb-2 text-white">
-                    Phone Number {invalidFields.includes('phone') && <span className="text-red-500">* Phone Required *</span>}
+                    Phone Number{" "}
+                    {invalidFields.includes("phone") && (
+                      <span className="text-red-500">* Phone Required *</span>
+                    )}
                   </label>
                   <input
                     type="tel"
@@ -112,7 +121,10 @@ const Contact = () => {
 
                 <div className="flex flex-col">
                   <label htmlFor="message" className="mb-2 text-white">
-                    Message {invalidFields.includes('message') && <span className="text-red-500">* Message Required *</span>}
+                    Message{" "}
+                    {invalidFields.includes("message") && (
+                      <span className="text-red-500">* Message Required *</span>
+                    )}
                   </label>
                   <textarea
                     id="message"
@@ -190,39 +202,62 @@ const Contact = () => {
                 Office Information
               </h2>
               <div className="flex flex-row gap-5">
-                <Image alt="call" src="/new-phone.svg" width={50} className="block bg-white rounded-full p-2" height={50} />
+                <Image
+                  alt="call"
+                  src="/new-phone.svg"
+                  width={50}
+                  className="block bg-white rounded-full p-2"
+                  height={50}
+                />
                 <div className="text-white">
-                  <h4 className="md:text-xl text-xl font-medium">GIVE US A CALL</h4>
+                  <h4 className="md:text-xl text-xl font-medium">
+                    GIVE US A CALL
+                  </h4>
                   <p className="text-base font-thin">+254 798 259 215</p>
                 </div>
               </div>
 
               <div className="flex flex-row gap-5">
                 <div className="bg-white hover:bg-white text-green rounded-full p-4 shadow-lg transition-all duration-300 z-50 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2">
-
-                <FaWhatsapp className="text-2xl" />
+                  <FaWhatsapp className="text-2xl" />
                 </div>
                 <div className="text-white">
-                  <h4 className="md:text-xl text-xl font-medium">WHATSAPP US</h4>
+                  <h4 className="md:text-xl text-xl font-medium">
+                    WHATSAPP US
+                  </h4>
                   <p className="text-base font-thin">+254 798 259 215</p>
                 </div>
               </div>
 
               <div className="flex flex-row gap-5">
-                <Image alt="call" src="/new-mail.svg" width={50} className="block bg-white rounded-full" height={50} />
+                <Image
+                  alt="call"
+                  src="/new-mail.svg"
+                  width={50}
+                  className="block bg-white rounded-full"
+                  height={50}
+                />
                 <div className="text-white">
-                  <h4 className="md:text-xl text-xl font-medium">SEND US AN EMAIL</h4>
+                  <h4 className="md:text-xl text-xl font-medium">
+                    SEND US AN EMAIL
+                  </h4>
                   <p className="text-base font-thin">info@geicoevents.net</p>
                 </div>
               </div>
 
-              <div className="flex flex-row gap-5 mb-10">
-                <Image alt="call" src="/new-location.svg" width={50} className="bg-white rounded-full" height={50} />
+              <div className="flex flex-row gap-5 mb-10 items-center">
+                <div>
+                  <Image
+                    alt="call"
+                    src="/new-location.svg"
+                    width={50}
+                    className="bg-white rounded-full"
+                    height={50}
+                  />
+                </div>
                 <div className="text-white">
                   <h4 className="md:text-xl text-xl font-medium">LOCATION</h4>
-                  <p className="text-base font-thin">
-                    Suite 516,
-                  </p>
+                  <p className="text-base font-thin">Suite 516,</p>
                   <p className="text-base font-thin">
                     Consolidated Bank Building
                   </p>
@@ -234,7 +269,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>    
+      </div>
     </>
   );
 };
