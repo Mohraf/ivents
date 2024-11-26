@@ -345,6 +345,119 @@ const CollectionPage = () => {
         // Add more images to this collection
       ],
     },
+    {
+      id: 4,
+      title: "Huawei IT Day 2024",
+      thumbnail: "/huawei-it/huait1.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/huawei-it/huait1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/huawei-it/huait2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/huawei-it/huait3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/huawei-it/huait4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/huawei-it/huait5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/huawei-it/huait6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/huawei-it/huait7.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/huawei-it/huait8.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 9,
+          image: "/huawei-it/huait9.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 10,
+          image: "/huawei-it/huait10.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 11,
+          image: "/huawei-it/huait11.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 12,
+          image: "/huawei-it/huait12.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 13,
+          image: "/huawei-it/huait13.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 14,
+          image: "/huawei-it/huait14.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 15,
+          image: "/huawei-it/huait15.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 16,
+          image: "/huawei-it/huait16.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 17,
+          image: "/huawei-it/huait17.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 18,
+          image: "/huawei-it/huait18.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 19,
+          image: "/huawei-it/huait19.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 20,
+          image: "/huawei-it/huait20.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 21,
+          image: "/huawei-it/huait21.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
     // ... other collections
   ];
 
