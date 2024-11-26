@@ -1151,7 +1151,7 @@ const CollectionPage = () => {
   );
 
   return (
-    <div className="container mx-auto px-4 py-8 bg-slate-100">
+    <div className=" mx-auto px-4 py-8 bg-slate-100">
       <div className="mb-8">
         <Link
           href="/gallery"

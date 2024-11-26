@@ -1117,7 +1117,7 @@ const Gallery = () => {
   return (
     <>
       <div className="bg-slate-200">
-        <div className="p-6 container mx-auto">
+        <div className="p-6 mx-auto">
           <div className="py-2">
             <h1 className="text-center text-gray-700 text-4xl">Our Gallery</h1>
             <p className="text-xl green text-center mt-5">
