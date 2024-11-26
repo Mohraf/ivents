@@ -894,6 +894,165 @@ const Gallery = () => {
         // Add more images to this collection
       ],
     },
+    {
+      id: 6,
+      title: "Pan Africa BESS Summit",
+      thumbnail: "/bess/bess1.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/bess/bess1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/bess/bess2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/bess/bess3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/bess/bess4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/bess/bess5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/bess/bess6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/bess/bess7.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/bess/bess8.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 9,
+          image: "/bess/bess9.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
+    {
+      id: 7,
+      title: "China Media Group New Year",
+      thumbnail: "/cmg/cmg1.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/cmg/cmg1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/cmg/cmg2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/cmg/cmg3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/cmg/cmg4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/cmg/cmg5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/cmg/cmg6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/cmg/cmg7.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/cmg/cmg8.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 9,
+          image: "/cmg/cmg9.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
+    {
+      id: 8,
+      title: "IT Day",
+      thumbnail: "/itday/itday1.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/itday/itday1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/itday/itday2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/itday/itday3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/itday/itday4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/itday/itday5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/itday/itday6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/itday/itday7.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/itday/itday8.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 9,
+          image: "/itday/itday9.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
     // Add more collections as needed
   ];
 
