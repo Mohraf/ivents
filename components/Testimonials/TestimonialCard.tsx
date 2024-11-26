@@ -9,10 +9,10 @@ import "./TestimonialSlider.css"
 const inter = Inter({ subsets: ["latin"] });
 
 interface IProps {
-  image: string;
+  image: string | null;
   take: string;
   person: string;
-  company: string;
+  company: string | null;
   animate: string;
 }
 
@@ -30,7 +30,7 @@ const TestimonialCard = ({ image, take, person, company, animate }: IProps) => {
       <div className="p-2">
         <div className="flex justify-between">
           <div className="w-1/2 h-full rounded-full overflow-hidden">
-            <Image src={image} alt="testimonial" width={100} height={100} />
+            {image? <Image src={image} alt="testimonial" width={100} height={100} /> : ""}            
           </div>
           <div className="w-1/2 text-center justify-center h-auto flex items-center">
             {company}

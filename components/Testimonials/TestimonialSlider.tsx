@@ -2,16 +2,15 @@
 
 import React, { useRef, useEffect, useState } from "react";
 import TestimonialCard from "./TestimonialCard";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "./TestimonialSlider.css";
 
 const testimonials = [
   {
     id: 1,
-    company: "Safaricom",
+    company: null,
     person: "Georgina Kaaria",
     take: "Superb event. Everything was brilliant!! Your team did an awesome job. Thank you for your incredible support throughout our event and going above and beyond, our guests were raving about every aspect of the event. I would have no hesitation in recommending your expertise for any event, big or small.",
-    logo: "/brand-2.jpg",
+    logo: null,
     animate: "fade-right",
   },
   {
