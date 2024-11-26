@@ -903,7 +903,7 @@ const Gallery = () => {
     {
       id: 13,
       title: "Huawei EA Fusionsolar",
-      thumbnail: "/huaweieafusionsolar/cover.jpg",
+      thumbnail: "/huaweieafusionsolar/cover.webp",
       images: [
         {
           id: 1,
@@ -961,7 +961,7 @@ const Gallery = () => {
     {
       id: 14,
       title: "Food Packaging & Processing Expo",
-      thumbnail: "/food/cover.jpg",
+      thumbnail: "/food/cover.webp",
       images: [
         {
           id: 1,
@@ -1019,7 +1019,7 @@ const Gallery = () => {
     {
       id: 15,
       title: "Safaricom Mpesa Refresh Gala Dinner",
-      thumbnail: "/safmpesa/cover.jpg",
+      thumbnail: "/safmpesa/cover.webp",
       images: [
         {
           id: 1,
@@ -1077,7 +1077,7 @@ const Gallery = () => {
     {
       id: 16,
       title: "Afralti Training Centre Opening",
-      thumbnail: "/afralti/cover.jpg",
+      thumbnail: "/afralti/cover.webp",
       images: [
         {
           id: 1,
@@ -1193,7 +1193,7 @@ const Gallery = () => {
     {
       id: 18,
       title: "Huawei D&S",
-      thumbnail: "/huaweids/cover.jpg",
+      thumbnail: "/huaweids/cover.webp",
       images: [
         {
           id: 1,
