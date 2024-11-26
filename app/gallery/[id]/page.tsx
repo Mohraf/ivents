@@ -18,64 +18,39 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/huawei1/huawei1-1.jpg",
+          image: "/huawei1/1.jpg",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/huawei1/huawei1-2.jpg",
+          image: "/huawei1/2.jpg",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/huawei1/huawei1-3.jpg",
+          image: "/huawei1/3.jpg",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/huawei1/huawei1-4.jpg",
+          image: "/huawei1/4.jpg",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/huawei1/huawei1-5.jpg",
+          image: "/huawei1/5.jpg",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/huawei1/huawei1-6.jpg",
+          image: "/huawei1/6.jpg",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/huawei1/huawei1-7.jpg",
+          image: "/huawei1/7.webp",
           comment: "Description for image 2",
-        },
-        {
-          id: 8,
-          image: "/huawei1/huawei1-8.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 9,
-          image: "/huawei1/huawei1-9.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 10,
-          image: "/huawei1/huawei1-10.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 11,
-          image: "/huawei1/huawei1-11.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 12,
-          image: "/huawei1/huawei1-12.jpg",
-          comment: "Description for image 2",
-        }
+        },        
         // Add more images to this collection
       ],
     },
@@ -86,174 +61,39 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/huawei-ict-24/huaict24-1.jpg",
-          comment: "Description for image 3",
+          image: "/huawei-ict-24/1.jpg",
+          comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/huawei-ict-24/huaict24-2.jpg",
-          comment: "Description for image 4",
+          image: "/huawei-ict-24/2.jpg",
+          comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/huawei-ict-24/huaict24-3.jpg",
-          comment: "Description for image 4",
+          image: "/huawei-ict-24/3.jpg",
+          comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/huawei-ict-24/huaict24-4.jpg",
-          comment: "Description for image 4",
+          image: "/huawei-ict-24/4.jpg",
+          comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/huawei-ict-24/huaict24-5.jpg",
-          comment: "Description for image 4",
+          image: "/huawei-ict-24/5.jpg",
+          comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/huawei-ict-24/huaict24-6.jpg",
-          comment: "Description for image 4",
+          image: "/huawei-ict-24/6.jpg",
+          comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/huawei-ict-24/huaict24-7.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 8,
-          image: "/huawei-ict-24/huaict24-8.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 9,
-          image: "/huawei-ict-24/huaict24-9.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 10,
-          image: "/huawei-ict-24/huaict24-10.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 11,
-          image: "/huawei-ict-24/huaict24-11.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 12,
-          image: "/huawei-ict-24/huaict24-12.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 13,
-          image: "/huawei-ict-24/huaict24-13.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 14,
-          image: "/huawei-ict-24/huaict24-14.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 15,
-          image: "/huawei-ict-24/huaict24-15.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 16,
-          image: "/huawei-ict-24/huaict24-16.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 17,
-          image: "/huawei-ict-24/huaict24-17.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 18,
-          image: "/huawei-ict-24/huaict24-18.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 19,
-          image: "/huawei-ict-24/huaict24-19.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 20,
-          image: "/huawei-ict-24/huaict24-20.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 21,
-          image: "/huawei-ict-24/huaict24-21.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 22,
-          image: "/huawei-ict-24/huaict24-22.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 23,
-          image: "/huawei-ict-24/huaict24-23.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 24,
-          image: "/huawei-ict-24/huaict24-24.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 25,
-          image: "/huawei-ict-24/huaict24-25.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 26,
-          image: "/huawei-ict-24/huaict24-26.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 27,
-          image: "/huawei-ict-24/huaict24-27.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 28,
-          image: "/huawei-ict-24/huaict24-28.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 29,
-          image: "/huawei-ict-24/huaict24-29.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 30,
-          image: "/huawei-ict-24/huaict24-30.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 31,
-          image: "/huawei-ict-24/huaict24-31.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 32,
-          image: "/huawei-ict-24/huaict24-32.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 33,
-          image: "/huawei-ict-24/huaict24-33.jpg",
-          comment: "Description for image 4",
-        },
-        {
-          id: 34,
-          image: "/huawei-ict-24/huaict24-34.jpg",
-          comment: "Description for image 4",
-        },
+          image: "/huawei-ict-24/7.jpg",
+          comment: "Description for image 2",
+        },        
         // Add more images to this collection
       ],
     },
@@ -264,84 +104,40 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/huawei-ip/huaip1.jpg",
+          image: "/huawei-ip/1.jpg",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/huawei-ip/huaip2.jpg",
+          image: "/huawei-ip/2.jpg",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/huawei-ip/huaip3.jpg",
+          image: "/huawei-ip/3.jpg",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/huawei-ip/huaip4.jpg",
+          image: "/huawei-ip/4.jpg",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/huawei-ip/huaip5.jpg",
+          image: "/huawei-ip/5.jpg",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/huawei-ip/huaip6.jpg",
+          image: "/huawei-ip/6.jpg",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/huawei-ip/huaip7.jpg",
+          image: "/huawei-ip/7.jpg",
           comment: "Description for image 2",
         },
-        {
-          id: 8,
-          image: "/huawei-ip/huaip8.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 9,
-          image: "/huawei-ip/huaip9.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 10,
-          image: "/huawei-ip/huaip10.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 11,
-          image: "/huawei-ip/huaip11.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 12,
-          image: "/huawei-ip/huaip12.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 13,
-          image: "/huawei-ip/huaip13.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 14,
-          image: "/huawei-ip/huaip14.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 15,
-          image: "/huawei-ip/huaip15.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 16,
-          image: "/huawei-ip/huaip16.jpg",
-          comment: "Description for image 2",
-        }
+               
         // Add more images to this collection
       ],
     },
@@ -357,102 +153,32 @@ const CollectionPage = () => {
         },
         {
           id: 2,
-          image: "/huawei-it/huait2.jpg",
+          image: "/huawei-it/2.jpg",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/huawei-it/huait3.jpg",
+          image: "/huawei-it/3.jpg",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/huawei-it/huait4.jpg",
+          image: "/huawei-it/4.jpg",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/huawei-it/huait5.jpg",
+          image: "/huawei-it/5.jpg",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/huawei-it/huait6.jpg",
+          image: "/huawei-it/6.jpg",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/huawei-it/huait7.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 8,
-          image: "/huawei-it/huait8.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 9,
-          image: "/huawei-it/huait9.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 10,
-          image: "/huawei-it/huait10.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 11,
-          image: "/huawei-it/huait11.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 12,
-          image: "/huawei-it/huait12.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 13,
-          image: "/huawei-it/huait13.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 14,
-          image: "/huawei-it/huait14.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 15,
-          image: "/huawei-it/huait15.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 16,
-          image: "/huawei-it/huait16.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 17,
-          image: "/huawei-it/huait17.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 18,
-          image: "/huawei-it/huait18.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 19,
-          image: "/huawei-it/huait19.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 20,
-          image: "/huawei-it/huait20.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 21,
-          image: "/huawei-it/huait21.jpg",
+          image: "/huawei-it/7.jpg",
           comment: "Description for image 2",
         },
         // Add more images to this collection
@@ -465,52 +191,37 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/gn-hearing/gn1.jpg",
+          image: "/gn-hearing/1.jpg",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/gn-hearing/gn2.jpg",
+          image: "/gn-hearing/2.jpg",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/gn-hearing/gn3.jpg",
+          image: "/gn-hearing/3.jpg",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/gn-hearing/gn4.jpg",
+          image: "/gn-hearing/4.jpg",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/gn-hearing/gn5.jpg",
+          image: "/gn-hearing/5.jpg",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/gn-hearing/gn6.jpg",
+          image: "/gn-hearing/6.jpg",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/gn-hearing/gn7.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 8,
-          image: "/gn-hearing/gn8.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 9,
-          image: "/gn-hearing/gn9.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 10,
-          image: "/gn-hearing/gn10.jpg",
+          image: "/gn-hearing/7.jpg",
           comment: "Description for image 2",
         },
         // Add more images to this collection
@@ -523,47 +234,37 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/bess/bess1.jpg",
+          image: "/bess/1.jpg",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/bess/bess2.jpg",
+          image: "/bess/2.jpg",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/bess/bess3.jpg",
+          image: "/bess/3.jpg",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/bess/bess4.jpg",
+          image: "/bess/4.jpg",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/bess/bess5.jpg",
+          image: "/bess/5.jpg",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/bess/bess6.jpg",
+          image: "/bess/6.jpg",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/bess/bess7.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 8,
-          image: "/bess/bess8.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 9,
-          image: "/bess/bess9.jpg",
+          image: "/bess/7.jpg",
           comment: "Description for image 2",
         },
         // Add more images to this collection
@@ -576,47 +277,37 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/cmg/cmg1.jpg",
+          image: "/cmg/1.jpg",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/cmg/cmg2.jpg",
+          image: "/cmg/2.jpg",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/cmg/cmg3.jpg",
+          image: "/cmg/3.jpg",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/cmg/cmg4.jpg",
+          image: "/cmg/4.jpg",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/cmg/cmg5.jpg",
+          image: "/cmg/5.jpg",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/cmg/cmg6.jpg",
+          image: "/cmg/6.jpg",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/cmg/cmg7.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 8,
-          image: "/cmg/cmg8.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 9,
-          image: "/cmg/cmg9.jpg",
+          image: "/cmg/7.jpg",
           comment: "Description for image 2",
         },
         // Add more images to this collection
@@ -625,51 +316,41 @@ const CollectionPage = () => {
     {
       id: 8,
       title: "IT Day",
-      thumbnail: "/itday/cover.jpg",
+      thumbnail: "/itday/cover.webp",
       images: [
         {
           id: 1,
-          image: "/itday/itday1.jpg",
+          image: "/itday/1.jpg",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/itday/itday2.jpg",
+          image: "/itday/2.jpg",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/itday/itday3.jpg",
+          image: "/itday/cover.webp",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/itday/itday4.jpg",
+          image: "/itday/4.jpg",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/itday/itday5.jpg",
+          image: "/itday/5.jpg",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/itday/itday6.jpg",
+          image: "/itday/6.jpg",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/itday/itday7.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 8,
-          image: "/itday/itday8.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 9,
-          image: "/itday/itday9.jpg",
+          image: "/itday/7.jpg",
           comment: "Description for image 2",
         },
         // Add more images to this collection
@@ -682,52 +363,37 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/leap/leap1.jpg",
+          image: "/leap/1.jpg",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/leap/leap2.jpg",
+          image: "/leap/2.jpg",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/leap/leap3.jpg",
+          image: "/leap/3.jpg",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/leap/leap4.jpg",
+          image: "/leap/4.jpg",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/leap/leap5.jpg",
+          image: "/leap/5.jpg",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/leap/leap6.jpg",
+          image: "/leap/6.jpg",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/leap/leap7.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 8,
-          image: "/leap/leap8.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 9,
-          image: "/leap/leap9.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 10,
-          image: "/leap/leap10.jpg",
+          image: "/leap/7.jpg",
           comment: "Description for image 2",
         },
         // Add more images to this collection
@@ -736,62 +402,563 @@ const CollectionPage = () => {
     {
       id: 10,
       title: "CIBEX Expo 2024",
-      thumbnail: "/cibex/cover.jpg",
+      thumbnail: "/cibex/cover.webp",
       images: [
         {
           id: 1,
-          image: "/cibex/cibex1.jpg",
+          image: "/cibex/1.jpg",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/cibex/cibex2.jpg",
+          image: "/cibex/2.jpg",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/cibex/cibex3.jpg",
+          image: "/cibex/3.jpg",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/cibex/cibex4.jpg",
+          image: "/cibex/4.jpg",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/cibex/cibex5.jpg",
+          image: "/cibex/5.jpg",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/cibex/cibex6.jpg",
+          image: "/cibex/6.jpg",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/cibex/cibex7.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 8,
-          image: "/cibex/cibex8.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 9,
-          image: "/cibex/cibex9.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 10,
-          image: "/cibex/cibex10.jpg",
+          image: "/cibex/7.jpg",
           comment: "Description for image 2",
         },
         // Add more images to this collection
       ],
     },
-    // ... other collections
+    {
+      id: 11,
+      title: "World Media Day",
+      thumbnail: "/worldmediaday/cover.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/worldmediaday/1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/worldmediaday/2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/worldmediaday/3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/worldmediaday/4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/worldmediaday/5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/worldmediaday/6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/worldmediaday/7.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
+    {
+      id: 12,
+      title: "BFSI Summit",
+      thumbnail: "/bfsi/cover.webp",
+      images: [
+        {
+          id: 1,
+          image: "/bfsi/1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/bfsi/2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/bfsi/3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/bfsi/4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/bfsi/5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/bfsi/6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/bfsi/7.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
+    {
+      id: 13,
+      title: "Huawei EA Fusionsolar",
+      thumbnail: "/huaweieafusionsolar/cover.webp",
+      images: [
+        {
+          id: 1,
+          image: "/huaweieafusionsolar/1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/huaweieafusionsolar/2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/huaweieafusionsolar/3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/huaweieafusionsolar/4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/huaweieafusionsolar/5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/huaweieafusionsolar/6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/huaweieafusionsolar/7.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
+    {
+      id: 14,
+      title: "Food Packaging & Processing Expo",
+      thumbnail: "/food/cover.webp",
+      images: [
+        {
+          id: 1,
+          image: "/food/1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/food/2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/food/3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/food/4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/food/5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/food/6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/food/7.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
+    {
+      id: 15,
+      title: "Safaricom Mpesa Refresh Gala Dinner",
+      thumbnail: "/safmpesa/cover.webp",
+      images: [
+        {
+          id: 1,
+          image: "/safmpesa/1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/safmpesa/2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/safmpesa/3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/safmpesa/4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/safmpesa/5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/safmpesa/6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/safmpesa/7.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
+    {
+      id: 16,
+      title: "Afralti Training Centre Opening",
+      thumbnail: "/afralti/cover.webp",
+      images: [
+        {
+          id: 1,
+          image: "/afralti/1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/afralti/2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/afralti/3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/afralti/4.png",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/afralti/5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/afralti/6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/afralti/7.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
+    {
+      id: 17,
+      title: "EA Fusionsolar Summit",
+      thumbnail: "/eafusionsolar/cover.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/eafusionsolar/1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/eafusionsolar/2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/eafusionsolar/3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/eafusionsolar/4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/eafusionsolar/5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/eafusionsolar/6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/eafusionsolar/7.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
+    {
+      id: 18,
+      title: "Huawei D&S",
+      thumbnail: "/huaweids/cover.webp",
+      images: [
+        {
+          id: 1,
+          image: "/huaweids/1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/huaweids/2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/huaweids/3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/huaweids/4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/huaweids/5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/huaweids/6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/huaweids/7.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
+    {
+      id: 19,
+      title: "Asian BBQ Fest",
+      thumbnail: "/asianbbq/cover.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/asianbbq/1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/asianbbq/2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/asianbbq/3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/asianbbq/4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/asianbbq/5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/asianbbq/6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/asianbbq/7.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
+    {
+      id: 20,
+      title: "Huawei ERM",
+      thumbnail: "/huaweierm/cover.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/huaweierm/1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/huaweierm/2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/huaweierm/3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/huaweierm/4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/huaweierm/5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/huaweierm/6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/huaweierm/7.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
+    {
+      id: 21,
+      title: "Huawei ICT Dinner",
+      thumbnail: "/huawei-ict-dinner/cover.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/huawei-ict-dinner/1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/huawei-ict-dinner/2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/huawei-ict-dinner/3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/huawei-ict-dinner/4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/huawei-ict-dinner/5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/huawei-ict-dinner/6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/huawei-ict-dinner/7.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
+    {
+      id: 22,
+      title: "Letshego Leadership Conference",
+      thumbnail: "/letshego/cover.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/letshego/1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/letshego/2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/letshego/3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/letshego/4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/letshego/5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/letshego/6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/letshego/7.jpg",
+          comment: "Description for image 2",
+        },
+        // Add more images to this collection
+      ],
+    },
+    // Add more collections as needed
   ];
 
   const collection = collections.find(
