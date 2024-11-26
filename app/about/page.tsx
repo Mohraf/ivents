@@ -9,7 +9,7 @@ import {
   FaFileInvoiceDollar,
   FaChartBar,
   FaUsers,
-  FaHeadset,
+  FaSync,  
 } from "react-icons/fa";
 
 const About = () => {
@@ -200,9 +200,9 @@ const About = () => {
             data-aos-delay="400"
           >
             <FaUsers className="w-12 h-12 text-gray-700" />
-            <h4 className="text-xl font-semibold mt-4">Dedicated Team</h4>
+            <h4 className="text-xl font-semibold mt-4">24/7 Dedicated Team</h4>
             <p className="mt-2 text-gray-600">
-              Assigned professionals focused on your event success
+            Assigned team manager 24/7 throughout your event journey
             </p>
           </div>
 
@@ -211,8 +211,8 @@ const About = () => {
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            <FaHeadset className="w-12 h-12 text-gray-700" />
-            <h4 className="text-xl font-semibold mt-4">24/7 Assistance</h4>
+            <FaSync className="w-12 h-12 text-gray-700" />
+            <h4 className="text-xl font-semibold mt-4">360degree end to end event management</h4>
             <p className="mt-2 text-gray-600">
               Round-the-clock support throughout your event journey
             </p>
