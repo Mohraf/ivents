@@ -6,19 +6,69 @@ const Gallery = () => {
   const collections = [
     {
       id: 1,
-      title: "Collection 1",
-      thumbnail: "/gallery1.jpg",
+      title: "Huawei Media Entertainment Summit Cloud Event",
+      thumbnail: "/huawei1/huawei1-1.jpg",
       images: [
         {
           id: 1,
-          image: "/gallery1.jpg",
+          image: "/huawei1/huawei1-1.jpg",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/gallery2.jpg",
+          image: "/huawei1/huawei1-2.jpg",
           comment: "Description for image 2",
         },
+        {
+          id: 2,
+          image: "/huawei1/huawei1-3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 2,
+          image: "/huawei1/huawei1-4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 2,
+          image: "/huawei1/huawei1-5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 2,
+          image: "/huawei1/huawei1-6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 2,
+          image: "/huawei1/huawei1-7.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 2,
+          image: "/huawei1/huawei1-8.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 2,
+          image: "/huawei1/huawei1-9.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 2,
+          image: "/huawei1/huawei1-10.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 2,
+          image: "/huawei1/huawei1-11.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 2,
+          image: "/huawei1/huawei1-12.jpg",
+          comment: "Description for image 2",
+        }
         // Add more images to this collection
       ],
     },
