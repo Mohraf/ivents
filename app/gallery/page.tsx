@@ -618,7 +618,7 @@ const Gallery = () => {
     {
       id: 8,
       title: "IT Day",
-      thumbnail: "/itday/cover.jpg",
+      thumbnail: "/itday/cover.webp",
       images: [
         {
           id: 1,
