@@ -502,37 +502,42 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/bfsi/1.jpg",
+          image: "/bfsi/1.webp",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/bfsi/2.jpg",
+          image: "/bfsi/2.webp",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/bfsi/3.jpg",
+          image: "/bfsi/3.webp",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/bfsi/4.jpg",
+          image: "/bfsi/4.webp",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/bfsi/5.jpg",
+          image: "/bfsi/5.webp",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/bfsi/6.jpg",
+          image: "/bfsi/6.webp",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/bfsi/7.jpg",
+          image: "/bfsi/7.webp",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/bfsi/cover.webp",
           comment: "Description for image 2",
         },
         // Add more images to this collection
