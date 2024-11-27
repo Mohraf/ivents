@@ -536,7 +536,7 @@ const CollectionPage = () => {
           comment: "Description for image 2",
         },
         {
-          id: 7,
+          id: 8,
           image: "/bfsi/cover.webp",
           comment: "Description for image 2",
         },
@@ -550,37 +550,42 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/huaweieafusionsolar/1.jpg",
+          image: "/huaweieafusionsolar/1.webp",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/huaweieafusionsolar/2.jpg",
+          image: "/huaweieafusionsolar/2.webp",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/huaweieafusionsolar/3.jpg",
+          image: "/huaweieafusionsolar/3.webp",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/huaweieafusionsolar/4.jpg",
+          image: "/huaweieafusionsolar/4.webp",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/huaweieafusionsolar/5.jpg",
+          image: "/huaweieafusionsolar/5.webp",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/huaweieafusionsolar/6.jpg",
+          image: "/huaweieafusionsolar/6.webp",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/huaweieafusionsolar/7.jpg",
+          image: "/huaweieafusionsolar/7.webp",
+          comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/huaweieafusionsolar/cover.webp",
           comment: "Description for image 2",
         },
         // Add more images to this collection
