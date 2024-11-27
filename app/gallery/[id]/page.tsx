@@ -598,37 +598,42 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/food/1.jpg",
+          image: "/food/1.webp",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/food/2.jpg",
+          image: "/food/2.webp",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/food/3.jpg",
+          image: "/food/3.webp",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/food/4.jpg",
+          image: "/food/4.webp",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/food/5.jpg",
+          image: "/food/5.webp",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/food/6.jpg",
+          image: "/food/6.webp",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/food/7.jpg",
+          image: "/food/7.webp",
+          comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/food/cover.webp",
           comment: "Description for image 2",
         },
         // Add more images to this collection
@@ -641,32 +646,32 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/safmpesa/1.jpg",
+          image: "/safmpesa/1.webp",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/safmpesa/2.jpg",
+          image: "/safmpesa/2.webp",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/safmpesa/3.jpg",
+          image: "/safmpesa/3.webp",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/safmpesa/4.jpg",
+          image: "/safmpesa/4.webp",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/safmpesa/5.jpg",
+          image: "/safmpesa/5.webp",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/safmpesa/6.jpg",
+          image: "/safmpesa/6.webp",
           comment: "Description for image 2",
         },
         {
@@ -684,37 +689,42 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/afralti/1.jpg",
+          image: "/afralti/1.webp",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/afralti/2.jpg",
+          image: "/afralti/2.webp",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/afralti/3.jpg",
+          image: "/afralti/3.webp",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/afralti/4.png",
+          image: "/afralti/4.webp",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/afralti/5.jpg",
+          image: "/afralti/5.webp",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/afralti/6.jpg",
+          image: "/afralti/6.webp",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/afralti/7.jpg",
+          image: "/afralti/7.webp",
+          comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/afralti/cover.webp",
           comment: "Description for image 2",
         },
         // Add more images to this collection
@@ -737,27 +747,32 @@ const CollectionPage = () => {
         },
         {
           id: 3,
-          image: "/eafusionsolar/3.jpg",
+          image: "/eafusionsolar/3.webp",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/eafusionsolar/4.jpg",
+          image: "/eafusionsolar/4.webp",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/eafusionsolar/5.jpg",
+          image: "/eafusionsolar/5.webp",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/eafusionsolar/6.jpg",
+          image: "/eafusionsolar/6.webp",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/eafusionsolar/7.jpg",
+          image: "/eafusionsolar/7.webp",
+          comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/eafusionsolar/cover.webp",
           comment: "Description for image 2",
         },
         // Add more images to this collection
@@ -770,37 +785,42 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/huaweids/1.jpg",
+          image: "/huaweids/1.webp",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/huaweids/2.jpg",
+          image: "/huaweids/2.webp",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/huaweids/3.jpg",
+          image: "/huaweids/3.webp",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/huaweids/4.jpg",
+          image: "/huaweids/4.webp",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/huaweids/5.jpg",
+          image: "/huaweids/5.webp",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/huaweids/6.jpg",
+          image: "/huaweids/6.webp",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/huaweids/7.jpg",
+          image: "/huaweids/7.webp",
+          comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/huaweids/cover.webp",
           comment: "Description for image 2",
         },
         // Add more images to this collection
