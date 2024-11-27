@@ -320,12 +320,12 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/itday/1.jpg",
+          image: "/itday/1.webp",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/itday/2.jpg",
+          image: "/itday/2.webp",
           comment: "Description for image 2",
         },
         {
@@ -335,22 +335,27 @@ const CollectionPage = () => {
         },
         {
           id: 4,
-          image: "/itday/4.jpg",
+          image: "/itday/4.webp",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/itday/5.jpg",
+          image: "/itday/5.webp",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/itday/6.jpg",
+          image: "/itday/6.webp",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/itday/7.jpg",
+          image: "/itday/7.webp",
+          comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/itday/8.webp",
           comment: "Description for image 2",
         },
         // Add more images to this collection
