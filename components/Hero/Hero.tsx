@@ -49,7 +49,7 @@ const Hero = () => {
                 loop
                 muted
                 width="725"
-                src="/hero.webm"
+                src="/slideshow.webm"
             >
             </video>            
         </div>

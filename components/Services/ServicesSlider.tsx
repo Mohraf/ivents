@@ -62,7 +62,7 @@ const ServicesSlider = () => {
                 href="/audioAndVisual"
                 className="service-box relative rounded-[20px] h-[43vh] md:w-[31%] lg:w-[32%] bg-center bg-no-repeat bg-cover"
                 style={{
-                  backgroundImage: "url('/audionvisual.jpg')",
+                  backgroundImage: "url('/audiocover.webp')",
                 }}
                 data-aos="fade-down"
               >
@@ -75,7 +75,7 @@ const ServicesSlider = () => {
                 href="/stageAndLighting"
                 className="service-box relative rounded-[20px] h-[43vh] md:w-[31%] lg:w-[32%] bg-center bg-no-repeat bg-cover"
                 style={{
-                  backgroundImage: "url('/stagenlight.jpg')",
+                  backgroundImage: "url('/stagecover.webp')",
                 }}
                 data-aos="fade-down"
               >
@@ -89,7 +89,7 @@ const ServicesSlider = () => {
                 className="service-box relative rounded-[20px] min-h-[50vh] md:w-1/4 bg-center bg-no-repeat bg-cover"
                 href="/conferencesAndExhibitions"
                 style={{
-                  backgroundImage: "url('/conference.jpg')",
+                  backgroundImage: "url('/confcover.webp')",
                 }}
                 data-aos="fade-right"
               >
@@ -102,11 +102,11 @@ const ServicesSlider = () => {
                 className="service-box relative rounded-[20px] md:mt-[9%] min-h-[43vh] bg-cover bg-no-repeat bg-center md:w-1/4 md:ml-6"
                 href="/printingAndBranding"
                 style={{
-                  backgroundImage: "url('/printing.jpg')",
+                  backgroundImage: "url('/printcover.webp')",
                 }}
                 data-aos="fade-up"
               >
-                <h4 className="text-lg absolute text-white service-below-head  service-head-v2 bottom-[6rem] left-[2rem] text-left">
+                <h4 className="text-lg absolute text-black service-below-head  service-head-v2 bottom-[1rem] left-[2rem] text-left">
                   Printing and Branding
                 </h4>
               </Link>
@@ -115,11 +115,11 @@ const ServicesSlider = () => {
                 className="service-box relative rounded-[20px] min-h-[50vh] bg-cover bg-no-repeat bg-center md:w-1/4 md:ml-6 cursor-pointer"
                 href="/productLaunches"
                 style={{
-                  backgroundImage: "url('/products.jpg')",
+                  backgroundImage: "url('/productcover.webp')",
                 }}
                 data-aos="fade-left"
               >
-                <h4 className="text-lg absolute text-black service-below-head   bottom-[3rem] service-head left-[2rem] text-left">
+                <h4 className="text-lg absolute text-white service-below-head   bottom-[3rem] service-head left-[2rem] text-left">
                   Products And Launches
                 </h4>
               </Link>
