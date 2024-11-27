@@ -459,37 +459,37 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/worldmediaday/1.jpg",
+          image: "/worldmediaday/1.webp",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/worldmediaday/2.jpg",
+          image: "/worldmediaday/2.webp",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/worldmediaday/3.jpg",
+          image: "/worldmediaday/3.webp",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/worldmediaday/4.jpg",
+          image: "/worldmediaday/4.webp",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/worldmediaday/5.jpg",
+          image: "/worldmediaday/5.webp",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/worldmediaday/6.jpg",
+          image: "/worldmediaday/6.webp",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/worldmediaday/7.jpg",
+          image: "/worldmediaday/7.webp",
           comment: "Description for image 2",
         },
         // Add more images to this collection
