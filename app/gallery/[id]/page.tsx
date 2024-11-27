@@ -411,38 +411,43 @@ const CollectionPage = () => {
       images: [
         {
           id: 1,
-          image: "/cibex/1.jpg",
+          image: "/cibex/1.webp",
           comment: "Description for image 1",
         },
         {
           id: 2,
-          image: "/cibex/2.jpg",
+          image: "/cibex/2.webp",
           comment: "Description for image 2",
         },
         {
           id: 3,
-          image: "/cibex/3.jpg",
+          image: "/cibex/3.webp",
           comment: "Description for image 2",
         },
         {
           id: 4,
-          image: "/cibex/4.jpg",
+          image: "/cibex/4.webp",
           comment: "Description for image 2",
         },
         {
           id: 5,
-          image: "/cibex/5.jpg",
+          image: "/cibex/5.webp",
           comment: "Description for image 2",
         },
         {
           id: 6,
-          image: "/cibex/6.jpg",
+          image: "/cibex/6.webp",
           comment: "Description for image 2",
         },
         {
           id: 7,
-          image: "/cibex/7.jpg",
+          image: "/cibex/7.webp",
           comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/cibex/cover.webp",
+          comment: "Description for image 1",
         },
         // Add more images to this collection
       ],
