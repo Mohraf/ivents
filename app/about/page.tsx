@@ -98,7 +98,7 @@ const About = () => {
             <div className="absolute -inset-4 bg-lime-600/20 rounded-lg transform rotate-3"></div>
             <Image
               alt="mission"
-              src="/mission.jpg"
+              src="/newmission.jpg"
               width={988}
               height={700}
               className="rounded-lg shadow-xl relative"
@@ -114,7 +114,7 @@ const About = () => {
             <div className="absolute -inset-4 bg-lime-600/20 rounded-lg transform -rotate-3"></div>
             <Image
               alt="vision"
-              src="/vision.jpg"
+              src="/newvision.jpg"
               width={988}
               height={700}
               className="rounded-lg shadow-xl relative"

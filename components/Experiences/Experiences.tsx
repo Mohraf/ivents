@@ -14,7 +14,7 @@ const Experiences = () => {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h4 className="text-2xl font-bold mb-2 green">55+</h4>
+              <h4 className="text-2xl font-bold mb-2 green">20+</h4>
               <p className="text-gray-600">Employees</p>
             </div>
             
@@ -24,7 +24,7 @@ const Experiences = () => {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h4 className="text-2xl font-bold mb-2 green">100+</h4>
+              <h4 className="text-2xl font-bold mb-2 green">40+</h4>
               <p className="text-gray-600">Events/year</p>
             </div>
           </div>
