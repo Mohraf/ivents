@@ -960,9 +960,6 @@ const Gallery = () => {
         <div className="p-6 mx-auto">
           <div className="py-2">
             <h1 className="text-center text-gray-700 text-4xl">Our Gallery</h1>
-            <p className="text-xl green text-center mt-5">
-              Take a Look at Our Latest Events
-            </p>
           </div>
 
           <div className="md:grid md:gap-6 md:grid-cols-2 lg:grid-cols-3 mb-12">
