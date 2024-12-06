@@ -7,9 +7,9 @@ import {
   FaUserTie,
   FaLaptopCode,
   FaFileInvoiceDollar,
-  FaChartBar,
-  FaUsers,
-  FaSync,  
+  FaSync,
+  FaAward,
+  FaPlus
 } from "react-icons/fa";
 
 const About = () => {
@@ -26,10 +26,25 @@ const About = () => {
       <div className="bg-white min-h-96 text-black md:pb-5 pb-10">
         <div
           // style={{ backgroundImage: "url('/green-bg.png')" }}
-          className="py-16 md:h-[36vh] h-[24vh] bg-white bg-opacity-100 bg-center bg-cover bg-no-repeat"
+          className="py-16 md:min-h-[64vh] min-h-screen bg-white bg-opacity-100 bg-center bg-cover bg-no-repeat"
         >
-          <h3 className="md:px-32 px-4 text-black md:font-thin md:text-5xl text-4xl font-light md:text-start text-center">
-            Our Belief
+          <h2 className="md:px-32 px-4 text-black md:font-thin md:text-5xl text-3xl font-light md:text-start text-center">
+            Who We Are
+          </h2>
+
+          <p className="md:px-32 px-4 text-black md:font-extralight md:text-xl text-base font-thin md:text-start text-center mt-8">
+            Approaching two decades of experience in the events industry, we are a seasoned one-stop-shop catering to local and international clients with a track record of
+            providing efficient, seamless and top-tier solutions. Based in Nairobi Kenya, with occasional assignments not only in East & Central Africa but also in other 
+            countries beyong the region. iVENTS' proficiency in the planning, management and execution of conferences, exhibitions and coorporate events is unrivaled.
+          </p>
+
+          <p className="md:px-32 px-4 text-black md:font-extralight md:text-xl text-base font-thin md:text-start text-center mt-4">
+            Working as an extension of your marketing and communication teams, our collection of strategists, technicians, creatives and magicians target to deliver ivent-ful
+            experiences that resonate with your audience, confident to meet all your requirements with expedience and a value-for-money guarantee.
+          </p>
+
+          <h3 className="md:px-32 px-4 text-black md:font-thin md:text-5xl text-3xl font-light md:text-start text-center mt-8">
+            The Core
           </h3>
           <p className="md:px-32 px-4 text-black md:font-extralight md:text-xl text-base font-thin md:text-start text-center mt-8">
             These values are not only the bedrock of our event management
@@ -38,11 +53,11 @@ const About = () => {
           </p>
         </div>
 
-        <div className="md:px-32 md:py-10 py-10 px-4 flex md:flex-row flex-col gap-10">
+        <div className="md:px-32 md:py-5 py-10 px-4 flex md:flex-row flex-col gap-10">
           <div className="md:w-1/3 p-10 flex flex-col rounded-xl w-full bg-slate-100 text-center items-center">
             <Image alt="i" src="/iDetail.svg" width={100} height={100} />
             <h3 className="md:text-3xl text-2xl mt-2">i FOR DETAIL</h3>
-            <p className="text-base md:mt-10 mt-5">
+            <p className="text-base md:mt-5 mt-3">
               iVENTS by GEiCO approaches each project with meticulous attention,
               and our unique "i for detail" demonstrates our commitment to
               excellence. This is complemented by our capacity to see the bigger
@@ -53,8 +68,8 @@ const About = () => {
           <div className="md:w-1/3 p-10 flex flex-col rounded-xl w-full bg-slate-100 text-center items-center">
             <Image alt="i" src="/brainstorm.svg" width={100} height={100} />
             <h3 className="md:text-3xl text-2xl mt-2">INNOVATION</h3>
-            <p className="text-base md:mt-10 mt-5">
-              At iVENTS by GEiCO, we posses a deep understanding of both the
+            <p className="text-base md:mt-5 mt-5">
+              At iVENTS by GEiCO, we possess a deep understanding of both the
               local and global market trends, with our strength being our
               unparalleled knowledge that this constantly evolving market
               demands innovation and adaptability, essential elements in
@@ -64,7 +79,7 @@ const About = () => {
           <div className="md:w-1/3 p-10 flex flex-col rounded-xl w-full bg-slate-100 text-center items-center">
             <Image alt="i" src="/clients.svg" width={100} height={100} />
             <h3 className="md:text-3xl text-2xl mt-2">CLIENT-CENTRIC</h3>
-            <p className="text-base md:mt-10 mt-5">
+            <p className="text-base md:mt-5 mt-5">
               Our foremost priority is our clients, with our focus revolving
               around understanding, meeting and exceeding their needs and
               expectations. iVENTS by GEiCO will collaborate with subcontractors
@@ -154,7 +169,7 @@ const About = () => {
             <FaUserTie className="w-12 h-12 text-gray-700" />
             <h4 className="text-xl font-semibold mt-4">Expertise</h4>
             <p className="mt-2 text-gray-600">
-              Professional team with years of industry experience and knowledge
+              A flexible team with years of industry knowledge, focused on delivering high-qiality events within your budget
             </p>
           </div>
 
@@ -166,7 +181,7 @@ const About = () => {
             <FaLaptopCode className="w-12 h-12 text-gray-700" />
             <h4 className="text-xl font-semibold mt-4">Technology</h4>
             <p className="mt-2 text-gray-600">
-              Cutting-edge event management tools and solutions
+              Digital solutions that enhance event planning, execution, and experience, from 3D Designs to attendee tracking.
             </p>
           </div>
 
@@ -178,7 +193,7 @@ const About = () => {
             <FaFileInvoiceDollar className="w-12 h-12 text-gray-700" />
             <h4 className="text-xl font-semibold mt-4">Billing Transparency</h4>
             <p className="mt-2 text-gray-600">
-              Clear and detailed pricing with no hidden costs
+              Clear, honest and well detailed information about costs, ensuring there are no hidden charges or unexpected fees.
             </p>
           </div>
 
@@ -187,10 +202,10 @@ const About = () => {
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <FaChartBar className="w-12 h-12 text-gray-700" />
-            <h4 className="text-xl font-semibold mt-4">Reporting</h4>
+            <FaAward className="w-12 h-12 text-gray-700" />
+            <h4 className="text-xl font-semibold mt-4">Proven Track Record</h4>
             <p className="mt-2 text-gray-600">
-              Comprehensive event analytics and performance reports
+              A winning experience backed by 100% commitment from the 2023-2024 recipients of the Huawei Excellent Marketing Service Partner Award
             </p>
           </div>
 
@@ -199,10 +214,12 @@ const About = () => {
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <FaUsers className="w-12 h-12 text-gray-700" />
-            <h4 className="text-xl font-semibold mt-4">24/7 Dedicated Team</h4>
+            <div className="flex">              
+            <FaPlus className="w-12 h-12 text-gray-700" /> <FaPlus className="w-12 h-12 text-gray-700" /> 
+            </div>
+            <h4 className="text-xl font-semibold mt-4">Advantage</h4>
             <p className="mt-2 text-gray-600">
-            Assigned team manager 24/7 throughout your event journey
+            Leverage our established relationships with suppliers/venues for better deals without compromising quality
             </p>
           </div>
 
@@ -212,9 +229,9 @@ const About = () => {
             data-aos-delay="500"
           >
             <FaSync className="w-12 h-12 text-gray-700" />
-            <h4 className="text-xl font-semibold mt-4">360degree end to end event management</h4>
+            <h4 className="text-xl font-semibold mt-4">360degrees Event Management</h4>
             <p className="mt-2 text-gray-600">
-              Round-the-clock support throughout your event journey
+              24/7, end-to-end dedicated support throughout your event journey, allowing you to focus on your vision and enjoy total peace of mind.
             </p>
           </div>
         </div>
