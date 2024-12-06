@@ -4,7 +4,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='h-[calc(100vh-60px)] relative'>
-        <div className="md:px-32 px-4 flex flex-col text-white bg-black bg-opacity-60 justify-center gap-10 h-full">
+        <div className="md:px-32 px-4 flex flex-col text-white bg-black bg-opacity-60 justify-center gap-32 h-full">
             <div className='my-4 md:text-start text-center'>
                 <h3 className='font-thin md:text-7xl text-3xl'>
                     We Deliver
@@ -18,9 +18,9 @@ const Hero = () => {
             <div className='my-4 md:text-start text-center'>
                 <div className='md:flex md:flex-row flex-col gap-4'>
                 <h5 className='text-2xl'>
-                    With an i For Detail.
+                    with an i for Detail.
                 </h5>
-                <p className='font-semibold text-2xl'>
+                <p className='font-semibold md:text-2xl text-xl'>
                     Your Event  |  Our Canvas
                 </p>
                 </div>
@@ -29,14 +29,14 @@ const Hero = () => {
                      href="/contact"
                      className='p-4 bg-lime-400 rounded-lg bg-opacity-60 border'
                     >
-                        Book Your Experience
+                        Book your iventful Experience
                     </Link>
 
                     <Link
-                     href="/howWeDoIt"
+                     href="/about"
                      className='p-4 bg-lime-600 rounded-lg bg-transparent border'
                     >
-                        Learn More
+                        Who We Are
                     </Link>
                 </div>
             </div>
