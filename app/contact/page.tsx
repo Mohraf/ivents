@@ -64,7 +64,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="md:px-24 md:py-20 py-10 px-4 ">
+        <div className="md:px-24 md:py-20 py-10 px-4 rounded-lg">
           <div className="flex md:flex-row flex-col rounded-lg bg-black">
             <div className="lg:w-2/3 w-full flex flex-col">
               <form className="p-10 flex flex-col gap-5">
@@ -197,7 +197,7 @@ const Contact = () => {
               </form>
             </div>
 
-            <div className="lg:w-1/3 w-full bg-black flex flex-col py-4 px-10 gap-5">
+            <div className="lg:w-1/3 w-full bg-black flex flex-col py-4 px-10 gap-5 rounded-lg">
               <h2 className="text-white md:text-2xl md:font-thin my-5">
                 Office Information
               </h2>

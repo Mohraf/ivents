@@ -69,7 +69,7 @@ const Navbar = () => {
         </Link>
 
         {/* Links */}
-        <div className="hidden md:flex space-x-4">
+        <div className="hidden md:flex space-x-10">
           <Link
             href="/"
             className={`${
