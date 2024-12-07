@@ -2,8 +2,8 @@
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
 import { FaEnvelope } from "react-icons/fa";
-import { MdArrowDropDown } from "react-icons/md"; // Dropdown icon
-import { HiMenu, HiX } from "react-icons/hi"; // Menu and Close icons
+import { MdArrowDropDown } from "react-icons/md";
+import { HiMenu, HiX } from "react-icons/hi";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import "./Navbar.css";
@@ -55,16 +55,22 @@ const Navbar = () => {
     setTimeoutId(timeout);
   };
 
+  // New function to close mobile menu
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+    setIsMobileDropdownOpen(false);
+  };
+
   return (
     <nav className="sticky top-0 bg-white text-black bg-opacity-100 shadow-md z-10">
       <div className="flex items-center justify-between md:px-10 px-4 py-3">
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src="/ivents-logo.png" // Replace with your logo path
+            src="/ivents-logo.png"
             alt="Logo"
-            width={100} // Adjust width as needed
-            height={50} // Adjust height as needed
+            width={100}
+            height={50}
           />
         </Link>
 
@@ -101,7 +107,6 @@ const Navbar = () => {
             onMouseLeave={handleMouseLeave}
           >
             <button
-              // onClick={() => setIsDropdownOpen(!isDropdownOpen)}
               className={`flex items-center ${
                 isActive("/audio") ||
                 isActive("/conferences") ||
@@ -175,7 +180,6 @@ const Navbar = () => {
             </div>
             <span className="">info@geicoevents.net</span>
           </div>
-          {/* <Link href="/contact" className="px-4 py-2 bggreen text- rounded hover:bg-gray-400 text-white">Talk to Us</Link> */}
         </div>
 
         {/* Mobile Menu Icon */}
@@ -196,6 +200,7 @@ const Navbar = () => {
         <div className="md:hidden flex flex-col px-4 pb-2 items-start">
           <Link
             href="/"
+            onClick={closeMobileMenu}
             className={`${
               isActive("/") ? "green" : "text-black"
             } hover:text-gray-700 py-2`}
@@ -204,6 +209,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/about"
+            onClick={closeMobileMenu}
             className={`${
               isActive("/about") ? "green" : "text-black"
             } hover:text-gray-700 py-2`}
@@ -212,6 +218,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/gallery"
+            onClick={closeMobileMenu}
             className={`${
               isActive("/gallery") ? "green" : "text-black"
             } hover:text-gray-700 py-2`}
@@ -238,30 +245,35 @@ const Navbar = () => {
               <div className="mt-2 w-40 bg-white text-black bg-opacity-70 border-[0.5px] border-gray-500 rounded shadow-lg">
                 <Link
                   href="/audioAndVisual"
+                  onClick={closeMobileMenu}
                   className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50"
                 >
                   Audio & Visual
                 </Link>
                 <Link
                   href="/conferencesAndExhibitions"
+                  onClick={closeMobileMenu}
                   className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50"
                 >
                   Conferences & Exhibitions
                 </Link>
                 <Link
                   href="/stageAndLighting"
+                  onClick={closeMobileMenu}
                   className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50"
                 >
                   Stage & Lighting
                 </Link>
                 <Link
                   href="/printingAndBranding"
+                  onClick={closeMobileMenu}
                   className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50"
                 >
                   Printing & Branding
                 </Link>
                 <Link
                   href="/productLaunches"
+                  onClick={closeMobileMenu}
                   className="block px-4 py-2 hover:bg-gray-500 hover:bg-opacity-50"
                 >
                   Products & Launches
@@ -271,6 +283,7 @@ const Navbar = () => {
           </div>
           <Link
             href="/contact"
+            onClick={closeMobileMenu}
             className={`${
               isActive("/contact") ? "green" : "text-black"
             } hover:text-gray-700 py-2`}
@@ -291,7 +304,6 @@ const Navbar = () => {
               </div>
               <span className="">info@geicoevents.net</span>
             </div>
-            {/* <Link href="/contact" className="px-4 py-2 bggreen text- rounded hover:bg-gray-400 text-white">Talk to Us</Link> */}
           </div>
         </div>
       )}
