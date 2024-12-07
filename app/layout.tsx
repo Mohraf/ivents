@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import WhatsAppButton from "@/components/WhatsAppButton/WhatsAppButton";
 import Footer from "@/components/Footer/Footer";
-import SocialMediaBanner from "@/components/SocaialMediaBanner/SocialMediaBanner";
+// import SocialMediaBanner from "@/components/SocaialMediaBanner/SocialMediaBanner";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -36,7 +36,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <WhatsAppButton phoneNumber="+254798259215" />
-        <SocialMediaBanner />
+        {/* <SocialMediaBanner /> */}
       </body>
     </html>
   );
