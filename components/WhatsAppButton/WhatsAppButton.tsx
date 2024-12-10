@@ -24,21 +24,21 @@ const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({ phoneNumber }) => {
       url: 'https://instagram.com/iventsbygeico',
       color: 'hover:text-[#E4405F] text-gray-800'
     },
-    { 
-      icon: <FaXTwitter size={24} />, 
-      url: 'https://x.com/justgeico',
-      color: 'hover:text-black text-gray-800'
-    },
-    { 
-      icon: <FaTiktok size={24} />, 
-      url: 'https://tiktok.com/@iventsbygeico',
-      color: 'hover:text-black text-gray-800'
-    },
-    { 
-      icon: <FaYoutube size={24} />, 
-      url: 'https://youtube.com/@iventsbygeico',
-      color: 'hover:text-[#FF0000] text-gray-800'
-    },
+    // { 
+    //   icon: <FaXTwitter size={24} />, 
+    //   url: 'https://x.com/justgeico',
+    //   color: 'hover:text-black text-gray-800'
+    // },
+    // { 
+    //   icon: <FaTiktok size={24} />, 
+    //   url: 'https://tiktok.com/@iventsbygeico',
+    //   color: 'hover:text-black text-gray-800'
+    // },
+    // { 
+    //   icon: <FaYoutube size={24} />, 
+    //   url: 'https://youtube.com/@iventsbygeico',
+    //   color: 'hover:text-[#FF0000] text-gray-800'
+    // },
     { 
       icon: <FaFacebook size={24} />, 
       url: 'https://facebook.com/your-page',
