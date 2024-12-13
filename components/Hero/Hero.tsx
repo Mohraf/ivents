@@ -7,11 +7,11 @@ const Hero = () => {
   const services = ['Audio and Visual', 'Exhibition', 'Printing and Branding', 'Product Launch', 'Stage and Lighting']
 
   const serviceImages = [
-    '/audionvisual.jpg',
+    '/audioresize.png',
     '/confcover.webp',
-    '/printcover.webp',
+    '/printingresize.png',
     '/productcover.webp',
-    '/stagenlight.jpg'
+    '/stageresize.png'
   ]
   
   const [service, setService] = useState('');
