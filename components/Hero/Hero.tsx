@@ -4,11 +4,11 @@ import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 
 const Hero = () => {
-  const services = ['Audio and Visual', 'Exhibition', 'Printing and Branding', 'Product Launch', 'Stage and Lighting']
+  const services = ['Audio and Visual', 'Conferences and Exhibitions', 'Printing and Branding', 'Product Launch', 'Stage and Lighting']
 
   const serviceImages = [
     '/audioresize.png',
-    '/confcover.webp',
+    '/exhibition.jpeg',
     '/printingresize.png',
     '/productcover.webp',
     '/stageresize.png'
@@ -20,7 +20,7 @@ const Hero = () => {
 
   useEffect(() => {
     const currentServiceText = services[currentServiceIndex];
-    
+
     // If we're typing
     if (isTyping) {
       if (service.length < currentServiceText.length) {
@@ -67,7 +67,7 @@ const Hero = () => {
   };
 
   return (
-    <div className='h-[calc(100vh-60px)] relative overflow-hidden'>
+    <div className='h-[calc(100vh-60px)] relative overflow-hidden'>      
       {/* Background Image */}
       <div className='absolute inset-0 z-0'>
         <Image
@@ -81,7 +81,7 @@ const Hero = () => {
       </div>
 
       {/* Overlay Content */}
-      <div className="relative z-10 md:px-32 px-4 flex flex-col text-white bg-black bg-opacity-60 justify-center gap-24 h-full">
+      <div className="relative z-10 md:px-32 px-4 flex flex-col text-white bg-black bg-opacity-60 justify-end gap-24 h-full">
         <div className='my-4 md:text-start text-center'>
           <h3 className='font-thin md:text-7xl text-3xl'>
             We Deliver
@@ -121,7 +121,7 @@ const Hero = () => {
         </div>
 
         {/* Navigation Buttons */}
-        <div className='absolute top-50 left-0 right-0 flex justify-between px-4 z-20'>
+        <div className='absolute top-1/2 left-0 right-0 flex justify-between px-4 z-20'>
           <button 
             onClick={handlePrevImage}
             className='bg-white/50 p-2 rounded-full bg-opacity-30'

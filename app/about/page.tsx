@@ -169,7 +169,7 @@ const About = () => {
             <FaUserTie className="w-12 h-12 text-gray-700" />
             <h4 className="text-xl font-semibold mt-4">Expertise</h4>
             <p className="mt-2 text-gray-600">
-              A flexible team with years of industry knowledge, focused on delivering high-qiality events within your budget
+              A flexible team with years of industry knowledge, focused on delivering high-quality events within your budget
             </p>
           </div>
 
