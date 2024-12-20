@@ -11,7 +11,7 @@ const Hero = () => {
     '/exhibition.jpeg',
     '/printingresize.png',
     '/productcover.webp',
-    '/stageresize.png'
+    '/hero-stage.png'
   ]
   
   const [service, setService] = useState('');
@@ -75,7 +75,7 @@ const Hero = () => {
           alt={`${services[currentServiceIndex]} service`}
           fill
           style={{objectFit: 'cover'}}
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 100vw"
           loading="lazy"
           quality={100} // Added quality attribute
         />
