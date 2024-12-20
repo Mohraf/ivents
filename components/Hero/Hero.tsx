@@ -77,6 +77,7 @@ const Hero = () => {
           style={{objectFit: 'cover'}}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           loading="lazy"
+          quality={100} // Added quality attribute
         />
       </div>
 
