@@ -67,7 +67,7 @@ const TestimonialSlider = () => {
               take={testimonial.take}
               person={testimonial.person}
               company={testimonial.company}
-              animate={testimonial.animate}
+              // animate={testimonial.animate}
             />
           ))}
         </div>

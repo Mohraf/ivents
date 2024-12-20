@@ -2,8 +2,8 @@
 import React, {useEffect} from "react";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 import "./TestimonialSlider.css"
 
 const inter = Inter({ subsets: ["latin"] });
@@ -13,20 +13,20 @@ interface IProps {
   take: string;
   person: string;
   company: string | null;
-  animate: string;
+  // animate: string;
 }
 
-const TestimonialCard = ({ image, take, person, company, animate }: IProps) => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,  // Customize duration of animations
-      easing: 'ease-in-out',
-      once: false,  // Trigger animation only once
-    });
-  },[])
+const TestimonialCard = ({ image, take, person, company }: IProps) => {
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 1000,  // Customize duration of animations
+  //     easing: 'ease-in-out',
+  //     once: false,  // Trigger animation only once
+  //   });
+  // },[])
   
   return (
-    <div data-aos={animate} className="h-[56vh] md:w-1/3 w-full text-white flex flex-col justify-between bggreen p-4 rounded-[2rem]">
+    <div className="h-[56vh] md:w-1/3 w-full text-white flex flex-col justify-between bggreen p-4 rounded-[2rem]">
       <div className="p-2">
         <div className="flex justify-between">
           <div className="w-1/2 h-full rounded-full overflow-hidden">
