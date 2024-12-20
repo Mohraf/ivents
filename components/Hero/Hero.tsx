@@ -82,7 +82,7 @@ const Hero = () => {
       </div>
 
       {/* Overlay Content */}
-      <div className="relative z-10 md:px-32 px-4 flex flex-col text-white bg-black bg-opacity-60 justify-end gap-24 h-full">
+      <div className="relative z-10 md:px-32 px-4 flex flex-col text-white bg-black bg-opacity-60 justify-end gap-5 h-full">
         <div className='my-4 md:text-start text-center'>
           <h3 className='font-thin md:text-7xl text-3xl'>
             We Deliver
