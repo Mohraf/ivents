@@ -10,7 +10,7 @@ const Hero = () => {
     '/audioresize.png',
     '/exhibition.jpeg',
     '/printingresize.png',
-    '/productcover.webp',
+    '/hero-launch.png',
     '/hero-stage.png'
   ]
   
