@@ -5,6 +5,7 @@ import Brands from "@/components/Brands/Brands";
 import Intro from "@/components/Intro/Intro";
 import Hero from "@/components/Hero/Hero";
 import Experiences from "@/components/Experiences/Experiences";
+import Events from "@/components/Events/Events";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Experiences />
       <Brands />
       <ServicesSlider />
+      <Events />
       <TestimonialSlider />
     </>
   );
