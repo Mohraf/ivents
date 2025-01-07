@@ -35,7 +35,7 @@ const About = () => {
           <p className="md:px-32 px-4 text-black md:font-extralight md:text-xl text-base font-thin md:text-start text-center mt-8">
             Approaching two decades of experience in the events industry, we are a seasoned one-stop-shop catering to local and international clients with a track record of
             providing efficient, seamless and top-tier solutions. Based in Nairobi Kenya, with occasional assignments not only in East & Central Africa but also in other 
-            countries beyong the region. iVENTS' proficiency in the planning, management and execution of conferences, exhibitions and coorporate events is unrivaled.
+            countries beyong the region. iVENTS by GEiCO's proficiency in the planning, management and execution of conferences, exhibitions and coorporate events is unrivaled.
           </p>
 
           <p className="md:px-32 px-4 text-black md:font-extralight md:text-xl text-base font-thin md:text-start text-center mt-4">

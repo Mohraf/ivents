@@ -17,7 +17,7 @@ const AudioAndVisual = () => {
         <div className="md:py-10 py-4 md:px-32 px-4 md:flex-row flex flex-col gap-10">
           <div className="md:w-1/2 w-full p-10 bg-slate-100 rounded-lg text-lime-900">
             <p className="text-base">
-              At iVENTS, we understand the importance of high-quality audio and
+              At iVENTS by GEiCO, we understand the importance of high-quality audio and
               visual experiences in creating immersive events. We offer
               state-of-the-art equipment and cutting-edge technology to ensure
               seamless sound, impactful visuals, and captivating multimedia

@@ -50,7 +50,7 @@ const Contact = () => {
       <div className="bg-white min-h-96 text-black md:pb-5 pb-10">
         <div
           // style={{ backgroundImage: "url('/green-bg.png')" }}
-          className="py-16 md:h-[36vh] h-[24vh] bg-white bg-opacity-100 bg-center bg-cover bg-no-repeat"
+          className="py-16 md:h-[36vh] h-[32vh] bg-white bg-opacity-100 bg-center bg-cover bg-no-repeat"
         >
           <h3 className="md:px-32 px-4 text-black md:font-thin md:text-5xl text-4xl font-light md:text-start text-center">
             Get <span className="md:font-semibold">In Touch</span>

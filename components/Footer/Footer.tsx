@@ -1,7 +1,16 @@
-import React from "react";
+"use client"
+import {useEffect, useState} from "react";
 import Image from "next/image";
 
+
 const Footer = () => {
+  const [year, setYear] = useState(0);
+
+  useEffect(()=>{
+    let year = new Date().getFullYear()
+    setYear(year)
+  },[])
+
   return (
     <>
       <footer
@@ -31,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-          <p className="m-3">© Copyright ©2024 iVENTS by GEiCO</p>
+          <p className="m-3">© Copyright {year}   iVENTS by GEiCO</p>
         </div>
       </footer>
     </>

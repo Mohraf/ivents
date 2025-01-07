@@ -17,7 +17,7 @@ const ProductLaunches = () => {
         <div className="md:py-10 py-4 md:px-32 px-4 md:flex-row flex flex-col gap-10">
           <div className="md:w-1/2 w-full p-10 bg-slate-100 rounded-lg text-lime-900">
             <p className="text-base">
-            Launching a new product requires careful planning, strategic execution, and an unforgettable experience for attendees. At iVENTS, we specialize in creating exceptional product launch events that generate excitement, build anticipation, and leave a lasting impression. From venue selection and stage design to audiovisual production and audience engagement strategies, we handle every aspect of the product launch process.
+            Launching a new product requires careful planning, strategic execution, and an unforgettable experience for attendees. At iVENTS by GEiCO, we specialize in creating exceptional product launch events that generate excitement, build anticipation, and leave a lasting impression. From venue selection and stage design to audiovisual production and audience engagement strategies, we handle every aspect of the product launch process.
             </p>
             <p className="mt-5 text-base">
             Our team ensures seamless coordination, effective messaging, and experiences that drive product awareness and consumer engagement.

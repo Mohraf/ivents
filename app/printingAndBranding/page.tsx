@@ -17,7 +17,7 @@ const PrintingAndBranding = () => {
         <div className="md:py-10 py-4 md:px-32 px-4 md:flex-row flex flex-col gap-10">
           <div className="md:w-1/2 w-full p-10 bg-slate-100 rounded-lg text-lime-900">
             <p className="text-base">
-            iVENTS offers comprehensive printing and branding solutions to ensure consistent and impactful messaging throughout events. From designing eye-catching banners, backdrops, and signage to creating visually appealing promotional materials such as brochures, flyers, and business cards, we help clients establish a strong brand presence.
+            iVENTS by GEiCO offers comprehensive printing and branding solutions to ensure consistent and impactful messaging throughout events. From designing eye-catching banners, backdrops, and signage to creating visually appealing promotional materials such as brochures, flyers, and business cards, we help clients establish a strong brand presence.
             </p>
             <p className="mt-5 text-base">
             The graphic design team ensures that all materials are of the highest quality, reflecting the client’s brand identity and effectively conveying their key messages.

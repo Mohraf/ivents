@@ -17,7 +17,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "iVents by GEiCO",
+  title: "iVENTS by GEiCO",
   description: "Your Event Our Canvas",
 };
 

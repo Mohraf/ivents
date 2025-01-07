@@ -26,7 +26,7 @@ const event: Event = {
 
 const Events = () => {
   return (
-    <div className='bg-slate-200 py-12'>
+    <div className='bg-slate-200 md:py-12 py-6 px-4'>
         <h3 className='md:px-32 py-10 text-gray-600'>Our Most Recent Event</h3>
 
         <div className='flex flex-col md:flex-row md:px-32'>
@@ -39,7 +39,7 @@ const Events = () => {
                     className='w-full h-full object-cover object-center rounded-lg' 
                 />
             </div>
-            <div className='md:w-2/3 md:px-10 '>
+            <div className='md:w-2/3 md:px-10'>
                 <h2 className='text-2xl font-bold text-black'>{event.name}</h2>
                 <p className='text-gray-600'>Date: {event.date}</p>
                 <p className='text-gray-600 mb-10'>Location: {event.location}</p>
