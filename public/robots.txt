@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Disallow: /private/
+
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://geicoevents.net
+
+# Sitemaps
+Sitemap: https://geicoevents.net/sitemap.xml
