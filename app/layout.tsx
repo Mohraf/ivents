@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import WhatsAppButton from "@/components/WhatsAppButton/WhatsAppButton";
 import Footer from "@/components/Footer/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -35,6 +36,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <WhatsAppButton phoneNumber="+254798259215" />
+        <SpeedInsights />
       </body>
     </html>
   );
