@@ -28,7 +28,7 @@ const Intro = () => {
             <Link
               href="/companyprofile.pdf"
               locale={false}
-              className="bggreen text-white hover:bg-gray-400 transition-colors duration-300 md:px-6 px-3 py-2 rounded-md text-sm font-medium"
+              className="bggreen hover:bg-gray-400 transition-colors duration-300 md:px-6 px-3 py-2 rounded-md text-sm font-medium"
             >
               OUR COMPANY PROFILE
             </Link>
