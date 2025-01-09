@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Head from 'next/head'
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -23,6 +24,11 @@ const About = () => {
 
   return (
     <>
+      <Head>
+        <title>About iVENTS by GEiCO</title>
+        <meta name="description" content="Award winning Event Company in Kenya" />
+        <meta name="keywords" content="Events, Kenya, Companies, Nairobi, Corporate, Event" />
+      </Head>
       <div className="bg-white min-h-96 text-black md:pb-5 pb-10">
         <div
           // style={{ backgroundImage: "url('/green-bg.png')" }}
