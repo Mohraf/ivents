@@ -163,6 +163,14 @@ const Navbar = () => {
           >
             Contact
           </Link>
+          <Link
+            href="/blog"
+            className={`${
+              isActive("/blog") ? "green" : "text-black"
+            } hover:text-gray-700`}
+          >
+             Blog
+          </Link>
         </div>
 
         {/* Right Section */}
@@ -289,6 +297,15 @@ const Navbar = () => {
             } hover:text-gray-700 py-2`}
           >
             Contact
+          </Link>
+          <Link
+            href="/blog"
+            onClick={closeMobileMenu}
+            className={`${
+              isActive("/blog") ? "green" : "text-black"
+            } hover:text-gray-700 py-2`}
+          >
+            Blog
           </Link>
           <div className="justify-end mt-3">
             <div className="flex gap-2">
