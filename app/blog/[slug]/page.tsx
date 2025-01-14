@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Clock, User, ArrowUp } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
+import Head from "next/head";
 
 interface BlogPostSection {
   id: string;
@@ -108,83 +109,96 @@ const BlogPostPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-100 to-slate-400 text-gray-700">
-      <div className="max-w-4xl mx-auto px-6 py-12">
-        {/* Back Button */}
-        <Link href="/blog" className="mb-6 inline-block">
-          <Button
-            variant="outline"
-            className="text-white bg-slate-500 border-gray-700 hover:bg-gray-800 hover:text-white"
-          >
-            <ArrowUp className="mr-2" /> Viev all Posts
-          </Button>
-        </Link>
+    <>
+      <Head>
+        <title>{post.title}</title>
+        <meta
+          name="description"
+          content="Award winning Event Company in Kenya"
+        />
+        <meta
+          name="keywords"
+          content="Events, Kenya, Companies, Nairobi, Corporate, Event"
+        />
+      </Head>
+      <div className="min-h-screen bg-gradient-to-b from-slate-100 to-slate-400 text-gray-700">
+        <div className="max-w-4xl mx-auto px-6 py-12">
+          {/* Back Button */}
+          <Link href="/blog" className="mb-6 inline-block">
+            <Button
+              variant="outline"
+              className="text-white bg-slate-500 border-gray-700 hover:bg-gray-800 hover:text-white"
+            >
+              <ArrowUp className="mr-2" /> Viev all Posts
+            </Button>
+          </Link>
 
-        {/* Post Header */}
-        <header className="mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-            {post.title}
-          </h1>
+          {/* Post Header */}
+          <header className="mb-12">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+              {post.title}
+            </h1>
 
-          {/* Metadata */}
-          <div className="flex items-center space-x-4 text-gray-400 text-sm">
-            <div className="flex items-center space-x-2">
-              <User className="w-4 h-4" />
-              <span>{post.author || "Anonymous"}</span>
-            </div>
-            <div className="h-4 w-px bg-gray-600"></div>
-            <div className="flex items-center space-x-2">
-              <Clock className="w-4 h-4" />
-              <span>
-                {new Date(post.createdAt).toLocaleDateString()}
-                {" • "}
-                {/* {calculateReadTime(post.content)} min read */}
-              </span>
-            </div>
-          </div>
-        </header>
-
-        {/* Featured Image */}
-        {post.image && (
-          <div className="relative w-full aspect-video rounded-xl overflow-hidden mb-12 shadow-2xl">
-            <Image
-              src={post.image}
-              alt={post.title}
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-        )}
-
-        {/* Post Content */}
-        {post.content.map((section) => (
-          <div key={section.id}>
-            <h2 className="my-4 text-2xl font-semibold">{section.title}</h2>
-            <article className="prose prose-invert max-w-none prose-headings:text-white prose-a:text-blue-400 prose-strong:text-white whitespace-pre-wrap">
-              {section.content}
-            </article>
-          </div>
-        ))}
-
-        {/* Tags */}
-        {post.tags && post.tags.length > 0 && (
-          <div className="mt-12 border-t border-gray-800 pt-6">
-            <h3 className="text-xl mb-4">Tags</h3>
-            <div className="flex flex-wrap gap-2">
-              {post.tags.map((tag) => (
-                <span
-                  key={tag}
-                  className="px-3 py-1 bg-gray-800 text-gray-300 rounded-full text-sm"
-                >
-                  {tag}
+            {/* Metadata */}
+            <div className="flex items-center space-x-4 text-gray-400 text-sm">
+              <div className="flex items-center space-x-2">
+                <User className="w-4 h-4" />
+                <span>{post.author || "Anonymous"}</span>
+              </div>
+              <div className="h-4 w-px bg-gray-600"></div>
+              <div className="flex items-center space-x-2">
+                <Clock className="w-4 h-4" />
+                <span>
+                  {new Date(post.createdAt).toLocaleDateString()}
+                  {" • "}
+                  {/* {calculateReadTime(post.content)} min read */}
                 </span>
-              ))}
+              </div>
             </div>
-          </div>
-        )}
+          </header>
+
+          {/* Featured Image */}
+          {post.image && (
+            <div className="relative w-full aspect-video rounded-xl overflow-hidden mb-12 shadow-2xl">
+              <Image
+                src={post.image}
+                alt={post.title}
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          )}
+
+          {/* Post Content */}
+          {post.content.map((section) => (
+            <div key={section.id}>
+              <h2 className="my-4 text-2xl font-semibold">{section.title}</h2>
+              <article className="prose prose-invert max-w-none prose-headings:text-white prose-a:text-blue-400 prose-strong:text-white whitespace-pre-wrap">
+                {section.content}
+              </article>
+            </div>
+          ))}
+
+          {/* Tags */}
+          {post.tags && post.tags.length > 0 && (
+            <div className="mt-12 border-t border-gray-800 pt-6">
+              <h3 className="text-xl mb-4">Tags</h3>
+              <div className="flex flex-wrap gap-2">
+                {post.tags.map((tag) => (
+                  <span
+                    key={tag}
+                    className="px-3 py-1 bg-gray-800 text-gray-300 rounded-full text-sm"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
