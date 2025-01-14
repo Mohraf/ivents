@@ -46,7 +46,7 @@ While we all want a memorable event, do we also want to put in the effort requir
         ],
         image: '/huawei1/4.jpg',
         status: 'published',
-        createdAt: new Date().toISOString(),
+        createdAt: '1/14/2025',
         slug: 'event-venue-selection',
         author: 'iVENTS by GEiCO',
         tags: ['Event', 'Nairobi', 'Selection', 'Venue']

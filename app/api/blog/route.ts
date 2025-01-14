@@ -78,7 +78,7 @@ const mockPosts = [
         content: 'Selecting an Event Venue: A Key to Success...',
         image: '/huawei1/4.jpg',
         status: 'published',
-        createdAt: new Date().toISOString(),
+        createdAt: '1/14/2025',
         slug: 'event-venue-selection'
     },
     // Add more mock posts as needed
