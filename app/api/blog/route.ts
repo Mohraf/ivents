@@ -76,7 +76,7 @@ const mockPosts = [
         id: '1',
         title: 'EVENT VENUE SELECTION',
         content: 'Selecting an Event Venue: A Key to Success...',
-        image: '/setupmanage.webp',
+        image: '/huawei1/4.jpg',
         status: 'published',
         createdAt: new Date().toISOString(),
         slug: 'event-venue-selection'

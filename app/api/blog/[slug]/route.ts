@@ -44,7 +44,7 @@ While we all want a memorable event, do we also want to put in the effort requir
                 content: `Great question! At iVENTS by GEiCO, client satisfaction is our top priority. We are dedicated to bringing your vision to life. Your happiness is our greatest reward, and who wouldn't want an event organizer who's available 24/7 to ensure everything runs smoothly? Let us make your event truly unforgettable.`
             },
         ],
-        image: '/setupmanage.webp',
+        image: '/huawei1/4.jpg',
         status: 'published',
         createdAt: new Date().toISOString(),
         slug: 'event-venue-selection',
