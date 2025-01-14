@@ -129,7 +129,7 @@ const BlogPostPage = () => {
               variant="outline"
               className="text-white bg-slate-500 border-gray-700 hover:bg-gray-800 hover:text-white"
             >
-              <ArrowUp className="mr-2" /> Viev all Posts
+              <ArrowUp className="mr-2" /> View all Posts
             </Button>
           </Link>
 
