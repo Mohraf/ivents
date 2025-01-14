@@ -83,7 +83,7 @@ const Index = () => {
               : posts.map((post) => (
                 <Card 
                   key={post.id} 
-                  className="bg-white/10 backdrop-blur-sm border border-gray-800 overflow-hidden hover:scale-105 transition-transform duration-300"
+                  className="bg-white/10 backdrop-blur-sm border border-gray-200 overflow-hidden hover:scale-105 transition-transform duration-300"
                 >
                   {post.image && (
                     <div className="relative w-full aspect-video">
@@ -96,17 +96,17 @@ const Index = () => {
                     </div>
                   )}
                   <div className="p-4 space-y-2">
-                    <h2 className="text-xl font-semibold text-white line-clamp-2">
+                    <h2 className="text-xl font-semibold text-black line-clamp-2">
                       {post.title}
                     </h2>
-                    <p className="text-gray-400 line-clamp-3">
+                    <p className="text-gray-600 line-clamp-3">
                       {post.content}
                     </p>
                     <div className="flex justify-between items-center mt-4">
-                      <span className="text-xs text-white/60">
+                      <span className="text-xs text-gray/60">
                         {new Date(post.createdAt).toLocaleDateString()}
                       </span>
-                      <Link href={`/blog/${post.id}`}>
+                      <Link href={`/blog/${post.slug}`}>
                         <Button variant="outline" size="sm" className="rounded-full text-grey-500 border-gray-700 hover:bg-gray-800 hover:text-white">
                           Read More
                         </Button>
