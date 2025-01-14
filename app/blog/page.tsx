@@ -42,17 +42,17 @@ const Index = () => {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-slate-200 to-slate-950 p-6 flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-b from-slate-100 to-slate-400 p-6 flex items-center justify-center">
         <div className="text-center text-white">
-          <h2 className="text-2xl mb-4">Oops! Something went wrong</h2>
-          <p>{error}</p>
+          <h2 className="text-2xl mb-4 text-black">Oops! Something went wrong</h2>
+          <p className='text-red-600'>{error}</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-200 to-slate-500 p-6">
+    <div className="min-h-screen bg-gradient-to-b from-slate-100 to-slate-400 p-6">
       <div className="max-w-5xl mx-auto text-center space-y-20">
         <div className="space-y-2">
           <div className="inline-block px-3 py-1 bg-gray-600 rounded-full text-sm text-gray-100 mb-2">
