@@ -53,13 +53,13 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-100 to-slate-400 p-6">
-      <div className="max-w-5xl mx-auto text-center space-y-20">
+      <div className="max-w-5xl mx-auto text-center space-y-10">
         <div className="space-y-2">
           <div className="inline-block px-3 py-1 bg-gray-600 rounded-full text-sm text-gray-100 mb-2">
             Welcome to iVENTS by GEiCO&apos;s Blog
           </div>
-          {/* <h1 className="text-4xl font-semibold text-white tracking-tight">Code, Coffee, and Creativity: Navigating the Tech Universe</h1> */}
-          {/* <p className="text-gray-600">My best tech posts</p> */}
+          <h1 className="text-3xl font-thin green tracking-tight">EXPERIENCE AN i FOR DETAIL</h1>
+          <p className="text-gray-600">A view from industry experts</p>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
