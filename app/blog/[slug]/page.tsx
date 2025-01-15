@@ -114,11 +114,11 @@ const BlogPostPage = () => {
         <title>{post.title}</title>
         <meta
           name="description"
-          content="Award winning Event Company in Kenya"
+          content={`${post.title}`}
         />
         <meta
           name="keywords"
-          content="Events, Kenya, Companies, Nairobi, Corporate, Event"
+          content="Corporate, Event, Venue, Kenya, East Africa"
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-b from-slate-100 to-slate-400 text-gray-700">
