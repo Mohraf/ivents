@@ -70,19 +70,19 @@ const BlogPostPage = () => {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-950 p-6 flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-b from-slate-100 to-slate-300 p-6 flex items-center justify-center">
         <div className="max-w-4xl w-full space-y-6">
-          <Skeleton className="h-96 w-full bg-gray-800 rounded-xl" />
+          <Skeleton className="h-96 w-full bg-slate-400 rounded-xl" />
           <div className="space-y-4">
-            <Skeleton className="h-12 w-3/4 bg-gray-800" />
+            <Skeleton className="h-12 w-3/4 bg-slate-400" />
             <div className="flex space-x-4">
-              <Skeleton className="h-8 w-1/4 bg-gray-800" />
-              <Skeleton className="h-8 w-1/4 bg-gray-800" />
+              <Skeleton className="h-8 w-1/4 bg-slate-400" />
+              <Skeleton className="h-8 w-1/4 bg-slate-400" />
             </div>
             <div className="space-y-3">
-              <Skeleton className="h-4 w-full bg-gray-800" />
-              <Skeleton className="h-4 w-full bg-gray-800" />
-              <Skeleton className="h-4 w-3/4 bg-gray-800" />
+              <Skeleton className="h-4 w-full bg-slate-400" />
+              <Skeleton className="h-4 w-full bg-slate-400" />
+              <Skeleton className="h-4 w-3/4 bg-slate-400" />
             </div>
           </div>
         </div>
