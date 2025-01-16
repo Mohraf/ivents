@@ -9,7 +9,7 @@ const Hero = () => {
   const serviceImages = [
     '/audioresize.png',
     '/exhibition.jpeg',
-    '/printingresize.png',
+    '/printingresize.webp',
     '/hero-launch.webp',
     '/hero-stage.png'
   ]
