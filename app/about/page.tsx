@@ -12,6 +12,11 @@ import {
   FaAward,
   FaPlus
 } from "react-icons/fa";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Who we are',
+}
 
 const About = () => {
   useEffect(() => {
