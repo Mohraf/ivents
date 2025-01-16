@@ -135,9 +135,6 @@ const Brands = () => {
             <Image alt="concept" src="/concept.svg" height={100} width={100} />
             <h4>Consult / Conceptualize</h4>
             <p>Concept Development, Budget Management and Venue Sourcing</p>
-            <Link href="/about" className="link green">
-              Learn more
-            </Link>
           </div>
 
           <div
@@ -153,9 +150,6 @@ const Brands = () => {
               360 degrees Planning. Specific, Measurable, Achievable, Realistic
               and within a given Timeframe
             </p>
-            <Link href="/about" className="link green">
-              Learn more
-            </Link>
           </div>
 
           <div
@@ -173,9 +167,6 @@ const Brands = () => {
               Mobilization. Setup/execution and coordination. Creating a
               memorable event
             </p>
-            <Link href="/about" className="link green">
-              Learn more
-            </Link>
           </div>
         </div>
       </div>
