@@ -37,7 +37,7 @@ const TestimonialCard = ({ image, take, person, company }: IProps) => {
           </div>
         </div>
       </div>
-      <p className="bggreen text-white px-4 py-2 font-[inter]">{take}</p>
+      <p className={`bggreen text-white px-4 py-2 ${inter.className}`}>{take}</p>
       <div className="bggreen text-white p-2">{person}</div>
     </div>
   );
