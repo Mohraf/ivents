@@ -51,6 +51,56 @@ While we all want a memorable event, do we also want to put in the effort requir
         author: 'iVENTS by GEiCO',
         tags: ['Event', 'Nairobi', 'Selection', 'Venue']
     },
+    {
+        id: '2',
+        title: 'EVENT BUDGET PLANNING',
+        content: [
+            {
+                id: '1',
+                title: 'Introduction',
+                content: `What's the purpose of a budget? Is it to create discipline, or is it to limiit spending?
+
+Whether you're organizing a corporate conference, an exhibition or a trade show, one thing remains constant: the importance of a solid budget plan.
+
+Proper budget planning can make the difference between a smooth event and a financial disaster.`
+            },
+            {
+                id: '2',
+                title: 'Why Set a Budget?',
+                content: `A well-structured budget not only promotes discipline but also helps manage and prioritize spending effectively.
+
+At iVENTS by GEiCO, we understand that every event, regardless of budget, deserves to be exceptional. That's why we specialize in bringing any vision to life, ensuring that even with varying budget constraints, our clients experience a memorable and impactful event. We've perfected the art of making every event shine, no matter the financial scope.`
+            },
+            {
+                id: '3',
+                title: 'Key Elements of Budget Planning',
+                content: `How to effectively manage and plan your event budgets to ensure success without breaking the bank.
+
+•	Set a Realistic Budget: Outline your total budget and prioritize key elements. Seek guidance from proffesionals if 
+    needed.
+
+•	Focus on Priorities: Allocate more resources to essentials like the venue, audio visual, and decor.
+
+•	Leverage Vendor Networks: Use event professionals to handle venue sourcing and negotiatiobns for better deals.
+
+•	Ensure Event Flow: Engage professionals to manage the event day and avoid unexpected costs or disruptions.`
+            },
+            {
+                id: '4',
+                title: 'THANK YOU',
+                content: `When it comes to budget planning, iVENTS by GEiCO ensures that every aspect of your event is managed with passion and expertise. We make sure your event
+stays on track and within budget. 
+                
+Let us handle the details, so you can focus on making memories. With iVENTS by GEiCO, you are not just planning an event, you are creating an experience that's both unforgettable and cost-effective.`
+            },
+        ],
+        image: '/bfsi/5.webp',
+        status: 'published',
+        createdAt: '1/27/2025',
+        slug: 'event-budget-planning',
+        author: 'iVENTS by GEiCO',
+        tags: ['Event', 'Nairobi', 'Planning', 'Budget']
+    },
 ];
 
 export async function GET(

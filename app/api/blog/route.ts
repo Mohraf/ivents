@@ -81,6 +81,15 @@ const mockPosts = [
         createdAt: '1/14/2025',
         slug: 'event-venue-selection'
     },
+    {
+        id: '2',
+        title: 'EVENT BUDGET PLANNING',
+        content: 'At iVENTS by GEiCO, we turn any vision into a memorable experience, regardless of budget.',
+        image: '/bfsi/5.webp',
+        status: 'published',
+        createdAt: '1/27/2025',
+        slug: 'event-budget-planning'
+    },
     // Add more mock posts as needed
 ];
 
