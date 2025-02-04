@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import WhatsAppButton from "@/components/WhatsAppButton/WhatsAppButton";
 import Footer from "@/components/Footer/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -40,6 +41,7 @@ export default function RootLayout({
         <Footer />
         <WhatsAppButton phoneNumber="+254798259215" />
         <SpeedInsights />
+        <GoogleAnalytics gaId="AW-16853363602" />
       </body>
     </html>
   );
