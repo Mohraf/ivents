@@ -6,33 +6,33 @@ const Gallery = () => {
   const collections = [
     {
       id: 1,
-      title: "Huawei Media Entertainment Summit Cloud Event",
+      title: "GN Hearing",
+      thumbnail: "/gn-hearing/cover.jpg",
+    },    
+    {
+      id: 2,
+      title: "Media Entertainment Summit Cloud Event",
       thumbnail: "/huawei1/cover.jpg",
     },
     {
-      id: 2,
-      title: "Huawei ICT Competition 2024",
-      thumbnail: "/huawei-ict-24/cover.jpg",
-    },
-    {
       id: 3,
-      title: "Huawei IP and Optix 2024",
+      title: "IP and Optix 2024",
       thumbnail: "/huawei-ip/cover.jpg",
     },
     {
       id: 4,
+      title: "Pan Africa BESS Summit",
+      thumbnail: "/bess/cover.jpg",
+    },
+    {
+      id: 5,
       title: "Huawei IT Day 2024",
       thumbnail: "/huawei-it/cover.jpg",
     },
     {
-      id: 5,
-      title: "GN Hearing",
-      thumbnail: "/gn-hearing/cover.jpg",
-    },
-    {
       id: 6,
-      title: "Pan Africa BESS Summit",
-      thumbnail: "/bess/cover.jpg",
+      title: "ICT Competition 2024",
+      thumbnail: "/huawei-ict-24/cover.jpg",
     },
     {
       id: 7,

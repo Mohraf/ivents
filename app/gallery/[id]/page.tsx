@@ -12,8 +12,8 @@ const CollectionPage = () => {
   // For now, we'll use the same data structure as the main gallery page
   const collections = [
     {
-      id: 1,
-      title: "Huawei Media Entertainment Summit Cloud Event",
+      id: 2,
+      title: "Media Entertainment Summit Cloud Event",
       thumbnail: "/huawei1/cover.jpg",
       images: [
         {
@@ -55,8 +55,8 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 2,
-      title: "Huawei ICT Competition 2024",
+      id: 6,
+      title: "ICT Competition 2024",
       thumbnail: "/huawei-ict-24/cover.jpg",
       images: [
         {
@@ -99,7 +99,7 @@ const CollectionPage = () => {
     },
     {
       id: 3,
-      title: "Huawei IP and Optix 2024",
+      title: "IP and Optix 2024",
       thumbnail: "/huawei-ip/cover.jpg",
       images: [
         {
@@ -142,7 +142,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 4,
+      id: 5,
       title: "Huawei IT Day 2024",
       thumbnail: "/huawei-it/cover.jpg",
       images: [
@@ -156,11 +156,11 @@ const CollectionPage = () => {
           image: "/huawei-it/2.jpg",
           comment: "Description for image 2",
         },
-        {
-          id: 3,
-          image: "/huawei-it/3.jpg",
-          comment: "Description for image 2",
-        },
+        // {
+        //   id: 3,
+        //   image: "/huawei-it/3.jpg",
+        //   comment: "Description for image 2",
+        // },
         {
           id: 4,
           image: "/huawei-it/4.jpg",
@@ -185,7 +185,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 5,
+      id: 1,
       title: "GN Hearing",
       thumbnail: "/gn-hearing/cover.jpg",
       images: [
@@ -228,7 +228,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 6,
+      id: 4,
       title: "Pan Africa BESS Summit",
       thumbnail: "/bess/cover.jpg",
       images: [

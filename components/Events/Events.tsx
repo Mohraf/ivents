@@ -10,17 +10,17 @@ type Event = {
 }
 
 const event: Event = {
-    name: 'Huawei Media Entertainment Summit Cloud Event',
+    name: 'GN Hearing',
     date: '13/12/2024',
     location: 'Nairobi, Kenya',
     images: [
-        '/huawei1/1.jpg',
-        '/huawei1/2.jpg',
-        '/huawei1/3.jpg',
-        '/huawei1/4.jpg',
-        '/huawei1/5.jpg',
-        '/huawei1/6.jpg',
-        '/huawei1/7.webp',    
+        '/gn-hearing/1.jpg',
+        '/gn-hearing/2.jpg',
+        '/gn-hearing/3.jpg',
+        '/gn-hearing/4.jpg',
+        '/gn-hearing/5.jpg',
+        '/gn-hearing/6.jpg',
+        '/gn-hearing/7.jpg',    
     ]
 }
 
@@ -32,7 +32,7 @@ const Events = () => {
         <div className='flex flex-col md:flex-row md:px-32'>
             <div className='md:w-1/3'>
                 <Image
-                    src='/huawei1/1.jpg'
+                    src='/gn-hearing/1.jpg'
                     width={500}
                     height={1000} 
                     alt='event' 
