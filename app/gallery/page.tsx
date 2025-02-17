@@ -27,7 +27,7 @@ const Gallery = () => {
     {
       id: 5,
       title: "Huawei IT Day 2024",
-      thumbnail: "/huawei-it/cover.jpg",
+      thumbnail: "/huawei-it/4.jpg",
     },
     {
       id: 6,
