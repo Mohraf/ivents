@@ -21,7 +21,7 @@ const ServicesSlider = () => {
     },
     {
       id: 3,
-      img: "/stage.jpg",
+      img: "/bess/cover.jpg",
       description: "STAGE & LIGHTING",
       link: "/stageAndLighting",
     },
@@ -75,7 +75,7 @@ const ServicesSlider = () => {
                 href="/stageAndLighting"
                 className="service-box relative rounded-[20px] h-[43vh] md:w-[31%] lg:w-[32%] bg-center bg-no-repeat bg-cover"
                 style={{
-                  backgroundImage: "url('/stagecover.webp')",
+                  backgroundImage: "url('/bess/cover.jpg')",
                 }}
                 data-aos="fade-down"
               >
