@@ -27,7 +27,7 @@ const event: Event = {
 const Events = () => {
   return (
     <div className='bg-slate-200 md:py-12 py-6 px-4'>
-        <h3 className='md:px-32 py-10 text-gray-600'>Our Most Recent Event</h3>
+        <h3 className='md:px-32 py-10 text-gray-600'>Sample Event from our Archives</h3>
 
         <div className='flex flex-col md:flex-row md:px-32'>
             <div className='md:w-1/3'>
