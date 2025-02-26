@@ -11,6 +11,7 @@ import Head from "next/head";
 interface BlogPostSection {
   id: string;
   title: string;
+  image: string;
   content: string;
 }
 
@@ -112,10 +113,7 @@ const BlogPostPage = () => {
     <>
       <Head>
         <title>{post.title}</title>
-        <meta
-          name="description"
-          content={`${post.title}`}
-        />
+        <meta name="description" content={`${post.title}`} />
         <meta
           name="keywords"
           content="Corporate, Event, Venue, Kenya, East Africa"
@@ -174,6 +172,17 @@ const BlogPostPage = () => {
           {post.content.map((section) => (
             <div key={section.id}>
               <h2 className="my-4 text-2xl font-semibold">{section.title}</h2>
+              {section.image && (
+                <div className="relative w-full aspect-video rounded-xl overflow-hidden mb-12 shadow-2xl">
+                  <Image
+                    src={section.image}
+                    alt={section.title}
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </div>
+              )}
               <article className="prose prose-invert max-w-none prose-headings:text-white prose-a:text-blue-400 prose-strong:text-white whitespace-pre-wrap">
                 {section.content}
               </article>

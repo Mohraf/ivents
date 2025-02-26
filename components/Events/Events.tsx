@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
-import { events } from '@/lib/data'
+import { events } from '@/lib/data/events'
 
 type Event = {
     id: number

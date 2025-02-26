@@ -90,19 +90,20 @@ const mockPosts = [
         createdAt: '1/27/2025',
         slug: 'event-budget-planning'
     },
+    {
+        id: '3',
+        title: 'MASTERING EVENT SETUP AND TEARDOWN',
+        content: 'How to effectively manage event setup and teardown for a seamless experience',
+        image: '/bfsi/5.webp',
+        status: 'published',
+        createdAt: '1/27/2025',
+        slug: 'event-setup-and-teardown'
+    },
     // Add more mock posts as needed
 ];
 
 export async function GET() {
     try {
-        // TODO: Replace with actual database query
-        // Example with Prisma:
-        // const posts = await prisma.post.findMany({
-        //   where: { status: 'published' },
-        //   orderBy: { createdAt: 'desc' }
-        // });
-
-        // Filter out draft posts
         const publishedPosts = mockPosts.filter(post => post.status === 'published');
 
         return NextResponse.json(
