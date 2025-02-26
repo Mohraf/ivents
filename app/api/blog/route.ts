@@ -94,7 +94,7 @@ const mockPosts = [
         id: '3',
         title: 'MASTERING EVENT SETUP AND TEARDOWN',
         content: 'How to effectively manage event setup and teardown for a seamless experience',
-        image: '/bfsi/5.webp',
+        image: '/huawei-it/cover.jpg',
         status: 'published',
         createdAt: '1/27/2025',
         slug: 'event-setup-and-teardown'

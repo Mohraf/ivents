@@ -1,5 +1,5 @@
 "use client";
-import React, {useEffect} from "react";
+import React from "react";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 // import AOS from 'aos';
@@ -26,19 +26,38 @@ const TestimonialCard = ({ image, take, person, company }: IProps) => {
   // },[])
   
   return (
-    <div className="h-[56vh] md:w-1/3 w-full text-white flex flex-col justify-between bggreen p-4 rounded-[2rem]">
-      <div className="p-2">
-        <div className="flex justify-between">
-          <div className="w-1/2 h-full rounded-full overflow-hidden">
-            {image? <Image src={image} alt="testimonial" width={100} height={100} /> : ""}            
-          </div>
-          <div className="w-1/2 text-center justify-center h-auto flex items-center">
-            {company}
-          </div>
+    <div className="testimonial-card h-full p-6 bg-white rounded-xl shadow-lg">
+      <div className="flex items-center gap-4 mb-6">
+        <div className="relative w-16 h-16 rounded-full overflow-hidden flex-shrink-0 border-2 border-gray-100">
+          {image ? (
+            <Image
+              src={image}
+              alt={`${person}'s testimonial`}
+              fill
+              className="object-cover"
+            />
+          ) : (
+            <div className="w-full h-full bg-gray-200 flex items-center justify-center">
+              <span className="text-2xl text-gray-400">
+                {person.charAt(0)}
+              </span>
+            </div>
+          )}
+        </div>
+        <div>
+          <h4 className="font-semibold text-lg text-gray-900">{person}</h4>
+          {company && (
+            <p className="text-sm text-gray-600">{company}</p>
+          )}
         </div>
       </div>
-      <p className={`bggreen text-white px-4 py-2 ${inter.className}`}>{take}</p>
-      <div className="bggreen text-white p-2">{person}</div>
+      
+      <blockquote className="relative">
+        <span className="absolute top-0 left-0 text-6xl text-primary opacity-20">"</span>
+        <p className={`${inter.className} text-gray-700 leading-relaxed pl-4 italic`}>
+          {take}
+        </p>
+      </blockquote>
     </div>
   );
 };
