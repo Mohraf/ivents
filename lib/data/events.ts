@@ -394,7 +394,7 @@ export const events = [
     },
     {
       id: 10,
-      title: "CIBEX Expo 2024",
+      title: "CIBEX Expo",
       thumbnail: "/cibex/cover.webp",
       images: [
         {
