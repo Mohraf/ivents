@@ -7,11 +7,32 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
   {
+    id: 4,
+    company: "Huawei",
+    person: "Adam Lane",
+    take: "iVENTS by GEiCO delivers even on last-minute requests. Their dedication, responsiveness, and ability to execute flawlessly make them a reliable event partner.",
+    logo: "/brand-1.jpg",
+  },
+  {
     id: 1,
     company: "Future Growth Forum",
     person: "Abdulaziz Ali",
     take: "Working with iVENTS by GEiCO was an exceptional experience. Their professionalism, responsiveness, and attention to detail ensured that our event was executed flawlessly.",
     logo: "/futuregrowthforum.jpg",
+  },
+  {
+    id: 3,
+    company: "GN Hearing",
+    person: "Lisa Kharpoutlian",
+    take: "I would like to extend a BIG THANK YOU for the excellent event organization. Our partners and ourselves were super happy with everything and thank the iVENTS by GEiCO team immensely. We wish to collaborate again in the future; in the meantime, we definitely recommend iVENTS by GEiCO for everyone needing MICE support in the region",
+    logo: "/gnbrand.png",
+  },  
+  {
+    id: 7,
+    company: "CMG",
+    person: "Bright Vision Media Group",
+    take: "iVENTS by GEiCO exceeded our expectations in every way. Their professionalism, resourcefulness, and passion for creating memorable events was evident.",
+    logo: "/brand-3.jpg",
   },
   {
     id: 2,
@@ -21,33 +42,12 @@ const testimonials = [
     logo: "/brand-1.jpg",
   },
   {
-    id: 3,
-    company: "Huawei",
-    person: "Adam Lane",
-    take: "iVENTS by GEiCO delivers even on last-minute requests. Their dedication, responsiveness, and ability to execute flawlessly make them a reliable event partner.",
-    logo: "/brand-1.jpg",
-  },
-  {
-    id: 4,
+    id: 5,
     company: null,
     person: "Georgina Kaaria",
     take: "Superb event. Everything was brilliant!! Your team did an awesome job.",
     logo: null,
-  },
-  {
-    id: 5,
-    company: "Huawei",
-    person: "",
-    take: "Working with iVENTS by GEiCO was truly a pleasure. The attention to detail, responsiveness and flawless execution made our event a truly unforgettable experience.",
-    logo: "/brand-1.jpg",
-  },
-  {
-    id: 6,
-    company: "CMG",
-    person: "Bright Vision Media Group",
-    take: "iVENTS by GEiCO exceeded our expectations in every way. Their professionalism, resourcefulness, and passion for creating memorable events was evident.",
-    logo: "/brand-3.jpg",
-  },
+  }
 ];
 
 const TestimonialSlider = () => {
