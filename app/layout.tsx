@@ -42,7 +42,7 @@ export default function RootLayout({
         <Footer />
         <WhatsAppButton phoneNumber="+254798259215" />
         <SpeedInsights />
-        <GoogleAnalytics gaId="AW-16853363602" />
+        <GoogleAnalytics gaId="G-J3V2VDR26Y" />
       </body>
     </html>
   );
