@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     default: "iVENTS by GEiCO",
   },
   description: "Your Event Our Canvas",
+  verification: { google: "kZKBlvakcvgvymA471FiIklIPhopzIRh27d78gKJTn0" },
 };
 
 export default function RootLayout({
