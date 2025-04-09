@@ -24,7 +24,7 @@ const testimonials = [
     id: 3,
     company: "GN Hearing",
     person: "Lisa Kharpoutlian",
-    take: "I would like to extend a BIG THANK YOU for the excellent event organization. Our partners and ourselves were super happy with everything and thank the iVENTS by GEiCO team immensely. We wish to collaborate again in the future; in the meantime, we definitely recommend iVENTS by GEiCO for everyone needing MICE support in the region",
+    take: "I would like to extend a BIG THANK YOU for the excellent event organization. Our partners and ourselves were super happy with everything and thank the iVENTS by GEiCO team immensely. We definitely recommend iVENTS by GEiCO for everyone needing MICE support in the region",
     logo: "/gnbrand.png",
   },  
   {
@@ -67,7 +67,7 @@ const TestimonialSlider = () => {
 
   return (
     <div className="bg-white text-black overflow-hidden py-4">
-      <div className="container mx-auto px-4 py-16 max-w-7xl relative">
+      <div className="container px-4 py-16 relative">
         <h3 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
           What Our Clients Say About Us
         </h3>
@@ -82,13 +82,13 @@ const TestimonialSlider = () => {
 
           <div
             ref={sliderRef}
-            className="flex gap-8 overflow-hidden scroll-smooth px-10s py-10"
+            className="flex gap-8 overflow-hidden scroll-smooth px-10 py-10"
             style={{ scrollBehavior: "smooth" }}
           >
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.id}
-                className="min-w-[300px] transform transition-all duration-300 hover:scale-105"
+                className="min-w-[400px] transform transition-all duration-300 hover:scale-105"
               >
                 <TestimonialCard
                   image={testimonial.logo}
