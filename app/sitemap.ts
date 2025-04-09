@@ -81,16 +81,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: 'https://geicoevents.net',
+      url: 'https://geicoevents.net/',
       lastModified: '2024-11-05',
       changeFrequency: 'weekly',
       priority: 0.5,
       videos: [
         {
           title: 'ivents by geico event process',
-          thumbnail_loc: 'https://geicoevents.net/iventslogo.png',
+          thumbnail_loc: 'https://geicoevents.net/ivents-logo.png',
           description: 'Number One Event Company in Kenya and East Africa - iVENTS by GEiCO',
-          content_loc: 'https://geicoevents.net/iventslogo.png',
+          content_loc: 'https://geicoevents.net/ivents-logo.png',
           duration: 600,
           expiration_date: '2024-11-05',
         },
