@@ -22,6 +22,11 @@ const Brands = () => {
       height: 150
     },
     {
+      pic: "/futuregrowthforum.jpg",
+      width: 150,
+      height: 150
+    },
+    {
       pic: "/brand-1.jpg",
       width: 150,
       height: 150
