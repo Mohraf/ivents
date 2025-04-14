@@ -2,7 +2,7 @@
 
 import React, { useRef, useEffect, useState } from "react";
 import TestimonialCard from "./TestimonialCard";
-import "./TestimonialSlider.css";
+// import "./TestimonialSlider.css";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
@@ -55,19 +55,18 @@ const TestimonialSlider = () => {
 
   const slideLeft = () => {
     if (sliderRef.current) {
-      sliderRef.current.scrollBy({ left: -350, behavior: "smooth" });
+      sliderRef.current.scrollBy({ left: -320, behavior: "smooth" });
     }
   };
 
   const slideRight = () => {
     if (sliderRef.current) {
-      sliderRef.current.scrollBy({ left: 350, behavior: "smooth" });
+      sliderRef.current.scrollBy({ left: 320, behavior: "smooth" });
     }
   };
 
   return (
-    <div className="bg-white text-black overflow-hidden py-4">
-      <div className="container px-4 py-16 relative">
+    <div className="bg-white text-black overflow-hidden py-4 px-6">
         <h3 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
           What Our Clients Say About Us
         </h3>
@@ -82,13 +81,13 @@ const TestimonialSlider = () => {
 
           <div
             ref={sliderRef}
-            className="flex gap-8 overflow-hidden scroll-smooth px-10 py-10"
+            className="flex md:gap-8 gap-6 overflow-hidden scroll-smooth px-10 py-10"
             style={{ scrollBehavior: "smooth" }}
           >
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.id}
-                className="min-w-[400px] transform transition-all duration-300 hover:scale-105"
+                className="md:min-w-[420px] min-w-[280px] transform transition-all duration-300 hover:scale-105"
               >
                 <TestimonialCard
                   image={testimonial.logo}
@@ -107,7 +106,6 @@ const TestimonialSlider = () => {
             <ChevronRight size={24} color="green" />
           </button>
         </div>
-      </div>
     </div>
   );
 };

@@ -28,7 +28,7 @@ const TestimonialCard = ({ image, take, person, company }: IProps) => {
   return (
     <div className="testimonial-card h-full p-6 bg-white rounded-xl shadow-lg">
       <div className="flex items-center gap-4 mb-6">
-        <div className="relative w-16 h-16 rounded-full overflow-hidden flex-shrink-0 border-2 border-gray-100">
+        <div className="relative w-16 p-5 h-16 rounded-full overflow-hidden flex-shrink-0 border-2 border-gray-100">
           {image ? (
             <Image
               src={image}
