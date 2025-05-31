@@ -105,6 +105,11 @@ const Brands = () => {
       pic: "/moodys.png",
       width: 150,
       height: 150
+    },
+    {
+      pic: "/brand-16.jpeg",
+      width: 150,
+      height: 150
     }
   ];
   return (
