@@ -47,6 +47,13 @@ const testimonials = [
     person: "Georgina Kaaria",
     take: "Superb event. Everything was brilliant!! Your team did an awesome job.",
     logo: null,
+  },
+  {
+    id: 8,
+    company: "Machakos school of the deaf",
+    person: "Principal",
+    take: "The event was excellently organized, with every detail in place, contributing to a truly successful experience. This allowed all learners to fully engage with the proceedings. Without hesitation, I would recommend your team for future events—your professionalism and execution were outstanding.",
+    logo: null,
   }
 ];
 
