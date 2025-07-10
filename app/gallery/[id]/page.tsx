@@ -12,7 +12,153 @@ const CollectionPage = () => {
   // For now, we'll use the same data structure as the main gallery page
   const collections = [
     {
+      id: 1,
+      title: "Huawei Fusion Solar 2025",
+      thumbnail: "/huaweifusion25/COVERPAGE.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/huaweifusion25/1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/huaweifusion25/2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/huaweifusion25/3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/huaweifusion25/4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/huaweifusion25/5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/huaweifusion25/6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/huaweifusion25/7.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/huaweifusion25/8.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 9,
+          image: "/huaweifusion25/9.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 10,
+          image: "/huaweifusion25/10.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 11,
+          image: "/huaweifusion25/11.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 12,
+          image: "/huaweifusion25/12.jpg",
+          comment: "Description for image 2",
+        }, 
+        {
+          id: 13,
+          image: "/huaweifusion25/13.jpg",
+          comment: "Description for image 2",
+        }, 
+        {
+          id: 14,
+          image: "/huaweifusion25/14.jpg",
+          comment: "Description for image 2",
+        },        
+        // Add more images to this collection
+      ],
+    },
+    {
       id: 2,
+      title: "Huawei Cloud & Connect Summit 2025",
+      thumbnail: "/huaweicloudconn25/COVER PHOTO.jpg",
+      images: [
+        {
+          id: 1,
+          image: "/huaweicloudconn25/1.jpg",
+          comment: "Description for image 1",
+        },
+        {
+          id: 2,
+          image: "/huaweicloudconn25/2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 3,
+          image: "/huaweicloudconn25/3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 4,
+          image: "/huaweicloudconn25/4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 5,
+          image: "/huaweicloudconn25/5.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 6,
+          image: "/huaweicloudconn25/6.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 7,
+          image: "/huaweicloudconn25/7.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/huaweicloudconn25/8.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 9,
+          image: "/huaweicloudconn25/9.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 10,
+          image: "/huaweicloudconn25/10.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 11,
+          image: "/huaweicloudconn25/11.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 12,
+          image: "/huaweicloudconn25/12.jpg",
+          comment: "Description for image 2",
+        },        
+        // Add more images to this collection
+      ],
+    },
+    {
+      id: 4,
       title: "Media Entertainment Summit Cloud Event",
       thumbnail: "/huawei1/cover.jpg",
       images: [
@@ -50,12 +196,22 @@ const CollectionPage = () => {
           id: 7,
           image: "/huawei1/7.webp",
           comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/huawei1/ADD 2.png",
+          comment: "Description for image 2",
+        },
+        {
+          id: 9,
+          image: "/huawei1/ADD.jpg",
+          comment: "Description for image 2",
         },        
         // Add more images to this collection
       ],
     },
     {
-      id: 6,
+      id: 8,
       title: "ICT Competition 2024",
       thumbnail: "/huawei-ict-24/cover.jpg",
       images: [
@@ -93,12 +249,17 @@ const CollectionPage = () => {
           id: 7,
           image: "/huawei-ict-24/7.jpg",
           comment: "Description for image 2",
+        },
+        {
+          id: 8,
+          image: "/huawei-ict-24/ADD.jpg",
+          comment: "Description for image 2",
         },        
         // Add more images to this collection
       ],
     },
     {
-      id: 3,
+      id: 5,
       title: "IP and Optix 2024",
       thumbnail: "/huawei-ip/cover.jpg",
       images: [
@@ -137,12 +298,16 @@ const CollectionPage = () => {
           image: "/huawei-ip/7.jpg",
           comment: "Description for image 2",
         },
-               
+        {
+          id: 8,
+          image: "/huawei-ip/ADD.jpg",
+          comment: "Description for image 2",
+        },     
         // Add more images to this collection
       ],
     },
     {
-      id: 5,
+      id: 7,
       title: "Huawei IT Day 2024",
       thumbnail: "/huawei-it/4.jpg",
       images: [
@@ -181,11 +346,36 @@ const CollectionPage = () => {
           image: "/huawei-it/7.jpg",
           comment: "Description for image 2",
         },
+        {
+          id: 8,
+          image: "/huawei-it/ADD 1.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 9,
+          image: "/huawei-it/ADD 2.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 10,
+          image: "/huawei-it/ADD 3.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 11,
+          image: "/huawei-it/ADD 4.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 12,
+          image: "/huawei-it/ADD 5.png",
+          comment: "Description for image 2",
+        },
         // Add more images to this collection
       ],
     },
     {
-      id: 1,
+      id: 3,
       title: "GN Hearing",
       thumbnail: "/gn-hearing/cover.jpg",
       images: [
@@ -224,11 +414,21 @@ const CollectionPage = () => {
           image: "/gn-hearing/7.jpg",
           comment: "Description for image 2",
         },
+        {
+          id: 8,
+          image: "/gn-hearing/ADD 1.jpg",
+          comment: "Description for image 2",
+        },
+        {
+          id: 9,
+          image: "/gn-hearing/ADD 2.jpg",
+          comment: "Description for image 2",
+        },
         // Add more images to this collection
       ],
     },
     {
-      id: 4,
+      id: 6,
       title: "Pan Africa BESS Summit",
       thumbnail: "/bess/cover.jpg",
       images: [
@@ -271,7 +471,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 7,
+      id: 9,
       title: "China Media Group New Year",
       thumbnail: "/cmg/cover.jpg",
       images: [
@@ -314,7 +514,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 8,
+      id: 10,
       title: "IT Day",
       thumbnail: "/itday/cover.webp",
       images: [
@@ -362,7 +562,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 9,
+      id: 11,
       title: "LEAP Launch 2024",
       thumbnail: "/leap/cover.jpg",
       images: [
@@ -405,7 +605,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 10,
+      id: 12,
       title: "CIBEX Expo",
       thumbnail: "/cibex/cover.webp",
       images: [
@@ -453,7 +653,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 11,
+      id: 13,
       title: "World Media Day",
       thumbnail: "/worldmediaday/cover.jpg",
       images: [
@@ -496,7 +696,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 12,
+      id: 14,
       title: "BFSI Summit",
       thumbnail: "/bfsi/cover.webp",
       images: [
@@ -544,7 +744,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 13,
+      id: 15,
       title: "Huawei EA Fusionsolar",
       thumbnail: "/huaweieafusionsolar/cover.webp",
       images: [
@@ -592,7 +792,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 14,
+      id: 16,
       title: "Food Packaging & Processing Expo",
       thumbnail: "/food/cover.webp",
       images: [
@@ -640,7 +840,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 15,
+      id: 17,
       title: "Safaricom Mpesa Refresh Gala Dinner",
       thumbnail: "/safmpesa/cover.webp",
       images: [
@@ -683,7 +883,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 16,
+      id: 18,
       title: "Afralti Training Centre Opening",
       thumbnail: "/afralti/cover.webp",
       images: [
@@ -731,7 +931,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 17,
+      id: 19,
       title: "EA Fusionsolar Summit",
       thumbnail: "/eafusionsolar/cover.jpg",
       images: [
@@ -779,7 +979,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 18,
+      id: 20,
       title: "Huawei D&S",
       thumbnail: "/huaweids/cover.webp",
       images: [
@@ -827,7 +1027,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 19,
+      id: 21,
       title: "Asian BBQ Fest",
       thumbnail: "/asianbbq/cover.jpg",
       images: [
@@ -870,7 +1070,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 20,
+      id: 22,
       title: "Huawei ERM",
       thumbnail: "/huaweierm/cover.jpg",
       images: [
@@ -913,7 +1113,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 21,
+      id: 23,
       title: "Huawei ICT Dinner",
       thumbnail: "/huawei-ict-dinner/cover.jpg",
       images: [
@@ -956,7 +1156,7 @@ const CollectionPage = () => {
       ],
     },
     {
-      id: 22,
+      id: 25,
       title: "Letshego Leadership Conference",
       thumbnail: "/letshego/cover.jpg",
       images: [
