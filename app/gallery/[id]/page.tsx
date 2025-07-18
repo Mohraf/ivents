@@ -23,66 +23,46 @@ const CollectionPage = () => {
         },
         {
           id: 2,
-          image: "/huaweifusion25/2.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 3,
           image: "/huaweifusion25/3.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 4,
+          id: 3,
           image: "/huaweifusion25/4.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 5,
-          image: "/huaweifusion25/5.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 6,
+          id: 4,
           image: "/huaweifusion25/6.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 7,
+          id: 5,
           image: "/huaweifusion25/7.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 8,
-          image: "/huaweifusion25/8.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 9,
+          id: 6,
           image: "/huaweifusion25/9.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 10,
+          id: 7,
           image: "/huaweifusion25/10.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 11,
+          id: 8,
           image: "/huaweifusion25/11.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 12,
-          image: "/huaweifusion25/12.jpg",
           comment: "Description for image 2",
         }, 
         {
-          id: 13,
+          id: 9,
           image: "/huaweifusion25/13.jpg",
           comment: "Description for image 2",
         }, 
         {
-          id: 14,
+          id: 10,
           image: "/huaweifusion25/14.jpg",
           comment: "Description for image 2",
         },        
@@ -91,7 +71,7 @@ const CollectionPage = () => {
     },
     {
       id: 2,
-      title: "Huawei Cloud & Connect Summit 2025",
+      title: "Kenya Cloud & Connect Summit 2025",
       thumbnail: "/huaweicloudconn25/COVER PHOTO.jpg",
       images: [
         {
@@ -106,54 +86,39 @@ const CollectionPage = () => {
         },
         {
           id: 3,
-          image: "/huaweicloudconn25/3.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 4,
           image: "/huaweicloudconn25/4.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 5,
+          id: 4,
           image: "/huaweicloudconn25/5.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 6,
+          id: 5,
           image: "/huaweicloudconn25/6.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 7,
+          id: 6,
           image: "/huaweicloudconn25/7.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 8,
-          image: "/huaweicloudconn25/8.jpg",
-          comment: "Description for image 2",
-        },
-        {
-          id: 9,
+          id: 7,
           image: "/huaweicloudconn25/9.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 10,
+          id: 8,
           image: "/huaweicloudconn25/10.jpg",
           comment: "Description for image 2",
         },
         {
-          id: 11,
+          id: 9,
           image: "/huaweicloudconn25/11.jpg",
           comment: "Description for image 2",
-        },
-        {
-          id: 12,
-          image: "/huaweicloudconn25/12.jpg",
-          comment: "Description for image 2",
-        },        
+        },       
         // Add more images to this collection
       ],
     },

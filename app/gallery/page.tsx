@@ -11,7 +11,7 @@ const Gallery = () => {
     },
     {
       id: 2,
-      title: "HUAWEI CLOUD & CONNECT SUMMIT 2025",
+      title: "KENYA CLOUD & CONNECT SUMMIT 2025",
       thumbnail: "/huaweicloudconn25/COVER PHOTO.jpg",
     },
     {
